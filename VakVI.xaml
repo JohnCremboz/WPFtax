@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="TAX_WPF.VakVI"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TAX_WPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+              <TextBlock Text="Vak VI - ONTVANGEN ONDERHOUDSUITKERINGEN" FontWeight="Bold" Margin="0,0,0,10"/>
+                        <TextBlock Text="Fiscale toelichting"/>
+                        <TextBlock Text="1. Niet gekapitaliseerde uitkeringen (werkelijk ontvangen bedrag):" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="0,5" ToolTip="Niet gekapitaliseerde uitkeringen bedrag"/>
+                        <TextBlock Text="Fiscale toelichting"/>
+                        <TextBlock Text="2. Uitkeringen die door een gerechtelijke beslissing met terugwerkende kracht zijn toegekend:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="0,5" ToolTip="Uitkeringen met terugwerkende kracht bedrag"/>
+                        <TextBlock Text="Fiscale toelichting"/>
+                        <TextBlock Text="3. Gekapitaliseerde uitkeringen (fictief jaarbedrag):" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="0,5" ToolTip="Gekapitaliseerde uitkeringen bedrag"/>   
+                        <TextBlock Text="a) datum van toekenning van het kapitaal (dag, maand, jaar):" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="0,5" ToolTip="Datum van toekenning van het kapitaal"/>
+                        <TextBlock Text="b) bedrag van het kapitaal:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="0,5" ToolTip="Bedrag van het kapitaal"/>
+                        <TextBlock Text="Fiscale toelichting"/>
+                        <TextBlock Text="4. Schuldenaar(s) van de onder 1 tot 3 bedoelde onderhoudsuitkeringen (naam, voornaam en adres):" FontWeight="Bold"/>
+                   
+                            <TextBlock Text="a) rijksinwoner(s):" FontWeight="Bold"/>
+                            <StackPanel Orientation="Horizontal" Margin="20,5">
+                                <TextBox Width="200" Margin="0,5" ToolTip="Rijksinwoner naam"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Rijksinwoner voornaam"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Rijksinwoner adres"/>
+                                <Button Content="Een lijn toevoegen" Margin="0,5"/>
+                            </StackPanel>
+                            
+                            <TextBlock Text="b) niet-rijksinwoner(s):" FontWeight="Bold"/>
+                            <StackPanel Orientation="Horizontal" Margin="20,5">
+                                <TextBox Width="200" Margin="0,5" ToolTip="Niet-rijksinwoner naam"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Niet-rijksinwoner voornaam"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Niet-rijksinwoner adres"/>
+                                <Button Content="Een lijn toevoegen" Margin="0,5"/>
+    </UserControl>                        

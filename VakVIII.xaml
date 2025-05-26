@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="TAX_WPF.VakVIII"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TAX_WPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+             <TextBlock Text="Vak VIII - AFTREKBARE VORIGE VERLIEZEN EN BESTEDINGEN" FontWeight="Bold" Margin="0,0,0,10"/>
+                        <TextBlock Text="Fiscale toelichting"/>
+                        <TextBlock Text="1. Nog aftrekbare beroepsverliezen van vorige belastbare tijdperken:" FontWeight="Bold"/>
+                      
+                            <TextBlock Text="a) betreffende een in de vorm van een feitelijke vereniging uitgeoefende werkzaamheid:"/>
+                            <TextBox Width="200" Margin="0,5" ToolTip="Beroepsverliezen feitelijke vereniging bedrag"/>
+                            <TextBlock Text="1350" Margin="10,0,0,0"/>
+                            <TextBlock Text="b) andere:"/>
+                            <TextBox Width="200" Margin="0,5" ToolTip="Andere beroepsverliezen bedrag"/>
+                            <TextBlock Text="1349" Margin="10,0,0,0"/>
+                        
+                        <TextBlock Text="Fiscale toelichting"/>
+                        <TextBlock Text="2. Onderhoudsuitkeringen (werkelijk betaald bedrag):" FontWeight="Bold"/>
+                   
+                            <TextBlock Text="a) verschuldigd door u zelf:"/>
+                            <TextBox Width="200" Margin="0,5" ToolTip="Onderhoudsuitkeringen door uzelf bedrag"/>
+                            <TextBlock Text="1390" Margin="10,0,0,0"/>
+                            <TextBlock Text="b) verschuldigd door beide echtgenoten of wettelijk samenwonenden samen:"/>
+                            <TextBox Width="200" Margin="0,5" ToolTip="Onderhoudsuitkeringen door beiden bedrag"/>
+                            <TextBlock Text="1392" Margin="10,0,0,0"/>
+                            <TextBlock Text="c) genieter(s) van de onder a en b bedoelde onderhoudsuitkeringen (naam, voornaam en adres):" FontWeight="Bold"/>
+                       
+                                <TextBox Width="200" Margin="0,5" ToolTip="Naam genieter"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Voornaam genieter"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Adres genieter"/>
+                                <Button Content="Een lijn toevoegen" Margin="0,5"/>
+                            
+                            <TextBlock Text="Land:"/>
+                            <TextBox Width="200" Margin="20,5" ToolTip="Land genieter"/>
+                        
+                        <TextBlock Text="Fiscale toelichting"/> 
+                        <TextBlock Text="3. Bijzondere bijdragen voor de sociale zekerheid van de jaren 1982 tot 1988 die u in 2023 aan de Rijksdienst voor Arbeidsvoorziening hebt betaald:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Bijzondere bijdragen sociale zekerheid bedrag"/>
+                        <TextBlock Text="1388" Margin="10,0,0,0"/>
+                        <Button Content="Een lijn toevoegen" Margin="0,5"/>
+             
+             </UserControl>

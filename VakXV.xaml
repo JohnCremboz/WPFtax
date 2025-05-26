@@ -1,0 +1,170 @@
+﻿<UserControl x:Class="TAX_WPF.VakXV"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TAX_WPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+              <TextBlock Text="Vak XV - DIVERSE INKOMSTEN" FontWeight="Bold" Margin="0,10,0,5"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="A. DIVERSE INKOMSTEN VAN ROERENDE AARD" FontWeight="Bold"/>
+                        <TextBlock Text="1. Niet verplicht aan te geven inkomsten" FontWeight="Bold"/>
+                        <TextBlock Text="a) Loten van effecten van leningen van buitenlandse oorsprong, die via een tussenpersoon in België met afhouding van de roerende voorheffing zijn geïnd of verkregen:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Loten van effecten buitenlandse leningen roerende voorheffing bedrag"/>
+                        <TextBlock Text="1176" Margin="10,0,0,0"/>
+                        <TextBlock Text="b) Vergoedingen voor ontbrekende coupon of ontbrekend lot bij financiële instrumenten die het voorwerp zijn van een zakelijke-zekerheidsovereenkomst of een lening afgesloten vanaf 1.2.2005:" FontWeight="Bold"/>
+                        <TextBlock Text="1) met roerende voorheffing van 30 %:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Vergoedingen ontbrekende coupon 30% roerende voorheffing bedrag"/>
+                        <TextBlock Text="1127" Margin="10,0,0,0"/>
+                        <TextBlock Text="2) met roerende voorheffing van 20 %:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Vergoedingen ontbrekende coupon 20% roerende voorheffing bedrag"/>
+                        <TextBlock Text="1126" Margin="10,0,0,0"/>
+                        <TextBlock Text="3) met roerende voorheffing van 15 %:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Vergoedingen ontbrekende coupon 15% roerende voorheffing bedrag"/>
+                        <TextBlock Text="1128" Margin="10,0,0,0"/>
+                        <TextBlock Text="4) met roerende voorheffing van 5 %:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Vergoedingen ontbrekende coupon 5% roerende voorheffing bedrag"/>
+                        <TextBlock Text="1122" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="2. Verplicht aan te geven inkomsten" FontWeight="Bold"/>
+                        <TextBlock Text="a) Onderverhuring of overdracht van huur van al dan niet gemeubileerde onroerende goederen:" FontWeight="Bold"/>
+                        <TextBlock Text="1) inkomsten (bruto):" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Onderverhuring inkomsten bedrag"/>
+                        <TextBlock Text="1180" Margin="10,0,0,0"/>
+                        <TextBlock Text="2) werkelijke kosten, met inbegrip van de door u betaalde huur en huurlasten:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Werkelijke kosten bedrag"/>
+                        <TextBlock Text="1181" Margin="10,0,0,0"/>
+                        <TextBlock Text="b) Concessie van het recht om affiches of andere reclamedragers te plaatsen:" FontWeight="Bold"/>
+                        <TextBlock Text="1) totaal van de verkregen bedragen en voordelen (bruto):" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Concessie bedrag"/>
+                        <TextBlock Text="1184" Margin="10,0,0,0"/>
+                        <TextBlock Text="2) werkelijke kosten (alleen invullen indien u geen toepassing van het wettelijk forfait van 5 % wenst):" FontWeight="Bold"/>  
+                        <TextBox Width="200" Margin="20,5" ToolTip="Werkelijke kosten concessie bedrag"/>
+                        <TextBlock Text="1185" Margin="10,0,0,0"/>
+                        <TextBlock Text="c) Loten van effecten van leningen van buitenlandse oorsprong, die niet in België zijn geïnd:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Loten van effecten buitenlandse leningen niet in België bedrag"/>
+                        <TextBlock Text="1178" Margin="10,0,0,0"/>
+                        <TextBlock Text="d) Ontvangen bedragen uit de verhuring van jacht-, vis- en vogelvangstrechten:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Verhuring jacht vis vogelvangstrechten bedrag"/>
+                        <TextBlock Text="1188" Margin="10,0,0,0"/>
+                        <TextBlock Text="e) Vergoedingen voor ontbrekende coupon of ontbrekend lot bij financiële instrumenten die het voorwerp zijn van een zakelijke-zekerheidsovereenkomst of een lening afgesloten vanaf 1.2.2005, waarop geen roerende voorheffing is toegepast, en:" FontWeight="Bold"/>
+                        <TextBlock Text="1) die belastbaar zijn tegen 30 %:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Vergoedingen ontbrekende coupon 30% belastbaar bedrag"/>
+                        <TextBlock Text="1197" Margin="10,0,0,0"/>
+                        <TextBlock Text="2) die belastbaar zijn tegen 20 %:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Vergoedingen ontbrekende coupon 20% belastbaar bedrag"/>
+                        <TextBlock Text="1189" Margin="10,0,0,0"/>
+                        <TextBlock Text="3) die belastbaar zijn tegen 15 %:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Vergoedingen ontbrekende coupon 15% belastbaar bedrag"/>
+                        <TextBlock Text="1198" Margin="10,0,0,0"/>
+                        <TextBlock Text="4) die btw belastbaar zijn tegen 5 %:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Vergoedingen ontbrekende coupon 5% belastbaar bedrag"/>
+                        <TextBlock Text="1187" Margin="10,0,0,0"/>
+                        <TextBlock Text="B. ANDERE DIVERSE INKOMSTEN" FontWeight="Bold"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>   
+                        <TextBlock Text="1. Winst of baten uit diensten verleend in het kader van de deeleconomie en beloningen voor verenigingsactiviteiten:" FontWeight="Bold"/>
+                        <TextBlock Text="a) winst of baten uit diensten verleend in het kader van de deeleconomie:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Winst of baten deeleconomie brutobedrag"/>
+                        <TextBlock Text="1460" Margin="10,0,0,0"/>
+                        <TextBlock Text="2) beloningen voor verenigingsactiviteiten (brutobedrag):" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Beloningen verenigingsactiviteiten brutobedrag"/>
+                        <TextBlock Text="1462" Margin="10,0,0,0"/>
+                        <TextBlock Text="c) als onder a winst of baten van buitenlandse oorsprong begrepen zijn, vermeld:" FontWeight="Bold"/>
+                        <TextBlock Text="Land:" FontWeight="Bold"/>
+                        <TextBlock Text="Code:" FontWeight="Bold"/>
+                        <TextBlock Text="Bedrag:" FontWeight="Bold"/>
+                        <TextBlock Text="Belast in het buitenland?" FontWeight="Bold"/>
+                        <CheckBox Content="Ja" Margin="20,5,0,0" ToolTip="Belast in het buitenland Ja"/>
+                        <CheckBox Content="Nee" Margin="20,5,0,0" ToolTip="Belast in het buitenland Nee"/>
+                        TextBlock Text="2. Winst of baten uit toevallige of occasionele prestaties, verrichtingen, speculaties of diensten (andere dan bedoeld in 1 hiervoor):" FontWeight="Bold"/>
+                        <TextBlock Text="a) meerwaarden op roerende waarden en titels (andere dan bedoeld in 8 en 9 hierna):" FontWeight="Bold"/>
+                        <TextBlock Text="1) brutobedrag:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Meerwaarden roerende waarden brutobedrag"/>
+                        <TextBlock Text="1440" Margin="10,0,0,0"/>
+                        <TextBlock Text="2) kosten:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Kosten meerwaarden roerende waarden bedrag"/>
+                        <TextBlock Text="1441" Margin="10,0,0,0"/>
+                        <TextBlock Text="b) andere:" FontWeight="Bold"/>
+                        <TextBlock Text="1) brutobedrag:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Andere meerwaarden roerende waarden brutobedrag"/>
+                        <TextBlock Text="1200" Margin="10,0,0,0"/>
+                        <TextBlock Text="2) kosten:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Kosten andere meerwaarden bedrag"/>
+                        <TextBlock Text="1201" Margin="10,0,0,0"/>
+                        <TextBlock Text="c) nog niet afgetrokken verlies van de vorige 5 jaren:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Nog niet afgetrokken verliezen vorige 5 jaren bedrag"/> 
+                        <TextBlock Text="1202" Margin="10,0,0,0"/>
+                        <TextBlock Text="d) als onder a en b winst of baten van buitenlandse oorsprong en bijhorende kosten begrepen zijn, vermeld:" FontWeight="Bold"/>
+                        <TextBlock Text="Land:" FontWeight="Bold"/>
+                        <TextBlock Text="Code:" FontWeight="Bold"/>
+                        <TextBlock Text="Bedrag:" FontWeight="Bold"/>
+                        <TextBlock Text="Belast in het buitenland?" FontWeight="Bold"/>
+                        <CheckBox Content="Ja" Margin="20,5,0,0" ToolTip="Belast in het buitenland Ja"/>
+                        <CheckBox Content="Nee" Margin="20,5,0,0" ToolTip="Belast in het buitenland Nee"/>
+                        <TextBlock Text="3. Prijzen, subsidies, renten of pensioenen toegekend aan geleerden, schrijvers en kunstenaars:" FontWeight="Bold"/>
+                        <TextBlock Text="a) belastbaar bedrag:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Belastbaar bedrag prijzen subsidies renten pensioenen"/>
+                        <TextBlock Text="1203" Margin="10,0,0,0"/>
+                        <TextBlock Text="b) quelquesvoorheffing:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Bedrijfsvoorheffing prijzen subsidies renten pensioenen"/>
+                        <TextBlock Text="1204" Margin="10,0,0,0"/>
+                        <TextBlock Text="c) als onder a inkomsten van buitenlandse oorsprong begrepen zijn, vermeld:" FontWeight="Bold"/>
+                        <TextBlock Text="Land:" FontWeight="Bold"/>
+                        <TextBlock Text="Code:" FontWeight="Bold"/>
+                        <TextBlock Text="Bedrag:" FontWeight="Bold"/>
+                        <TextBlock Text="4. Premies voor sportieve prestaties op Olympische of Paralympische Spelen, wereldkampioenschappen of Europese of andere continentale kampioenschappen (maximum 56.170 euro):" FontWeight="Bold"/>
+                        <TextBlock Text="a) brutobedrag:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Premies sportieve prestaties brutobedrag"/>
+                        <TextBlock Text="1463" Margin="10,0,0,0"/>
+                        <TextBlock Text="b) bedrijfsvoorheffing:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Bedrijfsvoorheffing sportieve prestaties bedrag"/>
+                        <TextBlock Text="1464" Margin="10,0,0,0"/>
+                        <TextBlock Text="c) als onder a premies van buitenlandse oorsprong begrepen zijn waarvoor u aanspraak maakt op de afzonderlijke belasting tegen de aanslagvoet van 0 %, vermeld:" FontWeight="Bold"/>
+                        <TextBlock Text="Land:" FontWeight="Bold"/>
+                        <TextBlock Text="Code:" FontWeight="Bold"/>
+                        <TextBlock Text="Bedrag:" FontWeight="Bold"/>
+                        <TextBlock Text="5. Persoonlijke vergoedingen uit de exploitatie van uitvindingen, toegekend aan onderzoekers:" FontWeight="Bold"/>
+                        <TextBlock Text="a) brutobedrag:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Persoonlijke vergoedingen uitvindingen brutobedrag"/>
+                        <TextBlock Text="1209" Margin="10,0,0,0"/>
+                        <TextBlock Text="b) bedrijfsvoorheffing:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Bedrijfsvoorheffing persoonlijke vergoedingen uitvindingen bedrag"/>
+                        <TextBlock Text="1210" Margin="10,0,0,0"/>
+                        <TextBlock Text="c) als onder a vergoedingen van buitenlandse oorsprong begrepen zijn waarvoor u aanspraak maakt op de afzonderlijke belasting tegen de aanslagvoet van 0 %, vermeld:" FontWeight="Bold"/>
+                        <TextBlock Text="Land:" FontWeight="Bold"/>
+                        <TextBlock Text="Code:" FontWeight="Bold"/>
+                        <TextBlock Text="Bedrag:" FontWeight="Bold"/>
+                        <TextBlock Text="6. Overdracht van in België gelegen gronden of zakelijke rechten op gronden:" FontWeight="Bold"/>
+                        <TextBlock Text="a) meerwaardenpiastbaar tegen 33 %:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Meerwaarden gronden 33% belastbaar bedrag"/>
+                        <TextBlock Text="1205" Margin="10,0,0,0"/>
+                        <TextBlock Text="b) meerwaarden belastbaar tegen 16,5 %:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Meerwaarden gronden 16,5% belastbaar bedrag"/>
+                        <TextBlock Text="1206" Margin="10,0,0,0"/>
+                        <TextBlock Text="c) verliezen van 2023:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Verliezen gronden 2023 bedrag"/>
+                        <TextBlock Text="1207" Margin="10,0,0,0"/>
+                        <TextBlock Text="d) nog niet afgetrokken verlies van de vorige 5 jaren:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Nog niet afgetrokken verliezen vorige 5 jaren bedrag"/>
+                        <TextBlock Text="1208" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="7. Overdracht van in België gelegen gebouwen of zakelijke rechten op gebouwen:" FontWeight="Bold"/>
+                        <TextBlock Text="a) belastbare meerwaarden:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Belastbare meerwaarden gebouwen bedrag"/>
+                        <TextBlock Text="1171" Margin="10,0,0,0"/>
+                        <TextBlock Text="b) verliezen van 2023:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Verliezen gebouwen 2023 bedrag"/>
+                        <TextBlock Text="1172" Margin="10,0,0,0"/>
+                        <TextBlock Text="c) nog niet afgetrokken verliezen van de vorige 5 jaren:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Nog niet afgetrokken verliezen vorige 5 jaren gebouwen bedrag"/>
+                        <TextBlock Text="1173" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="8. Belastbaar bedrag van de meerwaarden op aandelen, verwezenlijkt buiten het normale beheer van een privévermogen:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Belastbaar bedrag meerwaarden aandelen buiten normaal beheer"/>
+                        <TextBlock Text="1169" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="9. Belastbaar bedrag van de meerwaarden, verwezenlijkt bij de gehele of gedeeltelijke overdracht van belangrijke deelnemingen aan rechtspersonen gevestigd buiten de Europese Economische Ruimte:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Belastbaar bedrag meerwaarden belangrijke deelnemingen buiten EER"/>
+                        <TextBlock Text="1174" Margin="10,0,0,0"/>
+             </UserControl>

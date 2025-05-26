@@ -1,0 +1,141 @@
+﻿<UserControl x:Class="TAX_WPF.VakX"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TAX_WPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+              <TextBlock Text="Vak X - (UITGAVEN DIE RECHT GEVEN OP) BELASTINGVERMINDERINGEN" FontWeight="Bold" Margin="0,10,0,5"/>
+                        <TextBlock Text="I. GEWESTELIJK" FontWeight="Bold"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="A. Uitgaven voor behoud of herwaardering van beschermd onroerend erfgoed:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Uitgaven behoud of herwaardering beschermd onroerend erfgoed bedrag"/>
+                        <TextBlock Text="3385" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting"/>
+                        <TextBlock Text="B. Betalingen voor prestaties in het kader van het wijk-werken:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Betalingen wijk-werken bedrag"/>
+                        <TextBlock Text="3363" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting"/>
+                        <TextBlock Text="C. Betalingen voor prestaties betaald met dienstencheques:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Betalingen dienstencheques bedrag"/>
+                        <TextBlock Text="3364" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting"/>
+                        <TextBlock Text="D. In het kader van geregistreerde en удобelijk op 31.12.2018 gesloten renovatieovereenkomsten ter beschikking gestelde bedragen die in aanmerking komen voor belastingvermindering" FontWeight="Bold"/>
+                        <TextBlock Text="Totaal van de ter beschikking gestelde bedragen:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Totaal ter beschikking gestelde bedragen"/>
+                        <TextBlock Text="3332" Margin="10,0,0,0"/>
+                        <TextBlock Text="1. op 1.1.2023:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Totaal ter beschikking gestelde bedragen op 1.1.2023"/>
+                        <TextBlock Text="3333" Margin="10,0,0,0"/>
+                        <TextBlock Text="2. op 31.12.2023:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Totaal ter beschikking gestelde bedragen op 31.12.2023"/>
+                        <TextBlock Text="Fiscale toelichting"/>
+                        <TextBlock Text="E. Belastingvermindering voor uitgaven gedaan van 2015 tot 2018 voor de vernieuwing van een woning verhuurd via een sociaal verhuurkantoor:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Belastingvermindering vernieuwing woning sociaal verhuurkantoor bedrag"/>
+                        <TextBlock Text="3395" Margin="10,0,0,0"/>
+                        <TextBlock Text="II. FEDERAAL" FontWeight="Bold"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="A. Giften:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Giften bedrag"/>
+                        <TextBlock Text="1394" Margin="10,0,0,0"/>
+                        <TextBlock Text="Hulp bij het invullen" FontStyle="Italic" Margin="0,0,0,5"/>
+                        <TextBlock Text="Fiscale toelichting"/>
+                        <TextBlock Text="B. Voor belastingvermindering in aanmerking komend bedrag van de uitgaven voor kinderoppas:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Uitgaven kinderoppas bedrag"/>
+                        <TextBlock Text="1384" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting"/>
+                        <TextBlock Text="C. Bezoldigingen van een huisbediende:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Bezoldigingen huisbediende bedrag"/>
+                        <TextBlock Text="1389" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting"/>
+                        <TextBlock Text="D. Bijdragen en premies voor een aanvullend pensioen voor zelfstandigen:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Bijdragen en premies zelfstandigen bedrag"/>
+                        <TextBlock Text="1342" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting"/>
+                        <TextBlock Text="E. Betalingen voor pensioensparen:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Betalingen pensioensparen bedrag"/>
+                        <TextBlock Text="1361" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting"/>
+                        <TextBlock Text="F. Betalingen voor het verwerven van nieuwe kapitaalaandelen van een in de Europese Economische Ruimte gevestigde vennootschap waarin u werknemer bent of waarvan uw vennootschap-werkgeefster een (klein)dochteronderneming is" FontWeight="Bold"/>
+                        <TextBlock Text="1. Betalingen gedaan in 2023:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Betalingen nieuwe kapitaalaandelen 2023 bedrag"/>
+                        <TextBlock Text="1362" Margin="10,0,0,0"/>
+                        <TextBlock Text="2. Terugname van de voorheen verkregen belastingvermindering door de vervroegde overdracht van aandelen in 2023:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Terugname belastingvermindering vervroegde overdracht aandelen 2023 bedrag"/>
+                        <TextBlock Text="1363" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting"/>
+                        <TextBlock Text="G. Betalingen die recht geven op de belastingvermindering voor het verwerven van nieuwe aandelen van startende ondernemingen:" FontWeight="Bold"/>
+                        <TextBlock Text="1. Betalingen die recht geven op de vermindering van 30 %:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Betalingen vermindering 30% bedrag"/>
+                        <TextBlock Text="1318" Margin="10,0,0,0"/>
+                        <TextBlock Text="2. Betalingen die recht geven op de vermindering van 45 %:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Betalingen vermindering 45% bedrag"/>
+                        <TextBlock Text="1320" Margin="10,0,0,0"/>
+                        <TextBlock Text="3. Terugname van de voorheen werkelijk verkregen belastingvermindering:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Terugname werkelijk verkregen belastingvermindering bedrag"/>
+                        <TextBlock Text="1328" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting"/>
+                        <TextBlock Text="H. Betalingen die recht geven op de belastingvermindering voor het verwerven van nieuwe aandelen van groeibedrijven:" FontWeight="Bold"/>
+                        <TextBlock Text="1. Betalingen gedaan in 2023:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Betalingen nieuwe aandelen groeibedrijven 2023 bedrag"/>
+                        <TextBlock Text="1334" Margin="10,0,0,0"/>
+                        <TextBlock Text="2. Terugname van de voorheen werkelijk verkregen belastingvermindering:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Terugname werkelijk verkregen belastingvermindering groeibedrijven bedrag"/>
+                        <TextBlock Text="1343" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting"/>
+                        <TextBlock Text="I. Overgedragen belastingverminderingen voor in 2020 en 2021 gedane betalingen voor het verwerven van nieuwe aandelen van ondernemingen die hun omzet sterk hebben zien dalen door de Covid-19-pandemie:" FontWeight="Bold"/>  
+                        <TextBlock Text="1. Overgedragen belastingvermindering voor betalingen gedaan in 2020:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Overgedragen belastingvermindering betalingen 2020 bedrag"/>
+                        <TextBlock Text="1345" Margin="10,0,0,0"/>
+                        <TextBlock Text="2. Overgedragen belastingvermindering voor betalingen gedaan in 2021:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Overgedragen belastingvermindering betalingen 2021 bedrag"/>
+                        <TextBlock Text="1346" Margin="10,0,0,0"/>
+                        <TextBlock Text="3. Terugname van de voorheen werkelijk verkregen belastingvermindering:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Terugname werkelijk verkregen belastingvermindering Covid-19 bedrag"/>
+                        <TextBlock Text="1377" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting"/>
+                        <TextBlock Text="J. Premies van een rechtsbijstandsverzekering:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Premies rechtsbijstandsverzekering bedrag"/>
+                        <TextBlock Text="1344" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting"/>
+                        <TextBlock Text="K. Uitgaven voor de plaatsing van een vast laadstation voor elektrische wagens in of bij de woning:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Uitgaven vast laadstation bedrag"/>
+                        <TextBlock Text="1365" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting"/>
+                        <TextBlock Text="L. Minderwaarden op aandelen geleden naar aanleiding van de gehele verdeling van het maatschappelijk vermogen van private privaks:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Minderwaarden aandelen private privaks bedrag"/>
+                        <TextBlock Text="1329" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting"/>
+                        <TextBlock Text="M. Belastingvermindering voor:" FontWeight="Bold"/>
+                        <TextBlock Text="- lage energiewoningen:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Lage energiewoningen belastingvermindering bedrag"/>
+                        <TextBlock Text="1347" Margin="10,0,0,0"/>
+                        <TextBlock Text="- passiefwoningen:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Passiefwoningen belastingvermindering bedrag"/>
+                        <TextBlock Text="1367" Margin="10,0,0,0"/>
+                        <TextBlock Text="- nulenergiewoningen:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Nulenergiewoningen belastingvermindering bedrag"/>
+                        <TextBlock Text="1348" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting"/>
+                        <TextBlock Text="N. Belastingvermindering voor het verwerven van aandelen van erkende ontwikkelingsfondsen:" FontWeight="Bold"/>
+                        <TextBlock Text="1. Belastingvermindering voor aandelen verworven in 2023:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Belastingvermindering aandelen erkende ontwikkelingsfondsen 2023 bedrag"/>
+                        <TextBlock Text="1323" Margin="10,0,0,0"/>
+                        <TextBlock Text="2. Terugname van de voorheen werkelijk verkregen belastingvermindering door de vervroegde overdracht van aandelen in 2023:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Terugname belastingvermindering vervroegde overdracht aandelen 2023 bedrag"/>
+                        <TextBlock Text="1376" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting"/>
+                        <TextBlock Text="O. Belastingvermindering voor uitgaven voor het verwerven van een nieuwe elektrische:" FontWeight="Bold"/> 
+                        <TextBlock Text="- motorfiets of driewieler:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Belastingvermindering nieuwe motorfiets of driewieler bedrag"/>
+                        <TextBlock Text="1325" Margin="10,0,0,0"/>
+                        <TextBlock Text="- vierwieler:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Belastingvermindering nieuwe vierwieler bedrag"/>
+                        <TextBlock Text="1326" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting"/>
+                        <TextBlock Text="P. Belastingvermindering voor uitgaven in het kader van een adoptieprocedure:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Belastingvermindering adoptieprocedure bedrag"/>
+                        <TextBlock Text="1341" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting"/>
+             </UserControl>

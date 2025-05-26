@@ -1,0 +1,323 @@
+﻿<UserControl x:Class="TAX_WPF.VakIV"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TAX_WPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+              
+                        <StackPanel Margin="30">
+                            <TextBlock Text="VAK IV – WEDDEN, LONEN, WERKLOOSHEIDSUITKERINGEN, WETTELIJKE UITKERINGEN BIJ ZIEKTE OF INVALIDITEIT, VERVANGINGSINKOMSTEN EN WERKLOOSHEIDSUITKERINGEN MET BEDRIJFSTOESLAG"
+                                       FontSize="22" FontWeight="Bold" Foreground="#0072C6" Margin="0,0,0,20"/>
+
+                            <TextBlock Text="Opgelet: In dit vak moet u de bedragen vermelden die u in 2023 hebt ontvangen. Indien u in 2023 geen inkomsten hebt ontvangen, laat dit vak dan leeg." 
+                                       Margin="0,0,0,10" Foreground="Red"/>
+
+                            <!-- Sectie A -->
+                            <TextBlock Text="A. GEWONE BEZOLDIGINGEN" FontWeight="Bold" Margin="0,0,0,10"/>
+                            
+                            <!-- Fiscale toelichting -->
+                            <TextBlock TextWrapping="Wrap" Margin="0,0,0,5">
+                                <Run Text="Fiscale toelichting: Vul de bedragen in zoals vermeld op uw fiches 281.10 of andere relevante documenten."/>
+                            </TextBlock>
+                            
+                            <!-- Rubriek 1 -->
+                            <TextBlock Text="1. Wedden, lonen, enz. (andere dan bedoeld in 14, a en 15, a):" FontWeight="Bold"/>
+                       
+                                <TextBox Width="200" Margin="0,5" ToolTip="Volgen fiches 281.10"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Niet op fiche 281.10 vermeld"/>
+                            
+                            
+                            <!-- Rubriek 2 -->
+                            <TextBlock Text="2. Totaal van de rubrieken 1, a en 1, b:" FontWeight="Bold"/>
+                            <TextBox Width="200" Margin="20,5"/>
+
+                            <!-- Rubriek 3 -->
+                            <TextBlock Text="3. Vervroegd vakantiegeld (ander dan bedoeld in 14, b en 15, b):" FontWeight="Bold"/>
+                       
+                                <TextBox Width="200" Margin="0,5" ToolTip="Vervroegd vakantiegeld 1"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Vervroegd vakantiegeld 2"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Vervroegd vakantiegeld 3"/>
+                            
+
+                            <!-- Rubriek 4 -->
+                            <TextBlock Text="4. Achterstallen (andere dan bedoeld in 8, b; 14, c en 15, c):" FontWeight="Bold"/>
+                            <TextBox Width="200" Margin="20,5"/>
+                            <!-- Rubriek 5 -->
+                            <TextBlock Text="5. Opzeggingsvergoedingen (andere dan bedoeld in 14, d en 15, d) en inschakelingsvergoedingen:" FontWeight="Bold"/>
+                            <TextBox Width="200" Margin="20,5"/>
+                            <!-- Rubriek 6 -->
+                            <TextBlock Text="6. Bezoldigingen van december 2023 (overheid):" FontWeight="Bold"/>
+                            <TextBox Width="200" Margin="20,5"/>
+                            <!-- Rubriek 7 -->
+                            <TextBlock Text="7. Bijdragen in de verplaatsingskosten:" FontWeight="Bold"/>   
+                       
+                                <TextBox Width="200" Margin="0,5" ToolTip="Totaal bedrag"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Vrijstelling"/>
+                            
+                            <!-- Rubriek 8 -->
+                            <TextBlock Text="8. Niet-recurrente resultaatgebondenrah voordelen:" FontWeight="Bold"/>    
+                       
+                                <TextBox Width="200" Margin="0,5" ToolTip="Gewone voordelen"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Achterstallen"/>
+                            
+                            <!-- Rubriek 9 -->
+                            <TextBlock Text="9. Werkgeverstussenkomsten in een privé-pc:" FontWeight="Bold"/>  
+                       
+                                <TextBox Width="200" Margin="0,5" ToolTip="Totale bedrag van de tussenkomsten"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Vrijstelling"/>
+                               
+                            <!-- Rubriek 10 -->
+                            <TextBlock Text="10. Voor vrijstelling in aanmerking komende bezoldigingen voor overuren in de horeca:" FontWeight="Bold"/>
+                       
+                                <TextBox Width="200" Margin="0,5" ToolTip="Bij werkgevers zonder een geregistreerd kassasysteem - Gewone bezoldigingen"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Aantal overuren"/>   
+                                <TextBox Width="200" Margin="0,5" ToolTip="Bij werkgevers zonder een geregistreerd kassasysteem - Achterstallen"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Aantal overuren"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Bij werkgevers met een geregistreerd kassasysteem - Gewone bezoldigingen"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Aantal overuren"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Bij werkgevers met een geregistreerd kassasysteem - Achterstallen"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Aantal overuren"/>
+                            
+                            <!-- Rubriek 11 -->
+                            <TextBlock Text="11. Voor vrijstelling in aanmerking komende bezoldigingen voor vrijwillige overuren en/of voor netto-overuren in de openbare sector:" FontWeight="Bold"/>
+                       
+                                <TextBox Width="200" Margin="0,5" ToolTip="Gepresteerd van 1.7 tot en met 31.12.2023 in het kader van de relance - Bezoldigingen"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Gepresteerd van 1.7 tot en met 31.12.2023 in het kader van de relance - Overuren"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Gepresteerd in 2022 in het kader van de relance - Bezoldigingen"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Gepresteerd in 2022 in het kader van de relance - Overuren"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Gepresteerd van 1.1 tot en met 30.6.2021 bij werkgevers in cruciale sectoren - Bezoldigingen"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Gepresteerd van 1.1 tot en met 30.6.2021 bij werkgevers in cruciale sectoren - Overuren"/>
+                            
+                            <!-- Rubriek 12 -->
+                            <TextBlock Text="12. Voor vrijstelling in aanmerking komende koopkrachtpremie:" FontWeight="Bold"/>
+                            <TextBox Width="200" Margin="20,5"/>
+                            <!-- Rubriek 13 -->
+                            <TextBlock Text="13. Tegen 33 % belastbare bezoldigingen van gelegenheidswerknemers in de horeca en van gepensioneerden in de zorgsector:" FontWeight="Bold"/>
+                            <TextBox Width="200" Margin="20,5"/>
+                            <!-- Rubriek 14 -->
+                            <TextBlock Text="14. Door sportbeoefenaars voor hun sportieve activiteiten verkregen:" FontWeight="Bold"/>  
+                       
+                                <TextBox Width="200" Margin="0,5" ToolTip="Wedden, lonen, enz."/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Vervroegd vakantiegeld"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Achterstallen"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Opzeggingsvergoedingen"/>
+                            
+                            <!-- Rubriek 15 -->
+                            <TextBlock Text="15. Door scheidsrechters voor hun activiteiten als scheidsrechter tijdens sportwedstrijden, en door opleiders, trainers en begeleiders voor hun activiteiten voor sportbeoefenaars verkregen:" FontWeight="Bold"/> 
+                       
+                                <TextBox Width="200" Margin="0,5" ToolTip="Wedden, lonen, enz."/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Vervroegd vakantiegeld"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Achterstallen"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Opzeggingsvergoedingen"/>
+                            
+                            <!-- Rubriek 16 -->
+                       
+                                <TextBlock Text="16. Premie van het Impulsfonds voor de huisartsengeneeskunde verkregen door een erkend huisarts om zich te vestigen in een 'prioritaire' zone:" FontWeight="Bold"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Premie bedrag"/>
+                                
+                            <!-- Rubriek 17 -->
+                       
+                                <TextBlock Text="17. Afstand (enkel) tussen uw woonplaats en uw plaats van tewerkstelling op 1.1.2024 (alleen invullen als u rubriek 19 hierna niet invult en als die afstand ten minste 75 km bedraagt):" FontWeight="Bold"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Afstand in km"/> 
+                            
+                            <!-- Rubriek 18 -->
+                       
+                                <TextBlock Text="18. Niet ingehouden persoonlijke sociale bijdragen:" FontWeight="Bold"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Niet ingehouden bijdragen bedrag"/>
+                                
+                            <!-- Rubriek 19 -->
+                       
+                                <TextBlock Text="19. Andere beroepskosten (alleen invullen als u geen toepassing van het wettelijk forfait wenst):" FontWeight="Bold"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Andere beroepskosten bedrag"/>
+                                
+
+                        <TextBlock Text="B. WERKLOOSHEIDSUITKERINGEN" FontWeight="Bold" Margin="0,20,0,10"/>
+                   
+                            <TextBlock Text="1. Uitkeringen zonder anciënniteitstoeslag:" FontWeight="Bold"/>
+                       
+                                <TextBlock Text="a) gewone uitkeringen (wettelijke en aanvullende):"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Gewone uitkeringen bedrag"/>
+                                <TextBlock Text="b) aanvullende uitkeringen van december 2023 (overheid):"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Aanvullende uitkeringen bedrag"/>
+                                <TextBlock Text="c) achterstallen:"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Achterstallen bedrag"/>
+                            
+                            <TextBlock Text="2. Uitkeringen met anciënniteitstoeslag:" FontWeight="Bold"/>
+                       
+                                <TextBlock Text="a) gewone uitkeringen (wettelijke):"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Gewone uitkeringen bedrag"/>
+                                <TextBlock Text="b) achterstallen:"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Achterstallen bedrag"/>
+                            
+                            
+                            <TextBlock Text="C. WETTELIJKE UITKERINGEN BIJ ZIEKTE OF INVALIDITEIT" FontWeight="Bold" Margin="0,20,0,10"/>
+                       
+                                <TextBlock Text="1. Gewone uitkeringen:" FontWeight="Bold"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Gewone uitkeringen bedrag"/>
+                                <TextBlock Text="2. Uitkeringen van december 2023 (overheid):"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Uitkeringen bedrag"/>
+                                <TextBlock Text="3. Achterstallen:" FontWeight="Bold"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Achterstallen bedrag"/>
+                                
+                            <TextBlock Text="D. VERVANGINGSINKOMSTEN" FontWeight="Bold" Margin="0,20,0,10"/>
+                       
+                                <TextBlock Text="1. Aanvullende vergoedingen betaald door een gewezen werkgever krachtens een CAO of een individuele overeenkomst:" FontWeight="Bold"/>
+                           
+                                <TextBlock Text="a) met een clausule van doorbetaling bij werkhervatting:" FontWeight="Bold"/>
+                           
+                                    <TextBlock Text="1) verkregen bovenop werkloosheidsuitkeringen met bedrijfstoeslag (voorheen brugpensioenen):"/>
+                                    <StackPanel Orientation="Horizontal" Margin="20,5">
+                                        <TextBlock Text="a. gewone vergoedingen:"/>
+                                        <TextBox Width="60" Margin="10,0,0,0"/>
+                                        <TextBlock Text="1319" Margin="10,0,0,0"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" Margin="20,5">
+                                        <TextBlock Text="1. voor periodes tot 31.12.2015 (≠ achterstallen):"/>
+                                        <TextBox Width="60" Margin="10,0,0,0"/>
+                                        <TextBlock Text="1321" Margin="10,0,0,0"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" Margin="20,5">
+                                        <TextBlock Text="2. voor periodes vanaf 1.1.2016 (≠ achterstallen):"/>
+                                        <TextBox Width="60" Margin="10,0,0,0"/>
+                                        <TextBlock Text="1322" Margin="10,0,0,0"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" Margin="20,5">
+                                        <TextBlock Text="b. vergoedingen van december 2023 (overheid):"/>
+                                        <TextBox Width="60" Margin="10,0,0,0"/>
+                                        <TextBlock Text="1324" Margin="10,0,0,0"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" Margin="20,5">
+                                        <TextBlock Text="c. achterstallen:"/>
+                                        <TextBox Width="60" Margin="10,0,0,0"/>
+                                        <TextBlock Text="1339" Margin="10,0,0,0"/>
+                                    </StackPanel>
+<TextBlock Text="E. WERKLOOSHEIDSUITKERINGEN MET BEDRIJFSTOESLAG (voorheen brugpensioenen)" FontWeight="Bold" Margin="0,20,0,10"/>
+<StackPanel Orientation="Vertical" Margin="20,5">
+                                <TextBlock Text="1. Wettelijke werkloosheidsuitkeringen:" FontWeight="Bold"/>
+                           
+                                <TextBlock Text="a) gewone uitkeringen:" FontWeight="Bold"/>
+                                <TextBlock Text="Gewone uitkeringen bedrag:"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Gewone uitkeringen bedrag"/>
+                                <TextBlock Text="b) achterstallen:" FontWeight="Bold"/>
+                                <TextBlock Text="Achterstallen bedrag:"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Achterstallen bedrag"/>
+                                
+                                <TextBlock Text="2. Bedrijfstoeslag:" FontWeight="Bold"/>
+                           
+                                <TextBlock Text="a) gewone bedrijfstoeslag:" FontWeight="Bold"/>
+                           
+                                <TextBlock Text="1) voor periodes tot 31.12.2015 (≠ achterstallen):" FontWeight="Bold"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Gewone bedrijfstoeslag bedrag"/>
+                                <TextBlock Text="2) voor periodes vanaf 1.1.2016 (≠ achterstallen):" FontWeight="Bold"/>
+                                <TextBox Width="200" Margin="0,5" ToolTip="Gewone bedrijfstoeslag bedrag"/>
+                                
+                                <TextBlock Text="b) achterstallen:" FontWeight="Bold"/>
+                           
+                                    <TextBlock Text="1) voor periodes tot 31.12.2015:" FontWeight="Bold"/>
+                                    <TextBox Width="200" Margin="0,5" ToolTip="Achterstallen bedrag"/>
+                                    <TextBlock Text="2) voor periodes vanaf 1.1.2016:" FontWeight="Bold"/>
+                                    <TextBox Width="200" Margin="0,5" ToolTip="Achterstallen bedrag"/>
+                                    
+                                <TextBlock Text="F. INHOUDINGEN VOOR AANVULLEND PENSIOEN" FontWeight="Bold" Margin="0,20,0,10"/>
+                           
+                                    <TextBlock Text="1. Gewone bijdragen en premies:" FontWeight="Bold"/>
+                                    <TextBox Width="200" Margin="0,5" ToolTip="Gewone bijdragen en premies bedrag"/>
+                                    <TextBlock Text="2. Bijdragen en premies voor individuele voortzetting:" FontWeight="Bold"/>
+                                    <TextBox Width="200" Margin="0,5" ToolTip="Individuele voortzetting bedrag"/>
+                                    <TextBlock Text="3. Bijdragen en premies voor een vrij aanvullend pensioen voor werknemers:" FontWeight="Bold"/>
+                                    <TextBox Width="200" Margin="0,5" ToolTip="Vrij aanvullend pensioen bedrag"/>
+                                    
+                                    <TextBlock Text="G. OVERUREN DIE RECHT GEVEN OP EEN OVERWERKTOESLAG" FontWeight="Bold" Margin="0,20,0,10"/>
+                               
+                                        <TextBlock Text="1. Totale aantal werkelijk gepresteerde overuren:" FontWeight="Bold"/>
+                                        <StackPanel Orientation="Horizontal" Margin="20,5">
+                                            <TextBlock Text="a) die in aanmerking komen voor de begrenzing tot 180 uren:"/>
+                                            <TextBox Width="60" Margin="10,0,0,0"/>
+                                            <TextBlock Text="1305" Margin="10,0,0,0"/>
+                                        
+                                        <StackPanel Orientation="Horizontal" Margin="20,5">
+                                            <TextBlock Text="b) die in aanmerking komen voor de begrenzing tot 360 uren:"/>
+                                            <TextBox Width="60" Margin="10,0,0,0"/>
+                                            <TextBlock Text="1317" Margin="10,0,0,0"/>
+                                        
+                                        <TextBlock Text="2. Berekeningsgrondslag van de overwerktoeslag voor overuren die recht geven op een belastingvermindering:" FontWeight="Bold"/>
+                                        <StackPanel Orientation="Horizontal" Margin="20,5">
+                                            <TextBlock Text="a) van 66,81 %:"/>
+                                            <TextBox Width="60" Margin="10,0,0,0"/>
+                                            <TextBlock Text="1233" Margin="10,0,0,0"/>
+                                        
+                                        <StackPanel Orientation="Horizontal" Margin="20,5">
+                                            <TextBlock Text="b) van 57,75 %:"/>
+                                            <TextBox Width="60" Margin="10,0,0,0"/>
+                                            <TextBlock Text="1234" Margin="10,0,0,0"/>
+                                        
+                                        <StackPanel Orientation="Horizontal" Margin="20,5">
+                                        <TextBlock Text="H. BEDRIJFSVOORHEFFING" FontWeight="Bold"/>
+                                        <TextBlock Text="1. Volgens fiches:" FontWeight="Bold"/>
+                                        <TextBox Width="200" Margin="0,5" ToolTip="Bedrijfstoeslag bedrag"/>
+                                        <TextBlock Text="286" Margin="10,0,0,0"/>
+                                        <TextBox Width="60" Margin="10,0,0,0"/>
+                                        <TextBlock Text="286" Margin="10,0,0,0"/>
+                                        <TextBlock Text="286" Margin="10,0,0,0"/>
+ </StackPanel>                                       
+<StackPanel Orientation="Horizontal" Margin="20,5">
+                                            <TextBlock Text="2. Op het niet op een fiche verdere vakantiegeld in A, 1, b:"/>
+                                            <TextBox Width="200" Margin="10,0,0,0"/>
+                                            <TextBlock Text="286" Margin="10,0,0,0"/>
+                                        
+                                        <TextBlock Text="3. Totaal van de rubrieken 1 en 2:" FontWeight="Bold"/>
+                                        <TextBox Width="200" Margin="20,5"/>
+                                    
+                                        <TextBlock Text="I. INHOUDINGEN VOOR DE BIJZONDERE BIJDRAGE VOOR DE SOCIALE ZEKERHEID:" FontWeight="Bold" Margin="0,20,0,10"/>
+                                        <TextBox Width="200" Margin="20,5" ToolTip="Bijdrage bedrag"/>
+                                        <TextBlock Text="J. OVERHEIDSPERSONEEL ZONDER ARBEIDSOVEREENKOMST:" FontWeight="Bold" Margin="0,20,0,10"/>
+                                        <StackPanel Orientation="Horizontal" Margin="20,5">
+                                            <TextBlock Text="Ja"/>
+                                            <CheckBox Margin="10,0,0,0"/>
+                                        
+                                        <TextBlock Text="K. WERKBONUS:" FontWeight="Bold" Margin="0,20,0,10"/>
+                                   
+                                            <TextBox Width="200" Margin="0,5" ToolTip="Werkbonus bedrag"/>
+                                            <Button Content="Een lijn toevoegen" Margin="0,5"/>
+                                        
+                                        <TextBlock Text="L. WERKHERVATTINGSLOON:" FontWeight="Bold" Margin="0,20,0,10"/>
+                                        <TextBox Width="200" Margin="20,5" ToolTip="Werkhervattingsloon bedrag"/>
+                                        <TextBlock TextWrapping="Wrap">
+                                            Als u in D, 1, a, 1, a, 1; D, 1, a, 1, c, 1 of D, 1, a, 2 aanvullende vergoedingen of in E, 2, a, 1 of E, 2, b, 1 een bedrijfstoeslag hebt ingevuld en u na uw ontslag bij uw gewezen werkgever het werk hebt hervat bij één of meer nieuwe werkgevers,
+                                            vermeld dan hier het loon (A, 1 + A, 7, a + A, 9, a - A, 7, b - A,
+                                            9,b) dat u van die nieuwe werkgever(s) hebt verkregen:
+                                        </TextBlock>
+                                        <TextBox Width="200" Margin="20,5" ToolTip="Hervattingsloon bedrag"/>
+                                        <TextBlock Text="M. ROERENDE VOORHEFFING OP IN A, 1 OF A, 4 VERMELDE INKOMSTEN UIT AUTEURSRECHTEN, NABURIGE RECHTEN EN WETTELIJKE EN VERPLICHTE LICENTIES:" FontWeight="Bold" Margin="0,20,0,10"/>
+                                        <TextBox Width="200" Margin="20,5" ToolTip="Roerende voorheffing bedrag"/>
+                                        <TextBlock Text="N. HELPENDE GEZINSLEDEN VAN ZELFSTANDIGEN:" FontWeight="Bold" Margin="0,20,0,10"/>
+                                        <TextBlock Text="Vermeld de code waarnaast de inkomsten als helpend gezinslid van een zelfstandige zijn vermeld (bv. 1250) en het bedrag." Margin="0,0,0,5"/>
+                                        <StackPanel Orientation="Horizontal" Margin="20,5">
+                                            <TextBlock Text="Code:"/>
+                                            <TextBox Width="60" Margin="10,0,0,0"/>
+                                            <TextBlock Text="1250" Margin="10,0,0,0"/>
+                                        
+                                        <TextBlock Text="Bedrag:"/>
+                                        <TextBox Width="200" Margin="20,5" ToolTip="Helpende gezinsleden bedrag"/>
+                                        <Button Content="Een lijn toevoegen" Margin="0,5"/>
+                                        <TextBlock Text="O. INKOMSTEN VAN BUITENLANDSE OORSPRONG (EN DE BIJHORENDE KOSTEN):" FontWeight="Bold" Margin="0,20,0,10"/>
+                                        <TextBlock Text="Vermeld het land, de code waarnaast ze zijn ingevuld (bv. 1250) en het bedrag van de volgende inkomsten van buitenlandse oorsprong (en de bijhorende kosten) die u hebt ingevuld in de rubrieken A tot E hiervoor:" Margin="0,0,0,5"/>
+                                        <TextBlock Text="1. In Frankrijk of Nederland verkregen inkomsten die in die landen aan een sociale wetgeving voor werknemers of daarmee gelijkgestelden zijn onderworpen en die in België niet van belasting zijn vrijgesteld." Margin="0,0,0,5"/>
+                                        <TextBlock Text="Land:"/>
+                                        <TextBox Width="200" Margin="20,5" ToolTip="Land"/>
+                                        <TextBox Width="200" Margin="20,5" ToolTip="Code waarnaast ze zijn ingevuld (bv. 1250)"/>
+                                        <TextBox Width="200" Margin="20,5" ToolTip="Bedrag van de inkomsten"/>
+                                        <Button Content="Een lijn toevoegen" Margin="0,5"/>
+                                        <TextBlock Text="2. Inkomsten waarvoor u aanspraak maakt op belastingvermindering voor inkomsten van buitenlandse oorsprong (inkomsten die zijn vrijgesteld met progressievoorbehoud of waarvoor de belasting tot de helft wordt verminderd) of op de afzonderlijke belasting tegen de aanslagvoet van 0 %." Margin="0,0,0,5"/>   
+
+                                        <TextBlock Text="Land:"/>
+                                        <TextBox Width="200" Margin="20,5" ToolTip="Land"/>
+                                        <TextBox Width="200" Margin="20,5" ToolTip="Code waarnaast ze zijn ingevuld (bv. 1250)"/>
+                                        <TextBox Width="200" Margin="20,5" ToolTip="Bedrag van de inkomsten"/>
+                                        <Button Content="Een lijn toevoegen" Margin="0,5"/>
+
+
+                                  
+</StackPanel>                        

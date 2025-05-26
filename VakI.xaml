@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="TAX_WPF.VakI"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TAX_WPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+
+<ScrollViewer>
+    <StackPanel>
+                           
+                            
+        <TextBlock Text="AANSLAGJAAR 2024 (INKOMSTEN VAN HET JAAR 2023): PERSOONLIJKE INFORMATIE" FontWeight="Bold" FontSize="16" Margin="0,0,0,10"/>
+        <TextBlock Text="Postcode van uw gemeente/stad" Width="200" VerticalAlignment="Center"/>
+        <TextBox Width="60" Margin="5,0"/>
+        <TextBlock Text="Aanslagvoet van uw gemeente/stad" Width="200" VerticalAlignment="Center" Margin="15,0,0,0"/>
+        <TextBox Width="60" Margin="5,0"/>
+        <CheckBox Content="De aangifte gaat over echtgenoten of wettelijk samenwonenden (Situatie op 1 januari 2024)" Margin="0,0,0,5"/>
+        <CheckBox Content="Belastingplichtige onderworpen aan forfaitaire grondslagen van aanslag" Margin="0,0,0,10"/>
+        <TextBlock Text="Opgelet: Waar 2 antwoordkolommen zijn voorzien, moet u uw gegevens invullen als volgt." Foreground="Red" FontStyle="Italic" Margin="0,0,0,10"/>
+        <Border BorderBrush="Red" BorderThickness="1" Margin="0,0,0,10">
+            <Grid>
+                <!-- Inhoud van de grid -->
+            </Grid>
+        </Border>
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+            <TextBlock Text="Geboortedatum (dd/mm/jjjj)" Width="200" VerticalAlignment="Center"/>
+            <TextBox Width="100"/>
+        </StackPanel>
+                
+        <Button Content="NAAR HET VOLGEND VAK" Width="200" Height="40" HorizontalAlignment="Right" Background="#0097A7" Foreground="White" FontWeight="Bold"/>
+    </StackPanel>
+</ScrollViewer>
+</UserControl>

@@ -1,0 +1,124 @@
+﻿<UserControl x:Class="TAX_WPF.VakXVI"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TAX_WPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+             <TextBlock Text="Vak XVI - BEZOLDIGINGEN VAN BEDRIJFSLEIDERS" FontWeight="Bold" Margin="0,10,0,5"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="1. Bezoldigingen:" FontWeight="Bold"/>
+                        <TextBlock Text="a) volgens fiches:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Bezoldigingen volgens fiches bedrag"/>  
+                        <TextBlock Text="400" Margin="10,0,0,0"/>
+                        <TextBlock Text="b) die niet op een fiche zijn vermeld:" FontWeight="Bold"/>
+                        <TextBlock Text="c) totaal van de rubrieken a en b:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Totaal bezoldigingen rubrieken a en b bedrag"/>
+                        <TextBlock Text="400" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="2. Als bezoldigingen te beschouwen huurinkomsten:" FontWeight="Bold"/>
+                        <TextBlock Text="1400" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="3. Vervroegd vakantiegeld:" FontWeight="Bold"/>
+                        <TextBlock Text="1402" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="4. Opzeggingsvergoedingen en inschakelingsvergoedingen:" FontWeight="Bold"/>
+                        <TextBlock Text="1431" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="5. Niet-recurrente resultaatgebonden voordelen:" FontWeight="Bold"/>
+                        <TextBlock Text="1418" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="6. Voor vrijstelling in aanmerking komende bezoldigingen voor vrijwillige overuren:" FontWeight="Bold"/>   
+                        <TextBlock Text="a) gepresteerd van 1.7 tot en met 31.12.2023 in het kader van de relance:" FontWeight="Bold"/>
+                        <TextBlock Text="1) bezoldigingen:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Bezoldigingen overuren"/>
+                        <TextBlock Text="1425" Margin="10,0,0,0"/>
+                        <TextBlock Text="2) overuren:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Overuren bedrag"/>
+                        <TextBlock Text="1426" Margin="10,0,0,0"/>
+                        <TextBlock Text="b) gepresteerd in 2022 in het kader van de relance:" FontWeight="Bold"/>
+                        <TextBlock Text="1) Bezoldigingen:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Bezoldigingen"/>
+                        <TextBlock Text="1423" Margin="10,0,0,0"/>
+                        <TextBlock Text="2) overuren:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Overuren 2022 bedrag"/>
+                        <TextBlock Text="1424" Margin="10,0,0,0"/>
+                        <TextBlock Text="c) gepresteerd van 1.1 tot en met 30.6.2021 bij werkgevers in cruciale sectoren in de strijd tegen de COVID-19-pandemie en/of van 1.7 tot en met 31.12.2021 in het kader van de relance:" FontWeight="Bold"/>
+                        <TextBlock Text="1) Bezoldigingen:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Bezoldigingen"/>
+                        <TextBlock Text="1413" Margin="10,0,0,0"/>
+                        <TextBlock Text="2) overuren:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Overuren 2021 bedrag"/>
+                        <TextBlock Text="1414" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="7. Voor vrijstelling in aanmerking komende koopkrachtpremie:" FontWeight="Bold"/>
+                        <TextBlock Text="1429" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="8. Tegen 33 % btwbelasting van gelegenheidswerknemers in de horeca:" FontWeight="Bold"/>
+                        <TextBlock Text="1422" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="9. Premie van het Impulsfonds voor de huisartsengeneeskunde verkregen door een erkend huisarts om zich te vestigen in een ’prioritaire’ zone:" FontWeight="Bold"/>
+                        <TextBlock Text="1428" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>   
+                        <TextBlock Text="10. Niet ingehouden persoonlijke sociale bijdragen:" FontWeight="Bold"/>
+                        <TextBlock Text="1405" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="11. Andere beroepskosten (alleen invullen als u geen toepassing van het wettelijk forfait wenst):" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Andere beroepskosten bedrag"/>
+                        <TextBlock Text="1406" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="12. Bedrijfsvoorheffing:" FontWeight="Bold"/>
+                        <TextBlock Text="a) volgens fiches:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Bedrijfsvoorheffing volgens fiches bedrag"/>
+                        <TextBlock Text="407" Margin="10,0,0,0"/>
+                        <TextBlock Text="b) op het niet op een fiche vermelde vakantiegeld vermeld in rubriek 1, b:" FontWeight="Bold"/>
+                        <TextBlock Text="c) totaal van de rubrieken 12, a en 12, b:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Totaal bedrijfsvoorheffing rubrieken 12a en 12b bedrag"/>
+                        <TextBlock Text="408" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="13. Inhoudingen voor aanvullend pensioen:" FontWeight="Bold"/>
+                        <TextBlock Text="a) gewone bijdragen en premies:" FontWeight="Bold"/>
+                        <TextBlock Text="1401" Margin="10,0,0,0"/>
+                        <TextBlock Text="b) bijdragen en premies voor individuele voortzetting:" FontWeight="Bold"/>
+                        <TextBlock Text="1412" Margin="10,0,0,0"/>
+                        <TextBlock Text="c) bijdragen en premies voor een vrij aanvullend pensioen voor werknemers:" FontWeight="Bold"/>
+                        <TextBlock Text="1421" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="14. Inhoudingen voor de bijzondere bijdrage voor de sociale zekerheid:" FontWeight="Bold"/>
+                        <TextBlock Text="1409" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>   
+                        <TextBlock Text="15. Bezoldigingen van bedrijfsleiders tewerkgesteld in dienstverband, als zelfstandige in bijberoep of als student-zelfstandige:" FontWeight="Bold"/>
+                        <TextBlock Text="a) volgens fiches:" FontWeight="Bold"/>    
+                        <TextBox Width="200" Margin="20,5" ToolTip="Bezoldigingen bedrijfsleiders volgens fiches bedrag"/>
+                        <TextBlock Text="411" Margin="10,0,0,0"/>
+                        <TextBlock Text="b) niet op een fiche vermelde bezoldigingen, vermeld in de rubrieken 1, b en 2:" FontWeight="Bold"/>
+                        <TextBlock Text="c) totaal van de rubrieken 15, a en 15, b:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Totaal bezoldigingen bedrijfsleiders rubrieken 15a en 15b bedrag"/>
+                        <TextBlock Text="1411" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="16. Werkbonus:" FontWeight="Bold"/>
+                        <TextBlock Text="1419" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="17. Als u in vak IV, D, 1, a, 1, a, 1; D, 1, a, 1, c, 1 of D, 1, a, 2 aanvullende vergoedingen of in vak IV, E, 2, a, 1 of E, 2, b, 1 een bedrijfstoeslag hebt ingevuld, en u na uw ontslag bij uw gewezen werkgever het werk hebt hervat als bedrijfsleider, vermeld dan hier het totaal van de in de rubrieken 1 en 2 hierboven vermelde bezoldigingen verkregen van de vennootschap waarbij u het werk hebt hervat:" FontWeight="Bold"/>
+                        <TextBlock Text="1417" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="18. Roerende voorheffing op in rubriek 1 vermelde inkomsten uit auteursrechten, naburige rechten en wettelijke en verplichte licenties:" FontWeight="Bold"/>
+                        <TextBlock Text="1427" Margin="10,0,0,0"/>
+                        <TextBlock Text="19. Vermeld het land, de code waarnaast ze zijn ingevuld (bv. 1400) en het bedrag van de in de rubrieken 1 tot 11 vermelde inkomsten van buitenlandse oorsprong (en de bijhorende kosten) waarvoor u aanspraak maakt op belastingvermindering voor inkomsten van buitenlandse oorsprong (inkomsten die zijn vrijgesteld met progressievoorbehoud of waarvoor de belasting tot de helft wordt verminderd) of op de afzonderlijke belasting tegen de aanslagvoet van 0 %:" FontWeight="Bold"/>
+                        <TextBlock Text="Land:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Land buitenlandse inkomsten"/>
+                        <TextBlock Text="Code:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Code buitenlandse inkomsten"/>
+                        <TextBlock Text="Bedrag:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Bedrag buitenlandse inkomsten"/>
+                        <TextBlock Text="20. Als u maar gedurende een gedeelte van het jaar bedrijfsleider bent geweest, vermeld:" FontWeight="Bold"/>
+                        <TextBlock Text="a) de begindatum (dag, maand, jaar):" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Begindatum bedrijfsleider"/>
+                        <TextBlock Text="1410" Margin="10,0,0,0"/>
+                        <TextBlock Text="b) de einddatum (dag, maand, jaar):" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Einddatum bedrijfsleider"/>
+                        <TextBlock Text="1411" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+
+             </UserControl>

@@ -1,0 +1,75 @@
+﻿<UserControl x:Class="TAX_WPF.VakXX"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TAX_WPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+              <TextBlock Text="Vak XXI - WINST EN BATEN VAN EEN VORIGE BEROEPSWERKZAAMHEID" FontWeight="Bold" Margin="0,10,0,5"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="1. Stopzettingsmeerwaarden (na aftrek van werkelijke kosten van overdracht):" FontWeight="Bold"/>
+                        <TextBlock Text="a) die afzonderlijk belastbaar zijn tegen 10 %:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Stopzettingsmeerwaarden afzonderlijk belastbaar 10% bedrag"/>
+                        <TextBlock Text="1686" Margin="10,0,0,0"/>
+                        <TextBlock Text="b) die afzonderlijkpiar belastbaar zijn tegen 16,5 %:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Stopzettingsmeerwaarden afzonderlijk belastbaar 16,5% bedrag"/>
+                        <TextBlock Text="1690" Margin="10,0,0,0"/>
+                        <TextBlock Text="c) die afzonderlijk belastbaar zijn tegen 33 %:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Stopzettingsmeerwaarden afzonderlijk belastbaar 33% bedrag"/>
+                        <TextBlock Text="1691" Margin="10,0,0,0"/>
+                        <TextBlock Text="d) die gezamenlijk belastbaar zijn:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Stopzettingsmeerwaarden gezamenlijk belastbaar bedrag"/>
+                        <TextBlock Text="1692" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="2. Winst en baten die overeenstemmen met de voorheen afgetrokken werkelijke kosten van overdracht van activa waarop u na de stopzetting een (al dan niet belastbare) stopzettingsmeerwaarde hebt verwezenlijkt:" FontWeight="Bold"/>
+                        <TextBlock Text="1693" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="3. Premies en vergoedingen:" FontWeight="Bold"/>
+                        <TextBlock Text="a) die afzonderlijk belastbaar zijn tegen 12,5 %:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Premies vergoedingen afzonderlijk belastbaar 12,5% bedrag"/>
+                        <TextBlock Text="1687" Margin="10,0,0,0"/>      
+                        <TextBlock Text="b) die afzonderlijk belastbaar zijn tegen 16,5 %:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Premies vergoedingen afzonderlijk belastbaar 16,5% bedrag"/>
+                        <TextBlock Text="1694" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="4. Winst en baten verkregen of vastgesteld na de stopzetting (behalve de in de rubrieken 1 tot 3, 5 en 6 bedoelde inkomsten en de vergoedingen tot herstel van een tijdelijke winst- of baatderving):" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Winst baten verkregen na stopzetting bedrag"/>
+                        <TextBlock Text="1695" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="5. Na de stopzetting verkregen baten voor sportieve activiteiten verricht tijdens een vorige beroepswerkzaamheid als sportbeoefenaar:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Baten sportieve activiteiten vorige beroepswerkzaamheid bedrag"/>
+                        <TextBlock Text="1688" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="6. Na de stopzetting verkregen baten voor activiteiten voor sportbeoefenaars, verricht tijdens een vorige beroepswerkzaamheid als opleider, trainer of begeleider:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Baten activiteiten sportbeoefenaars vorige beroepswerkzaamheid bedrag"/>
+                        <TextBlock Text="1689" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="7. Werkelijke beroepskosten betaald of gedragen na de stopzetting:" FontWeight="Bold"/>
+                        <TextBlock Text="a) kosten van overdracht van activa waarop u in het belastbare tijdperk een (al dan niet belastbare) meerwaarde hebt verwezenlijkt:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Kosten overdracht activa meerwaarde na stopzetting bedrag"/>
+                        <TextBlock Text="1696" Margin="10,0,0,0"/>
+                        <TextBlock Text="b) andere dan die vermeld onder a:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Andere werkelijke beroepskosten na stopzetting bedrag"/>
+                        <TextBlock Text="1697" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="8. Als u in vak IV, D, 1, a, 1, a, 1; D, 1, a, 1, c, 1 of D, 1, a, 2 aanvullende vergoedingen of in vak IV, E, 2, a, 1 of E, 2, b, 1 een bedrijfstoeslag hebt ingevuld, en u na uw ontslag bij uw gewezen werkgever het werk hebt hervat als zelfstandige, vermeld dan hier de in rubriek 1, d hierboven vermelde inkomsten uit die ’nieuwe’ zelfstandige activiteit:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Inkomsten nieuwe zelfstandige activiteit bedrag"/>
+                        <TextBlock Text="1621" Margin="10,0,0,0"/>
+                        <TextBlock Text="9. Vermeld het land, de code waarnaast ze zijn ingevuld (bv. 1686) en het bedrag van de in de rubrieken 1 tot 7 vermelde inkomsten van buitenlandse oorsprong (en de bijhorende kosten) waarvoor u aanspraak maakt op belastingvermindering voor inkomsten van buitenlandse oorsprong (inkomsten die zijn vrijgesteld met progressievoorbehoud of waarvoor de belasting tot de helft wordt verminderd) of op de afzonderlijke belasting tegen de aanslagvoet van 0 %:" FontWeight="Bold"/>
+                        <TextBlock Text="Land:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Land buitenlandse inkomsten"/>
+                        <TextBlock Text="Code:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Code buitenlandse inkomsten"/>
+                        <TextBlock Text="Bedrag:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Bedrag buitenlandse inkomsten"/>    
+                        <TextBlock Text="10. Als u in rubriek 7, b een bedrag hebt ingevuld dat slaat op een voorheen in de vorm van een feitelijke vereniging uitgeoefende werkzaamheid, en het resultaat van de in de rubrieken 1 tot 6 en 7, b vermelde inkomsten en kosten van die werkzaamheid uiteindelijk tot een verlies leidt (1 + 2 + 3 + 4 + 5 + 6 - 7, b), vermeld dan het bedrag van dat verlies en de juiste aard van die werkzaamheid en houd, per feitelijke vereniging en per land van herkomst, het detail ter beschikking van de belastingdienst." FontWeight="Bold"/>   
+                        <TextBlock Text="Verlies begrepen in de linkerkolom:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Verlies feitelijke vereniging bedrag"/>
+                        <TextBlock Text="Aard:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Aard feitelijke vereniging"/>
+                        <TextBlock Text="Een lijn toevoegen" FontWeight="Bold" Margin="0,10,0,5"/>
+                        <Button Content="Voeg Lijn Toe" Width="100" Margin="20,5" ToolTip="Voeg een nieuwe lijn toe voor feitelijke vereniging"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+
+             </UserControl>

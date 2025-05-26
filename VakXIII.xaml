@@ -1,0 +1,59 @@
+﻿<UserControl x:Class="TAX_WPF.VakXIII"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TAX_WPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+             <TextBlock Text="Vak XIII - REKENINGEN EN INDIVIDUELE LEVENSVERZEKERINGEN IN HET BUITENLAND, JURIDISCHE CONSTRUCTIES, LENINGEN AAN STARTENDE KLEINE VENNOOTSCHAPPEN EN ALS WERKELIJKE BEROEPSKOSTEN AFGETROKKEN VERGOEDINGEN VOOR DE HUUR VAN ONROERENDE GOEDEREN OF VOOR DE VESTIGING OF OVERDRACHT VAN EEN ZAKELIJK GEBRUIKSRECHT OP ONROERENDE GOEDEREN" FontWeight="Bold" Margin="0,10,0,5"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="A. REKENINGEN IN HET BUITENLAND" FontWeight="Bold"/>
+                        <TextBlock Text="Is u, uw echtgenoot of wettelijk samenwonende partner met wie u deze aangifte indient, of één van uw niet ontvoogde minderjarige kinderen in 2023 op enig ogenblik :" FontWeight="Bold"/>
+                        <TextBlock Text="- titularis geweest van één of meer rekeningen bij een bank-, wissel-, krediet- of spaarinstelling gevestigd in het buitenland, of" FontWeight="Bold"/>
+                        <TextBlock Text="- beheerder geweest van één of meer zulke buitenlandse rekeningen op naam van één of meer verenigingen die geen winst of baten verkrijgen en die niet aan de vennootshapsbelasting of de rechtspersonenbelasting onderworpen zijn ?" FontWeight="Bold"/>   
+                        <TextBox Width="200" Margin="20,5" ToolTip="Ja of Nee"/>
+                        <TextBlock Text="1075" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="Zo ja, vul hieronder de gevraagde gegevens in." FontWeight="Bold"/>
+                        <TextBlock Text="Naam en voornaam van de titularis of, voor een rekening op naam van een bovenvermelde vereniging, van de beheerder van de rekening" FontWeight="Bold"/>
+                        <TextBlock Text="Land waar de rekening geopend was" FontWeight="Bold"/> 
+                        <TextBlock Text="Zijn de wettelijk bepaalde gegevens over de rekening bij het Centraal Aanspreekpunt bij de Nationale Bank van België gemeld?" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Ja of Nee"/>
+                        <TextBlock Text="1076" Margin="10,0,0,0"/>
+                        <Button Content="Een lijn toevoegen" Margin="20,5" Width="150"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="B. INDIVIDUELE LEVENSVERZEKERINGEN IN HET BUITENLAND" FontWeight="Bold"/>
+                        <TextBlock Text="Is u, uw echtgenoot of wettelijk samenwonende partner met wie u deze aangifte indient, of één van uw niet ontvoogde minderjarige kinderen in 2023 op enig ogenblik verzekeringnemer geweest van één of meer individueel gesloten levensverzekeringscontracten bij een verzekeringsonderneming gevestigd in het buitenland?" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Ja of Nee"/>
+                        <TextBlock Text="1077" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="Zo ja, vul hieronder de gevraagde gegevens in." FontWeight="Bold"/>
+                        <TextBlock Text="Naam en voornaam van de verzekeringnemer" FontWeight="Bold"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="Land waar de verzekeringsonderneming gevestigd was" FontWeight="Bold"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="C. JURIDISCHE CONSTRUCTIES" FontWeight="Bold"/>
+                        <TextBlock Text="Is u, uw echtgenoot of wettelijk samenwonende partner met wie u deze aangifte indient, of één van uw niet ontvoogde minderjarige kinderen een oprichter van een juridische constructie, bedoeld in artikel 2, § 1, 14°, van het Wetboek van de inkomstenbelastingen 1992 (WIB 92) of heeft u of één van de bovenvermelde personen in 2023 een dividend of enig ander voordeel verkregen van een juridische constructie?" FontWeight="Bold"/>   
+                        <TextBox Width="200" Margin="20,5" ToolTip="Ja of Nee"/>
+                        <TextBlock Text="1078" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="Zo ja, moet u per juridische constructie een bijlage 276 CJC met aanvullende inlichtingen bij uw aangifte voegen." FontWeight="Bold"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="D. LENINGEN AAN STARTENDE KLEINE VENNOOTSCHAPPEN" FontWeight="Bold"/>
+                        <TextBlock Text="Aantal in 2023 lopende leningen bedoeld in artikel 21, eerste lid, 13°, van het Wetboek van de inkomstenbelastingen 1992 die u vanaf 1.8.2015 aan startende kleine vennootschappen hebt verstrekt via een erkend crowdfundingplatform:" FontWeight="Bold"/>
+                        <TextBox Width="200" Margin="20,5" ToolTip="Aantal lopende leningen startende kleine vennootschappen"/>
+                        <TextBlock Text="1088" Margin="10,0,0,0"/>
+                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+                        <TextBlock Text="E. ALS WERKELIJKE BEROEPSKOSTEN AFGETROKKEN VERGOEDINGEN VOOR DE HUUR VAN ONROERENDE GOEDEREN OF VOOR DE VESTIGING OF OVERDRACHT VAN EEN ZAKELIJK GEBRUIKSRECHT OP ONROERENDE GOEDEREN" FontWeight="Bold"/>
+                        <TextBlock Text="Hebt u in deze aangifte (deel 1 of deel 2) werkelijke beroepskosten vermeld waarin vergoedingen zijn begrepen voor:" FontWeight="Bold"/>
+                        <TextBlock Text="- de huur van één of meer onroerende goederen of" FontWeight="Bold"/>
+                        <TextBlock Text="- de vestiging of overdracht van een zakelijk gebruiksrecht (erfpacht, opstal, vruchtgebruik, erfdienstbaarheid, enz.) op één of meer onroerende goederen," FontWeight="Bold"/>
+                        <TextBlock Text="en" FontWeight="Bold"/>
+                        <TextBlock Text="beschikt u voor één of meer van die vergoedingen niet over een factuur of een ander bewijsstuk waaruit de werkelijke kosten blijken?" FontWeight="Bold"/>
+                        <CheckBox Width="200" Margin="20,5" ToolTip="Ja of Nee"/>
+                        <TextBlock Text="1072" Margin="10,0,0,0"/>
+             
+             </UserControl>

@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="TAX_WPF.VakXIV"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TAX_WPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <TextBlock Text="Vak XIV - BEROEP EN ONDERNEMINGSNUMMER" FontWeight="Bold" Margin="0,10,0,5"/>
+    <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+    <TextBlock Text="1. Beroep uitgeoefend in 2023:" FontWeight="Bold"/>
+    <TextBox Width="200" Margin="20,5" ToolTip="Beroep uitgeoefend in 2023"/>
+    <TextBlock Text="1140" Margin="10,0,0,0"/>
+    <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+    <TextBlock Text="2. Ondernemingsnummer:" FontWeight="Bold"/>
+    <TextBox Width="200" Margin="20,5" ToolTip="Ondernemingsnummer"/>
+    <TextBlock Text="1141" Margin="10,0,0,0"/>
+             </UserControl>
