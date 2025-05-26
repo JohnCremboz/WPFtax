@@ -1,0 +1,112 @@
+<Window x:Class="TAX_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:TAX_WPF"
+
+        Title="SOS TAX" Height="650" Width="900">
+    <Grid Margin="20">
+        <TabControl Margin="0,100,0,0">
+            <TabItem Header="DEEL 1">
+                <TabControl Margin="0,10,0,0">
+                    <TabItem Header="VAK I">
+                       <local:VakI></local:VakI>
+                    </TabItem>
+                    <TabItem Header="VAK II">
+                       <local:VakII></local:VakII>
+                    </TabItem>
+                        <TabItem Header="Vak III">
+                            <local:VakIII></local:VakIII>
+                       </TabItem>
+
+                        <TabItem Header="Vak IV">
+                       <local:VakIV></local:VakIV>
+                        </TabItem>
+	
+                        <TabItem Header="Vak V">
+                        <local:VakV></local:VakV>
+                        </TabItem>
+
+                        <TabItem Header="Vak VI">
+                        <local:VakVI></local:VakVI>
+                       </TabItem>
+
+                        <TabItem Header="Vak VII">
+                        <local:VakVII></local:VakVII>
+                        </TabItem>
+
+                        <TabItem Header="Vak VIII">
+                        <local:VakVIII></local:VakVIII>
+                        </TabItem>
+
+                        <TabItem Header="Vak IX">
+                        <local:VakIX></local:VakIX>
+                        </TabItem>
+
+                        <TabItem Header="Vak X">
+                        <local:VakX></local:VakX>
+                        </TabItem>
+                    
+                        <TabItem Header="Vak XI">
+                        <local:VakXI></local:VakXI>
+                       </TabItem>
+
+                        <TabItem Header="Vak XII">
+                        <local:VakXII></local:VakXII>
+                       </TabItem>
+
+                        <TabItem Header="Vak XIII">
+                        <local:VakXIII></local:VakXIII>
+                        </TabItem>
+                        
+                    </TabControl>
+                
+            </TabItem>
+            <TabItem Header="DEEL 2">
+              <TabControl>
+                        <TabItem Header="Vak XIV">
+                        <local:VakXIV></local:VakXIV>
+                        </TabItem>
+
+
+
+                        <TabItem Header="Vak XV">
+                            <local:VakXV></local:VakXV>
+                        </TabItem>
+
+                      
+	
+                        <TabItem Header="Vak XVI">
+                            <local:VakXVI></local:VakXVI>
+                        </TabItem>
+                  
+                  
+                        <TabItem Header="Vak XVII">
+                        <local:VakXVII></local:VakXVII>
+                        </TabItem>
+                       
+
+                        <TabItem Header="Vak XVIII">
+                        <local:VakXVIII></local:VakXVIII>
+                       </TabItem>
+                  
+                        <TabItem Header="Vak XIX">
+                            <local:VakXIX></local:VakXIX>
+                            </TabItem>
+                  
+                  
+                            
+
+                        <TabItem Header="Vak XXI">
+                       <local:VakXXII></local:VakXXII>
+                        </TabItem>
+
+                        <TabItem Header="Vak XXII">
+                        <local:VakXXII></local:VakXXII>
+                       </TabItem>
+
+                   </TabControl>
+                
+               </TabItem>
+           </TabControl>
+       </Grid>
+   </Window>
