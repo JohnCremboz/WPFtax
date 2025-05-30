@@ -342,7 +342,7 @@
             <!-- <Button Content="NAAR HET VOLGEND VAK" Style="{StaticResource NavigationButtonStyle}"/> -->
             <!-- If the style is only in MainWindow, you might need to define it here or pass it -->
             <!-- For simplicity, let's keep the style reference, assuming it will be available -->
-             <Button Content="NAAR HET VOLGEND VAK" Style="{StaticResource NavigationButtonStyle}"/>
+             <Button Content="NAAR HET VOLGEND VAK" />
         </StackPanel>
     </ScrollViewer>
 </UserControl>
