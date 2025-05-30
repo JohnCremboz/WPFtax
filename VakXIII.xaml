@@ -56,6 +56,6 @@
                         <TextBlock Text="beschikt u voor één of meer van die vergoedingen niet over een factuur of een ander bewijsstuk waaruit de werkelijke kosten blijken?" FontWeight="Bold"/>
                         <CheckBox Width="200" Margin="20,5" ToolTip="Ja of Nee"/>
                         <TextBlock Text="1072" Margin="10,0,0,0"/>
-             </UserControl>
+             
     </StackPanel>
 </UserControl>

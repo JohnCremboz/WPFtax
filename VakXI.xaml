@@ -35,6 +35,6 @@
                             <TextBlock Text="b) van Winwinleningen gesloten vóór 16.3.2020 en na 31.12.2021:" FontWeight="Bold"/>
                             <TextBox Width="200" Margin="0,5" ToolTip="Winwinleningen verloren hoofdsom vóór 16.3.2020 en na 31.12.2021"/>
                             <TextBlock Text="3379" Margin="10,0,0,0"/>
-            </UserControl> 
+             
     </StackPanel>
 </UserControl>

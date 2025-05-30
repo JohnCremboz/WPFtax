@@ -327,4 +327,7 @@
 
 
                                   
-</StackPanel>                        
+</StackPanel>   
+        </ScrollViewer>
+    </UserControl>
+                     
