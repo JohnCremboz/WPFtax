@@ -6,23 +6,25 @@
              xmlns:local="clr-namespace:TAX_WPF"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <TextBlock Text="Vak XII - VOORAFBETALINGEN VOOR HET AANSLAGJAAR 2024" FontWeight="Bold" Margin="0,10,0,5"/>
-    <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
-    <TextBlock Text="1. Overzicht van de betaling per periode:" FontWeight="Bold"/>
-    <TextBlock Text="Voorafbetaling 1:" FontWeight="Bold"/>
-    <TextBox Width="200" Margin="20,5" ToolTip="Voorafbetaling 1 bedrag"/>
-    <TextBlock Text="1571" Margin="10,0,0,0"/>
-    <TextBlock Text="Voorafbetaling 2:" FontWeight="Bold"/>
-    <TextBox Width="200" Margin="20,5" ToolTip="Voorafbetaling 2 bedrag"/>
-    <TextBlock Text="1572" Margin="10,0,0,0"/>
-    <TextBlock Text="Voorafbetaling 3:" FontWeight="Bold"/>
-    <TextBox Width="200" Margin="20,5" ToolTip="Voorafbetaling 3 bedrag"/>  
-    <TextBlock Text="1573" Margin="10,0,0,0"/>
-    <TextBlock Text="Voorafbetaling 4:" FontWeight="Bold"/>
-    <TextBox Width="200" Margin="20,5" ToolTip="Voorafbetaling 4 bedrag"/>
-    <TextBlock Text="1574" Margin="10,0,0,0"/>
-    <TextBlock Text="Totaal bedrag van de betalingen:" FontWeight="Bold"/>
-    <TextBox Width="200" Margin="20,5" ToolTip="Totaal bedrag van de betalingen"/>
-    <TextBlock Text="1570" Margin="10,0,0,0"/>
-    <TextBlock Text="Fiscale toelichting"/>
+    <StackPanel>
+        <TextBlock Text="Vak XII - VOORAFBETALINGEN VOOR HET AANSLAGJAAR 2024" FontWeight="Bold" Margin="0,10,0,5"/>
+        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+        <TextBlock Text="1. Overzicht van de betaling per periode:" FontWeight="Bold"/>
+        <TextBlock Text="Voorafbetaling 1:" FontWeight="Bold"/>
+        <TextBox Width="200" Margin="20,5" ToolTip="Voorafbetaling 1 bedrag"/>
+        <TextBlock Text="1571" Margin="10,0,0,0"/>
+        <TextBlock Text="Voorafbetaling 2:" FontWeight="Bold"/>
+        <TextBox Width="200" Margin="20,5" ToolTip="Voorafbetaling 2 bedrag"/>
+        <TextBlock Text="1572" Margin="10,0,0,0"/>
+        <TextBlock Text="Voorafbetaling 3:" FontWeight="Bold"/>
+        <TextBox Width="200" Margin="20,5" ToolTip="Voorafbetaling 3 bedrag"/>
+        <TextBlock Text="1573" Margin="10,0,0,0"/>
+        <TextBlock Text="Voorafbetaling 4:" FontWeight="Bold"/>
+        <TextBox Width="200" Margin="20,5" ToolTip="Voorafbetaling 4 bedrag"/>
+        <TextBlock Text="1574" Margin="10,0,0,0"/>
+        <TextBlock Text="Totaal bedrag van de betalingen:" FontWeight="Bold"/>
+        <TextBox Width="200" Margin="20,5" ToolTip="Totaal bedrag van de betalingen"/>
+        <TextBlock Text="1570" Margin="10,0,0,0"/>
+        <TextBlock Text="Fiscale toelichting"/>
+    </StackPanel>
              </UserControl>

@@ -14,43 +14,43 @@
                     <TabItem Header="VAK II">
                        <local:VakII></local:VakII>
                     </TabItem>
-                        <TabItem Header="Vak III">
+                        <TabItem Header="VAK III">
                             <local:VakIII></local:VakIII>
                        </TabItem>
 
-                        <TabItem Header="Vak IV">
+                        <TabItem Header="VAK IV">
                        <local:VakIV></local:VakIV>
                         </TabItem>
 	
-                        <TabItem Header="Vak V">
+                        <TabItem Header="VAK V">
                         <local:VakV></local:VakV>
                         </TabItem>
 
-                        <TabItem Header="Vak VI">
+                        <TabItem Header="VAK VI">
                         <local:VakVI></local:VakVI>
                        </TabItem>
 
-                        <TabItem Header="Vak VII">
+                        <TabItem Header="VAK VII">
                         <local:VakVII></local:VakVII>
                         </TabItem>
 
-                        <TabItem Header="Vak VIII">
+                        <TabItem Header="VAK VIII">
                         <local:VakVIII></local:VakVIII>
                         </TabItem>
 
-                        <TabItem Header="Vak IX">
+                        <TabItem Header="VAK IX">
                         <local:VakIX></local:VakIX>
                         </TabItem>
 
-                        <TabItem Header="Vak X">
+                        <TabItem Header="VAK X">
                         <local:VakX></local:VakX>
                         </TabItem>
                     
-                        <TabItem Header="Vak XI">
+                        <TabItem Header="VAK XI">
                         <local:VakXI></local:VakXI>
                        </TabItem>
 
-                        <TabItem Header="Vak XII">
+                        <TabItem Header="VAK XII">
                         <local:VakXII></local:VakXII>
                        </TabItem>
 
@@ -63,41 +63,42 @@
             </TabItem>
             <TabItem Header="DEEL 2">
               <TabControl>
-                        <TabItem Header="Vak XIV">
+                        <TabItem Header="VAK XIV">
                         <local:VakXIV></local:VakXIV>
                         </TabItem>
 
 
 
-                        <TabItem Header="Vak XV">
+                        <TabItem Header="VAK XV">
                             <local:VakXV></local:VakXV>
                         </TabItem>
 
                       
 	
-                        <TabItem Header="Vak XVI">
+                        <TabItem Header="VAK XVI">
                             <local:VakXVI></local:VakXVI>
                         </TabItem>
                   
                   
-                        <TabItem Header="Vak XVII">
+                        <TabItem Header="VAK XVII">
                         <local:VakXVII></local:VakXVII>
                         </TabItem>
                        
 
-                        <TabItem Header="Vak XVIII">
+                        <TabItem Header="VAK XVIII">
                         <local:VakXVIII></local:VakXVIII>
                        </TabItem>
                   
-                        <TabItem Header="Vak XIX">
+                        <TabItem Header="VAK XIX">
                             <local:VakXIX></local:VakXIX>
                             </TabItem>
                   
-                  
-                            
+                        <TabItem Header="VAK XX">
+                            <local:VakXX></local:VakXX>
+                        </TabItem>
 
-                        <TabItem Header="Vak XXI">
-                       <local:VakXXII></local:VakXXII>
+                        <TabItem Header="VAK XXI">
+                       <local:VakXXI></local:VakXXI>
                         </TabItem>
 
                         <TabItem Header="Vak XXII">

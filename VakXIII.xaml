@@ -6,6 +6,7 @@
              xmlns:local="clr-namespace:TAX_WPF"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
+    <StackPanel>
              <TextBlock Text="Vak XIII - REKENINGEN EN INDIVIDUELE LEVENSVERZEKERINGEN IN HET BUITENLAND, JURIDISCHE CONSTRUCTIES, LENINGEN AAN STARTENDE KLEINE VENNOOTSCHAPPEN EN ALS WERKELIJKE BEROEPSKOSTEN AFGETROKKEN VERGOEDINGEN VOOR DE HUUR VAN ONROERENDE GOEDEREN OF VOOR DE VESTIGING OF OVERDRACHT VAN EEN ZAKELIJK GEBRUIKSRECHT OP ONROERENDE GOEDEREN" FontWeight="Bold" Margin="0,10,0,5"/>
                         <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
                         <TextBlock Text="A. REKENINGEN IN HET BUITENLAND" FontWeight="Bold"/>
@@ -55,5 +56,6 @@
                         <TextBlock Text="beschikt u voor één of meer van die vergoedingen niet over een factuur of een ander bewijsstuk waaruit de werkelijke kosten blijken?" FontWeight="Bold"/>
                         <CheckBox Width="200" Margin="20,5" ToolTip="Ja of Nee"/>
                         <TextBlock Text="1072" Margin="10,0,0,0"/>
-             
              </UserControl>
+    </StackPanel>
+</UserControl>

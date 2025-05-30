@@ -6,40 +6,54 @@
              xmlns:local="clr-namespace:TAX_WPF"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-             <TextBlock Text="Vak VIII - AFTREKBARE VORIGE VERLIEZEN EN BESTEDINGEN" FontWeight="Bold" Margin="0,0,0,10"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="1. Nog aftrekbare beroepsverliezen van vorige belastbare tijdperken:" FontWeight="Bold"/>
-                      
-                            <TextBlock Text="a) betreffende een in de vorm van een feitelijke vereniging uitgeoefende werkzaamheid:"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Beroepsverliezen feitelijke vereniging bedrag"/>
-                            <TextBlock Text="1350" Margin="10,0,0,0"/>
-                            <TextBlock Text="b) andere:"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Andere beroepsverliezen bedrag"/>
-                            <TextBlock Text="1349" Margin="10,0,0,0"/>
-                        
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="2. Onderhoudsuitkeringen (werkelijk betaald bedrag):" FontWeight="Bold"/>
-                   
-                            <TextBlock Text="a) verschuldigd door u zelf:"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Onderhoudsuitkeringen door uzelf bedrag"/>
-                            <TextBlock Text="1390" Margin="10,0,0,0"/>
-                            <TextBlock Text="b) verschuldigd door beide echtgenoten of wettelijk samenwonenden samen:"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Onderhoudsuitkeringen door beiden bedrag"/>
-                            <TextBlock Text="1392" Margin="10,0,0,0"/>
-                            <TextBlock Text="c) genieter(s) van de onder a en b bedoelde onderhoudsuitkeringen (naam, voornaam en adres):" FontWeight="Bold"/>
-                       
-                                <TextBox Width="200" Margin="0,5" ToolTip="Naam genieter"/>
-                                <TextBox Width="200" Margin="0,5" ToolTip="Voornaam genieter"/>
-                                <TextBox Width="200" Margin="0,5" ToolTip="Adres genieter"/>
-                                <Button Content="Een lijn toevoegen" Margin="0,5"/>
-                            
-                            <TextBlock Text="Land:"/>
-                            <TextBox Width="200" Margin="20,5" ToolTip="Land genieter"/>
-                        
-                        <TextBlock Text="Fiscale toelichting"/> 
-                        <TextBlock Text="3. Bijzondere bijdragen voor de sociale zekerheid van de jaren 1982 tot 1988 die u in 2023 aan de Rijksdienst voor Arbeidsvoorziening hebt betaald:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Bijzondere bijdragen sociale zekerheid bedrag"/>
-                        <TextBlock Text="1388" Margin="10,0,0,0"/>
-                        <Button Content="Een lijn toevoegen" Margin="0,5"/>
-             
-             </UserControl>
+    <StackPanel>
+        <TextBlock Text="Vak VIII - AFTREKBARE VORIGE VERLIEZEN EN BESTEDINGEN" FontWeight="Bold" Margin="0,0,0,10"/>
+        <TextBlock Text="Fiscale toelichting" Margin="0,0,0,5"/>
+        <TextBlock Text="1. Nog aftrekbare beroepsverliezen van vorige belastbare tijdperken:" FontWeight="Bold"/>
+
+        <TextBlock Text="a) betreffende een in de vorm van een feitelijke vereniging uitgeoefende werkzaamheid:" Margin="0,5,0,0"/>
+        <StackPanel Orientation="Horizontal" Margin="20,5,0,5">
+            <TextBox Width="200" Margin="0,0,5,0" ToolTip="Beroepsverliezen feitelijke vereniging bedrag"/>
+            <TextBlock Text="1350" VerticalAlignment="Center"/>
+        </StackPanel>
+
+        <TextBlock Text="b) andere:" Margin="0,5,0,0"/>
+        <StackPanel Orientation="Horizontal" Margin="20,5,0,5">
+            <TextBox Width="200" Margin="0,0,5,0" ToolTip="Andere beroepsverliezen bedrag"/>
+            <TextBlock Text="1349" VerticalAlignment="Center"/>
+        </StackPanel>
+
+        <TextBlock Text="Fiscale toelichting" Margin="0,10,0,5"/>
+        <TextBlock Text="2. Onderhoudsuitkeringen (werkelijk betaald bedrag):" FontWeight="Bold"/>
+
+        <TextBlock Text="a) verschuldigd door u zelf:" Margin="0,5,0,0"/>
+        <StackPanel Orientation="Horizontal" Margin="20,5,0,5">
+            <TextBox Width="200" Margin="0,0,5,0" ToolTip="Onderhoudsuitkeringen door uzelf bedrag"/>
+            <TextBlock Text="1390" VerticalAlignment="Center"/>
+        </StackPanel>
+
+        <TextBlock Text="b) verschuldigd door beide echtgenoten of wettelijk samenwonenden samen:" Margin="0,5,0,0"/>
+        <StackPanel Orientation="Horizontal" Margin="20,5,0,5">
+            <TextBox Width="200" Margin="0,0,5,0" ToolTip="Onderhoudsuitkeringen door beiden bedrag"/>
+            <TextBlock Text="1392" VerticalAlignment="Center"/>
+        </StackPanel>
+
+        <TextBlock Text="c) genieter(s) van de onder a en b bedoelde onderhoudsuitkeringen (naam, voornaam, adres en land):" FontWeight="Bold" Margin="0,5,0,0"/>
+        <StackPanel Orientation="Horizontal" Margin="20,5,0,5">
+            <TextBox Width="180" Margin="0,0,5,0" ToolTip="Naam genieter"/>
+            <TextBox Width="180" Margin="0,0,5,0" ToolTip="Voornaam genieter"/>
+            <TextBox Width="200" Margin="0,0,5,0" ToolTip="Adres genieter"/>
+            <TextBox Width="100" Margin="0,0,5,0" ToolTip="Land genieter"/>
+            <Button Content="Een lijn toevoegen" Margin="5,0,0,0"/>
+        </StackPanel>
+
+        <TextBlock Text="Fiscale toelichting" Margin="0,10,0,5"/>
+        <TextBlock Text="3. Bijzondere bijdragen voor de sociale zekerheid van de jaren 1982 tot 1988 die u in 2023 aan de Rijksdienst voor Arbeidsvoorziening hebt betaald:" FontWeight="Bold" TextWrapping="Wrap"/>
+        <StackPanel Orientation="Horizontal" Margin="20,5,0,5">
+            <TextBox Width="200" Margin="0,0,5,0" ToolTip="Bijzondere bijdragen sociale zekerheid bedrag"/>
+            <TextBlock Text="1388" VerticalAlignment="Center"/>
+        </StackPanel>
+        <Button Content="Een lijn toevoegen" Margin="20,5,0,5"/>
+
+    </StackPanel>
+</UserControl>

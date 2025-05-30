@@ -6,107 +6,108 @@
              xmlns:local="clr-namespace:TAX_WPF"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-             <TextBlock Text="Vak VII - INKOMSTEN VAN KAPITALEN EN ROERENDE GOEDEREN" FontWeight="Bold" Margin="0,0,0,10"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="1. Niet verplicht aan te geven inkomsten en verrekenbare roerende voorheffing op vrijgestelde inkomsten" FontWeight="Bold"/>
-                   
-                            <TextBlock Text="a) Niet verplicht aan te geven inkomsten (die niet van de personenbelasting zijn vrijgesteld):" FontWeight="Bold"/>
-                       
-                                <TextBlock Text="1) met roerende voorheffing van 30 %:"/>
-                                <TextBox Width="60" Margin="0,5" ToolTip="Niet verplicht aan te geven inkomsten 30%"/>
-                                <TextBlock Text="1160" Margin="10,0,0,0"/>
-                                <TextBlock Text="2) met roerende voorheffing van 20 %:"/>
-                                <TextBox Width="60" Margin="0,5" ToolTip="Niet verplicht aan te geven inkomsten 20%"/>
-                                <TextBlock Text="1161" Margin="10,0,0,0"/>
-                                <TextBlock Text="3) met roerende voorheffing van 15 %:"/>
-                                <TextBox Width="60" Margin="0,5" ToolTip="Niet verplicht aan te geven inkomsten 15%"/>
-                                <TextBlock Text="1162" Margin="10,0,0,0"/>
-                                <TextBlock Text="4) met roerende voorheffing van 5 %:"/>
-                                <TextBox Width="60" Margin="0,5" ToolTip="Niet verplicht aan te geven inkomsten 5%"/>
-                                <TextBlock Text="1436" Margin="10,0,0,0"/>
-                            
-                            <TextBlock Text="b) Verrekenbare roerende voorheffing ingehouden op dividenden die (voor maximaal 800 euro) van de personenbelasting zijn vrijgesteld:" FontWeight="Bold"/>
-                            <TextBox Width="60" Margin="20,5" ToolTip="Verrekenbare roerende voorheffing bedrag"/>
-                            <TextBlock Text="1437" Margin="10,0,0,0"/>
-                        
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="2. Verplicht aan te geven inkomsten" FontWeight="Bold"/>
-                   
-                            <TextBlock Text="a) Inkomsten uit gereglementeerde spaardeposito’s bij kredietinstellingen in de Europese Economische Ruimte, waarop geen roerende voorheffing is ingehouden (inkomen na aftrek van de per belastingplichtige vrijgestelde schijf van 980 euro):" FontWeight="Bold"/>
-                            <TextBox Width="60" Margin="0,5" ToolTip="Gereglementeerde spaardeposito's bedrag"/>
-                            <TextBlock Text="1151" Margin="10,0,0,0"/>
-                            <TextBlock Text="b) Andere inkomsten zonder roerende voorheffing:" FontWeight="Bold"/>
-                       
-                                <TextBlock Text="1) die belastbaar zijn tegen 30 %:"/>
-                                <TextBox Width="60" Margin="0,5" ToolTip="Belastbaar tegen 30% bedrag"/>
-                                <TextBlock Text="1444" Margin="10,0,0,0"/>
-                                <TextBlock Text="2) die belastbaar zijn tegen 20 %:"/>
-                                <TextBox Width="60" Margin="0,5" ToolTip="Belastbaar tegen 20% bedrag"/>
-                                <TextBlock Text="1159" Margin="10,0,0,0"/>
-                                <TextBlock Text="3) die belastbaar zijn tegen 15 %:"/>
-                                <TextBox Width="60" Margin="0,5" ToolTip="Belastbaar tegen 15% bedrag"/>
-                                <TextBlock Text="1445" Margin="10,0,0,0"/>
-                                <TextBlock Text="4) die belastbaar zijn tegen 5 %:"/>
-                                <TextBox Width="60" Margin="0,5" ToolTip="Belastbaar tegen 5% bedrag"/>
-                                <TextBlock Text="1448" Margin="10,0,0,0"/>
-                            
-                        
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="B. NETTO-INKOMEN VAN VERHURING, VERPACHTING, GEBRUIK OF CONCESSIE VAN ROERENDE GOEDEREN:" FontWeight="Bold" Margin="0,20,0,10"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Netto-inkomen van verhuur bedrag"/>
-                        <TextBlock Text="1156" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="C. INKOMSTEN BEGREPEN IN LIJFRENTEN OF TIJDELIJKE RENTEN" FontWeight="Bold" Margin="0,20,0,10"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Inkomsten in lijfrenten bedrag"/>
-                        <TextBlock Text="1158" Margin="10,0,0,0"/>
-                        <TextBlock Text="D. INKOMSTEN UIT AUTEURSRECHTEN, NABURIGE RECHTEN EN WETTELIJKE EN VERPLICHTE LICENTIES" FontWeight="Bold" Margin="0,20,0,10"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="1. Inkomsten die in aanmerking komen voor de nieuwe regeling (bepaald in artikel 17, § 1, 5°, van het Wetboek van de inkomstenbelastingen 1992 (WIB 92))" FontWeight="Bold"/>
-                   
-                            <TextBlock Text="a) Inkomsten (bruto):" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Inkomsten bruto bedrag"/>
-                            <TextBlock Text="1123" Margin="10,0,0,0"/>
-                            <TextBlock Text="b) Kosten (werkelijke of forfaitaire):" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Kosten bedrag"/>
-                            <TextBlock Text="1124" Margin="10,0,0,0"/>
-                        
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="2. Inkomsten die in aanmerking komen voor de overgangsregeling (bepaald in artikel 551, § 2, WIB 92)" FontWeight="Bold"/>
-                   
-                            <TextBlock Text="a) Inkomsten (bruto):" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Inkomsten bruto bedrag"/>
-                            <TextBlock Text="1117" Margin="10,0,0,0"/>
-                            <TextBlock Text="b) Kosten (werkelijke of forfaitaire):" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Kosten bedrag"/>
-                            <TextBlock Text="1118" Margin="10,0,0,0"/>
-                        
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="3. Roerende voorheffing:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Roerende voorheffing bedrag"/>
-                        <TextBlock Text="1119" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="E. INNINGS- EN BEWARINGSKOSTEN BETREFFENDE AANGEGEVEN INKOMSTEN:" FontWeight="Bold" Margin="0,20,0,10"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Innings- en bewaringskosten bedrag"/>
-                        <TextBlock Text="1170" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="F. INKOMSTEN WAAROP EEN BIJZONDER AANSLAGSTELSEL VAN TOEPASSING IS" FontWeight="Bold" Margin="0,20,0,10"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="Als u hiervoor inkomsten hebt vermeld waarop een bijzonder aanslagstelsel van toepassing is, vermeld het land, de code waarnaast ze zijn vermeld, het bedrag en de aard van die inkomsten:" Margin="0,0,0,5"/>
-                        <StackPanel Orientation="Horizontal" Margin="20,5">
-                            <TextBlock Text="Land:"/>
-                            <TextBox Width="200" Margin="10,0,0,0" ToolTip="Land"/>
-                            <TextBlock Text="Code:"/>
-                            <TextBox Width="200" Margin="10,0,0,0" ToolTip="Code waarnaast ze zijn vermeld (bv. 1250)"/>
-                            <TextBlock Text="Bedrag:"/>
-                            <TextBox Width="200" Margin="10,0,0,0" ToolTip="Bedrag van de inkomsten"/>
-                            <TextBlock Text="Aard:"/>
-                            <TextBox Width="200" Margin="10,0,0,0" ToolTip="Aard van de inkomsten"/>
-                        
-                        <Button Content="Een lijn toevoegen" Margin="0,5"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="(1) Als u in vak II, rubriek A, 6 moet invullen (omdat u tijdens het inkomstenjaar minder dan 12 maanden aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermenigvuldigen met het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar de hogere of lagere euro naargelang de centiemen 50 bereiken of niet." Margin="0,0,0,5"/>
-                        <TextBlock Text="(2) Als u in vak II, rubriek A, 6 moet invullen (omdat u tijdens het inkomstenjaar minder dan 12 maanden aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermenigvuldigen met het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet." Margin="0,0,0,20"/>
-                        
-             
-             </UserControl>
+    <StackPanel>
+        <TextBlock Text="Vak VII - INKOMSTEN VAN KAPITALEN EN ROERENDE GOEDEREN" FontWeight="Bold" Margin="0,0,0,10"/>
+        <TextBlock Text="Fiscale toelichting"/>
+        <TextBlock Text="1. Niet verplicht aan te geven inkomsten en verrekenbare roerende voorheffing op vrijgestelde inkomsten" FontWeight="Bold"/>
+   
+            <TextBlock Text="a) Niet verplicht aan te geven inkomsten (die niet van de personenbelasting zijn vrijgesteld):" FontWeight="Bold"/>
+       
+                <TextBlock Text="1) met roerende voorheffing van 30 %:"/>
+                <TextBox Width="60" Margin="0,5" ToolTip="Niet verplicht aan te geven inkomsten 30%"/>
+                <TextBlock Text="1160" Margin="10,0,0,0"/>
+                <TextBlock Text="2) met roerende voorheffing van 20 %:"/>
+                <TextBox Width="60" Margin="0,5" ToolTip="Niet verplicht aan te geven inkomsten 20%"/>
+                <TextBlock Text="1161" Margin="10,0,0,0"/>
+                <TextBlock Text="3) met roerende voorheffing van 15 %:"/>
+                <TextBox Width="60" Margin="0,5" ToolTip="Niet verplicht aan te geven inkomsten 15%"/>
+                <TextBlock Text="1162" Margin="10,0,0,0"/>
+                <TextBlock Text="4) met roerende voorheffing van 5 %:"/>
+                <TextBox Width="60" Margin="0,5" ToolTip="Niet verplicht aan te geven inkomsten 5%"/>
+                <TextBlock Text="1436" Margin="10,0,0,0"/>
+            
+            <TextBlock Text="b) Verrekenbare roerende voorheffing ingehouden op dividenden die (voor maximaal 800 euro) van de personenbelasting zijn vrijgesteld:" FontWeight="Bold"/>
+            <TextBox Width="60" Margin="20,5" ToolTip="Verrekenbare roerende voorheffing bedrag"/>
+            <TextBlock Text="1437" Margin="10,0,0,0"/>
+        
+        <TextBlock Text="Fiscale toelichting"/>
+        <TextBlock Text="2. Verplicht aan te geven inkomsten" FontWeight="Bold"/>
+   
+            <TextBlock Text="a) Inkomsten uit gereglementeerde spaardeposito’s bij kredietinstellingen in de Europese Economische Ruimte, waarop geen roerende voorheffing is ingehouden (inkomen na aftrek van de per belastingplichtige vrijgestelde schijf van 980 euro):" FontWeight="Bold"/>
+            <TextBox Width="60" Margin="0,5" ToolTip="Gereglementeerde spaardeposito's bedrag"/>
+            <TextBlock Text="1151" Margin="10,0,0,0"/>
+            <TextBlock Text="b) Andere inkomsten zonder roerende voorheffing:" FontWeight="Bold"/>
+       
+                <TextBlock Text="1) die belastbaar zijn tegen 30 %:"/>
+                <TextBox Width="60" Margin="0,5" ToolTip="Belastbaar tegen 30% bedrag"/>
+                <TextBlock Text="1444" Margin="10,0,0,0"/>
+                <TextBlock Text="2) die belastbaar zijn tegen 20 %:"/>
+                <TextBox Width="60" Margin="0,5" ToolTip="Belastbaar tegen 20% bedrag"/>
+                <TextBlock Text="1159" Margin="10,0,0,0"/>
+                <TextBlock Text="3) die belastbaar zijn tegen 15 %:"/>
+                <TextBox Width="60" Margin="0,5" ToolTip="Belastbaar tegen 15% bedrag"/>
+                <TextBlock Text="1445" Margin="10,0,0,0"/>
+                <TextBlock Text="4) die belastbaar zijn tegen 5 %:"/>
+                <TextBox Width="60" Margin="0,5" ToolTip="Belastbaar tegen 5% bedrag"/>
+                <TextBlock Text="1448" Margin="10,0,0,0"/>
+            
+        
+        <TextBlock Text="Fiscale toelichting"/>
+        <TextBlock Text="B. NETTO-INKOMEN VAN VERHURING, VERPACHTING, GEBRUIK OF CONCESSIE VAN ROERENDE GOEDEREN:" FontWeight="Bold" Margin="0,20,0,10"/>
+        <TextBlock Text="Fiscale toelichting"/>
+        <TextBox Width="200" Margin="20,5" ToolTip="Netto-inkomen van verhuur bedrag"/>
+        <TextBlock Text="1156" Margin="10,0,0,0"/>
+        <TextBlock Text="Fiscale toelichting"/>
+        <TextBlock Text="C. INKOMSTEN BEGREPEN IN LIJFRENTEN OF TIJDELIJKE RENTEN" FontWeight="Bold" Margin="0,20,0,10"/>
+        <TextBox Width="200" Margin="20,5" ToolTip="Inkomsten in lijfrenten bedrag"/>
+        <TextBlock Text="1158" Margin="10,0,0,0"/>
+        <TextBlock Text="D. INKOMSTEN UIT AUTEURSRECHTEN, NABURIGE RECHTEN EN WETTELIJKE EN VERPLICHTE LICENTIES" FontWeight="Bold" Margin="0,20,0,10"/>
+        <TextBlock Text="Fiscale toelichting"/>
+        <TextBlock Text="1. Inkomsten die in aanmerking komen voor de nieuwe regeling (bepaald in artikel 17, § 1, 5°, van het Wetboek van de inkomstenbelastingen 1992 (WIB 92))" FontWeight="Bold"/>
+   
+            <TextBlock Text="a) Inkomsten (bruto):" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="0,5" ToolTip="Inkomsten bruto bedrag"/>
+            <TextBlock Text="1123" Margin="10,0,0,0"/>
+            <TextBlock Text="b) Kosten (werkelijke of forfaitaire):" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="0,5" ToolTip="Kosten bedrag"/>
+            <TextBlock Text="1124" Margin="10,0,0,0"/>
+        
+        <TextBlock Text="Fiscale toelichting"/>
+        <TextBlock Text="2. Inkomsten die in aanmerking komen voor de overgangsregeling (bepaald in artikel 551, § 2, WIB 92)" FontWeight="Bold"/>
+   
+            <TextBlock Text="a) Inkomsten (bruto):" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="0,5" ToolTip="Inkomsten bruto bedrag"/>
+            <TextBlock Text="1117" Margin="10,0,0,0"/>
+            <TextBlock Text="b) Kosten (werkelijke of forfaitaire):" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="0,5" ToolTip="Kosten bedrag"/>
+            <TextBlock Text="1118" Margin="10,0,0,0"/>
+        
+        <TextBlock Text="Fiscale toelichting"/>
+        <TextBlock Text="3. Roerende voorheffing:" FontWeight="Bold"/>
+        <TextBox Width="200" Margin="20,5" ToolTip="Roerende voorheffing bedrag"/>
+        <TextBlock Text="1119" Margin="10,0,0,0"/>
+        <TextBlock Text="Fiscale toelichting"/>
+        <TextBlock Text="E. INNINGS- EN BEWARINGSKOSTEN BETREFFENDE AANGEGEVEN INKOMSTEN:" FontWeight="Bold" Margin="0,20,0,10"/>
+        <TextBox Width="200" Margin="20,5" ToolTip="Innings- en bewaringskosten bedrag"/>
+        <TextBlock Text="1170" Margin="10,0,0,0"/>
+        <TextBlock Text="Fiscale toelichting"/>
+        <TextBlock Text="F. INKOMSTEN WAAROP EEN BIJZONDER AANSLAGSTELSEL VAN TOEPASSING IS" FontWeight="Bold" Margin="0,20,0,10"/>
+        <TextBlock Text="Fiscale toelichting"/>
+        <TextBlock Text="Als u hiervoor inkomsten hebt vermeld waarop een bijzonder aanslagstelsel van toepassing is, vermeld het land, de code waarnaast ze zijn vermeld, het bedrag en de aard van die inkomsten:" Margin="0,0,0,5"/>
+        <StackPanel Orientation="Horizontal" Margin="20,5">
+            <TextBlock Text="Land:"/>
+            <TextBox Width="200" Margin="10,0,0,0" ToolTip="Land"/>
+            <TextBlock Text="Code:"/>
+            <TextBox Width="200" Margin="10,0,0,0" ToolTip="Code waarnaast ze zijn vermeld (bv. 1250)"/>
+            <TextBlock Text="Bedrag:"/>
+            <TextBox Width="200" Margin="10,0,0,0" ToolTip="Bedrag van de inkomsten"/>
+            <TextBlock Text="Aard:"/>
+            <TextBox Width="200" Margin="10,0,0,0" ToolTip="Aard van de inkomsten"/>
+        
+            <Button Content="Een lijn toevoegen" Margin="0,5"/>
+        </StackPanel>
+        <TextBlock Text="Fiscale toelichting"/>
+        <TextBlock Text="(1) Als u in vak II, rubriek A, 6 moet invullen (omdat u tijdens het inkomstenjaar minder dan 12 maanden aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermenigvuldigen met het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar de hogere of lagere euro naargelang de centiemen 50 bereiken of niet." Margin="0,0,0,5" TextWrapping="Wrap"/>
+        <TextBlock Text="(2) Als u in vak II, rubriek A, 6 moet invullen (omdat u tijdens het inkomstenjaar minder dan 12 maanden aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermenigvuldigen met het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet." Margin="0,0,0,20" TextWrapping="Wrap"/>
+    </StackPanel>
+</UserControl>

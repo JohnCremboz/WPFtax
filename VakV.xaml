@@ -6,121 +6,147 @@
              xmlns:local="clr-namespace:TAX_WPF"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-           
-                            <TextBlock Text="Vak V - PENSIOENEN" FontWeight="Bold" Margin="0,0,0,10"/>
-                            <TextBlock Text="A. PENSIOENEN" FontWeight="Bold" Margin="0,0,0,5"/>
-                            <TextBlock Text="Fiscale toelichting: Vul de bedragen in zoals vermeld op uw fiches 281.10 of andere relevante documenten." Margin="0,0,0,5"/>
-                            <TextBlock Text="1. Andere dan de onder 2 en 3 bedoelde pensioenen" FontWeight="Bold"/>
-                       
-                                <TextBlock Text="a) Wettelijke pensioenen verkregen vanaf de wettelijke pensioenleeftijd:" FontWeight="Bold"/>
-                           
-                                    <TextBlock Text="1) gewone:"/>
-                                    <TextBox Width="200" Margin="0,5" ToolTip="Gewone pensioenen bedrag"/>
-                                    <TextBlock Text="2) pensioenen van december 2023 (overheid):"/>
-                                    <TextBox Width="200" Margin="0,5" ToolTip="Pensioenen december 2023 bedrag"/>
-                                    <TextBlock Text="3) achterstallen:"/>
-                                    <TextBox Width="200" Margin="0,5" ToolTip="Achterstallen bedrag"/>
-                                
-                                <TextBlock Text="b) Overlevingspensioenen en overgangsuitkeringen:" FontWeight="Bold"/>
-                           
-                                    <TextBlock Text="1) gewone:"/>
-                                    <TextBox Width="200" Margin="0,5" ToolTip="Gewone overlevingspensioenen bedrag"/>
-                                    <TextBlock Text="2) pensioenen van december 2023 (overheid):"/>
-                                    <TextBox Width="200" Margin="0,5" ToolTip="Overlevingspensioenen december 2023 bedrag"/>
-                                    <TextBlock Text="3) achterstallen:"/>
-                                    <TextBox Width="200" Margin="0,5" ToolTip="Achterstallen bedrag"/>
-                                
-                                <TextBlock Text="c) Andere pensioenen, renten (behalve omzettingsrenten) en als zodanig geldende kapitalen, afkoopwaarden, enz., die gezamenlijk belastbaar zijn:" FontWeight="Bold"/>
-                           
-                                    <TextBlock Text="1) gewone:"/>
-                                    <TextBox Width="200" Margin="0,5" ToolTip="Gewone pensioenen bedrag"/>
-                                    <TextBlock Text="2) pensioenen van december 2023 (overheid):"/>
-                                    <TextBox Width="200" Margin="0,5" ToolTip="Pensioenen december 2023 bedrag"/>
-                                    <TextBlock Text="3) achterstallen:"/>
-                                    <TextBox Width="200" Margin="0,5" ToolTip="Achterstallen bedrag"/>
-                                
-                                <TextBlock Text="d) Kapitalen en afkoopwaarden die afzonderlijk belastbaar zijn:" FontWeight="Bold"/>
-                           
-                                    <TextBlock Text="1) tegen 33 %:"/>
-                                    <TextBox Width="200" Margin="0,5" ToolTip="Kapitalen 33% bedrag"/>
-                                    <TextBlock Text="2) tegen 20 %:"/>
-                                    <TextBox Width="200" Margin="0,5" ToolTip="Kapitalen 20% bedrag"/>
-                                    <TextBlock Text="3) tegen 18 %:"/>
-                                    <TextBox Width="200" Margin="0,5" ToolTip="Kapitalen 18% bedrag"/>
-                                    <TextBlock Text="4) tegen 16,5 %:"/>
-                               
-                                        <TextBlock Text="a. gekapitaliseerde waarde van wettelijke pensioenen verkregen vanaf de wettelijke pensioenleeftijd:"/>
-                                        <TextBox Width="200" Margin="0,5" ToolTip="Wettelijke pensioenen 16,5% bedrag"/>
-                                        <TextBlock Text="b. gekapitaliseerde waarde van overlevingspensioenen:"/>
-                                        <TextBox Width="200" Margin="0,5" ToolTip="Overlevingspensioenen 16,5% bedrag"/>
-                                        <TextBlock Text="c. andere:"/>
-                                        <TextBox Width="200" Margin="0,5" ToolTip="Andere kapitalen 16,5% bedrag"/>
-                                    
-                                    <TextBlock Text="5) tegen 10 %:"/>
-                                    <TextBox Width="200" Margin="0,5" ToolTip="Kapitalen 10% bedrag"/>
-                                    <TextBlock Text="e) Omzettingsrenten van kapitalen en afkoopwaarden die zijn betaald of toegekend:" FontWeight="Bold"/>
-                               
-                                        <TextBlock Text="1) in 2023:"/>
-                                        <TextBox Width="200" Margin="0,5" ToolTip="Omzettingsrenten 2023 bedrag"/>
-                                        <TextBlock Text="2) tijdens de jaren 2011 tot 2022:"/>
-                                        <TextBox Width="200" Margin="0,5" ToolTip="Omzettingsrenten bedrag"/>
-                                    
-                                    <TextBlock Text="Fiscale toelichting"/>
-                                    <TextBlock Text="2. Arbeidsongevallen en beroepsziekten (wettelijke vergoedingen wegens blijvende ongeschiktheid)" FontWeight="Bold"/>
-                               
-                                        <TextBlock Text="1) uitkeringen, toelagen en renten (behalve omzettingsrenten):"/>
-                                        <TextBox Width="200" Margin="0,5" ToolTip="Uitkeringen bedrag"/>
-                                        <TextBlock Text="2) achterstallen van onder a bedoelde uitkeringen, enz.:"/>
-                                        <TextBox Width="200" Margin="0,5" ToolTip="Achterstallen bedrag"/>
-                                        <TextBlock Text="3) Omzettingsrenten van kapitalen die zijn betaald of toegekend:" FontWeight="Bold"/>
-                                   
-                                            <TextBlock Text="1) in 2023:"/>
-                                            <TextBox Width="200" Margin="0,5" ToolTip="Omzettingsrenten 2023 bedrag"/>
-                                            <TextBlock Text="2) tijdens de jaren 2011 tot 2022:"/>
-                                            <TextBox Width="200" Margin="0,5" ToolTip="Omzettingsrenten bedrag"/>
-                                            
+    <ScrollViewer>
+        <StackPanel Margin="10">
+            <TextBlock Text="Vak V - PENSIOENEN" FontWeight="Bold" Margin="0,0,0,10"/>
+            <TextBlock Text="A. PENSIOENEN" FontWeight="Bold" Margin="0,0,0,5"/>
+            <TextBlock Text="Fiscale toelichting: Vul de bedragen in zoals vermeld op uw fiches 281.10 of andere relevante documenten." Margin="0,0,0,10" TextWrapping="Wrap"/>
+            
+            <TextBlock Text="1. Andere dan de onder 2 en 3 bedoelde pensioenen" FontWeight="Bold"/>
+            <StackPanel Margin="20,0,0,10"> <!-- Indent subsection 1 -->
+                <TextBlock Text="a) Wettelijke pensioenen verkregen vanaf de wettelijke pensioenleeftijd:" FontWeight="Bold" Margin="0,5,0,2"/>
+                <StackPanel Margin="20,0,0,5"> <!-- Indent content of a) -->
+                    <TextBlock Text="1) gewone:"/>
+                    <TextBox Width="200" Margin="0,2,0,5" ToolTip="Gewone pensioenen bedrag"/>
+                    <TextBlock Text="2) pensioenen van december 2023 (overheid):"/>
+                    <TextBox Width="200" Margin="0,2,0,5" ToolTip="Pensioenen december 2023 bedrag"/>
+                    <TextBlock Text="3) achterstallen:"/>
+                    <TextBox Width="200" Margin="0,2,0,5" ToolTip="Achterstallen bedrag"/>
+                </StackPanel>
 
-                                            <TextBlock Text="Fiscale toelichting"/>
-                                        <TextBlock Text="3. Pensioensparen" FontWeight="Bold"/>
-                                   
-                                            <TextBlock Text="a) Pensioenen, renten, spaartegoeden, kapitalen en afkoopwaarden die gezamenlijk belastbaar zijn:" FontWeight="Bold"/>
-                                            <TextBox Width="200" Margin="0,5" ToolTip="Pensioensparen bedrag"/>
-                                            <TextBlock Text="b) Spaartegoeden, kapitalen en afkoopwaarden die afzonderlijk belastbaar zijn:" FontWeight="Bold"/>
-                                       
-                                                <TextBlock Text="1) tegen 33 %:"/>
-                                                <TextBox Width="200" Margin="0,5" ToolTip="Spaartegoeden 33% bedrag"/>
-                                                <TextBlock Text="2) tegen 16,5 %:"/>
-                                                <TextBox Width="200" Margin="0,5" ToolTip="Spaartegoeden 16,5% bedrag"/>
-                                                <TextBlock Text="3) tegen 8 %:"/>
-                                                <TextBox Width="200" Margin="0,5" ToolTip="Spaartegoeden 8% bedrag"/>
-                                            
-                                            <TextBlock Text="Fiscale toelichting"/>
-                                        <TextBlock Text="4. Niet ingehouden persoonlijke sociale bijdragen" FontWeight="Bold"/>
-                                        <TextBox Width="200" Margin="0,5" ToolTip="Niet ingehouden persoonlijke sociale bijdragen bedrag"/>
-                                        
-                                    
-                                    <TextBlock Text="B. BEDRIJFSVOORHEFFING" FontWeight="Bold" Margin="0,20,0,10"/>
-                                    <TextBlock Text="Fiscale toelichting"/>
-                                        <TextBlock Text="1. Volgens fiches:" FontWeight="Bold"/>
-                                   
-                                            <TextBox Width="200" Margin="0,5" ToolTip="Bedrijfsvoorheffing bedrag"/>
-                                            <TextBlock Text="225" Margin="10,0,0,0"/>
-                                            <TextBox Width="60" Margin="10,0,0,0"/>
-                                            <TextBlock Text="225" Margin="10,0,0,0"/>
-                                            <TextBox Width="60" Margin="10,0,0,0"/>
-                                            <Button Content="Een lijn toevoegen" Margin="0,5"/>
-                                        
-                                        <TextBlock Text="2. Totaal van de rubrieken 1 en 2:" FontWeight="Bold"/>
-                                        <TextBox Width="200" Margin="20,5"/>
-                                        <TextBlock Text="Fiscale toelichting"/>
-                                        <TextBlock Text="C. PENSIOENEN VAN BUITENLANDSE OORSPRONG (EN DE BIJHORENDE KOSTEN)" FontWeight="Bold" Margin="0,20,0,10"/>
-                                        <TextBlock Text="Vermeld het land, de code waarnaast ze zijn ingevuld (bv. 1211) en het bedrag van de hierboven vermelde pensioenen van buitenlandse oorsprong (en de bijhorende kosten) waarvoor u aanspraak maakt op belastingvermindering voor inkomsten van buitenlandse oorsprong (pensioenen die zijn vrijgesteld met progressievoorbehoud of waarvoor de belasting tot de helft wordt verminderd) of op de afzonderlijke belasting tegen de aanslagvoet van 0 %." Margin="0,0,0,5"/>
-                                        <StackPanel Orientation="Horizontal" Margin="20,5">
-                                            <TextBlock Text="Land:"/>
-                                            <TextBox Width="200" Margin="10,0,0,0" ToolTip="Land"/>
-                                            <TextBlock Text="Code:"/>
-                                            <TextBox Width="200" Margin="10,0,0,0" ToolTip="Code waarnaast ze zijn ingevuld (bv. 1211)"/>
-                                            <TextBlock Text="Bedrag:"/>
-                                            <TextBox Width="200" Margin="10,0,0,0" ToolTip="Bedrag van de pensioenen"/>
-                                            <Button Content="Een lijn toevoegen" Margin="0,5"/> 
-                                            </UserControl>
+                <TextBlock Text="b) Overlevingspensioenen en overgangsuitkeringen:" FontWeight="Bold" Margin="0,5,0,2"/>
+                <StackPanel Margin="20,0,0,5"> <!-- Indent content of b) -->
+                    <TextBlock Text="1) gewone:"/>
+                    <TextBox Width="200" Margin="0,2,0,5" ToolTip="Gewone overlevingspensioenen bedrag"/>
+                    <TextBlock Text="2) pensioenen van december 2023 (overheid):"/>
+                    <TextBox Width="200" Margin="0,2,0,5" ToolTip="Overlevingspensioenen december 2023 bedrag"/>
+                    <TextBlock Text="3) achterstallen:"/>
+                    <TextBox Width="200" Margin="0,2,0,5" ToolTip="Achterstallen bedrag"/>
+                </StackPanel>
+
+                <TextBlock Text="c) Andere pensioenen, renten (behalve omzettingsrenten) en als zodanig geldende kapitalen, afkoopwaarden, enz., die gezamenlijk belastbaar zijn:" FontWeight="Bold" Margin="0,5,0,2" TextWrapping="Wrap"/>
+                <StackPanel Margin="20,0,0,5"> <!-- Indent content of c) -->
+                    <TextBlock Text="1) gewone:"/>
+                    <TextBox Width="200" Margin="0,2,0,5" ToolTip="Gewone pensioenen bedrag"/>
+                    <TextBlock Text="2) pensioenen van december 2023 (overheid):"/>
+                    <TextBox Width="200" Margin="0,2,0,5" ToolTip="Pensioenen december 2023 bedrag"/>
+                    <TextBlock Text="3) achterstallen:"/>
+                    <TextBox Width="200" Margin="0,2,0,5" ToolTip="Achterstallen bedrag"/>
+                </StackPanel>
+
+                <TextBlock Text="d) Kapitalen en afkoopwaarden die afzonderlijk belastbaar zijn:" FontWeight="Bold" Margin="0,5,0,2"/>
+                <StackPanel Margin="20,0,0,5"> <!-- Indent content of d) -->
+                    <TextBlock Text="1) tegen 33 %:"/>
+                    <TextBox Width="200" Margin="0,2,0,5" ToolTip="Kapitalen 33% bedrag"/>
+                    <TextBlock Text="2) tegen 20 %:"/>
+                    <TextBox Width="200" Margin="0,2,0,5" ToolTip="Kapitalen 20% bedrag"/>
+                    <TextBlock Text="3) tegen 18 %:"/>
+                    <TextBox Width="200" Margin="0,2,0,5" ToolTip="Kapitalen 18% bedrag"/>
+                    <TextBlock Text="4) tegen 16,5 %:"/>
+                    <StackPanel Margin="20,0,0,5"> <!-- Indent content of 4) -->
+                        <TextBlock Text="a. gekapitaliseerde waarde van wettelijke pensioenen verkregen vanaf de wettelijke pensioenleeftijd:" TextWrapping="Wrap"/>
+                        <TextBox Width="200" Margin="0,2,0,5" ToolTip="Wettelijke pensioenen 16,5% bedrag"/>
+                        <TextBlock Text="b. gekapitaliseerde waarde van overlevingspensioenen:" TextWrapping="Wrap"/>
+                        <TextBox Width="200" Margin="0,2,0,5" ToolTip="Overlevingspensioenen 16,5% bedrag"/>
+                        <TextBlock Text="c. andere:"/>
+                        <TextBox Width="200" Margin="0,2,0,5" ToolTip="Andere kapitalen 16,5% bedrag"/>
+                    </StackPanel>
+                    <TextBlock Text="5) tegen 10 %:"/>
+                    <TextBox Width="200" Margin="0,2,0,5" ToolTip="Kapitalen 10% bedrag"/>
+                </StackPanel>
+
+                <TextBlock Text="e) Omzettingsrenten van kapitalen en afkoopwaarden die zijn betaald of toegekend:" FontWeight="Bold" Margin="0,5,0,2" TextWrapping="Wrap"/>
+                <StackPanel Margin="20,0,0,5"> <!-- Indent content of e) -->
+                    <TextBlock Text="1) in 2023:"/>
+                    <TextBox Width="200" Margin="0,2,0,5" ToolTip="Omzettingsrenten 2023 bedrag"/>
+                    <TextBlock Text="2) tijdens de jaren 2011 tot 2022:"/>
+                    <TextBox Width="200" Margin="0,2,0,5" ToolTip="Omzettingsrenten bedrag"/>
+                </StackPanel>
+            </StackPanel>
+
+            <TextBlock Text="Fiscale toelichting" Margin="0,10,0,5" TextWrapping="Wrap"/>
+
+            <TextBlock Text="2. Arbeidsongevallen en beroepsziekten (wettelijke vergoedingen wegens blijvende ongeschiktheid)" FontWeight="Bold" Margin="0,10,0,2" TextWrapping="Wrap"/>
+            <StackPanel Margin="20,0,0,10"> <!-- Indent subsection 2 -->
+                <TextBlock Text="1) uitkeringen, toelagen en renten (behalve omzettingsrenten):" TextWrapping="Wrap"/>
+                <TextBox Width="200" Margin="0,2,0,5" ToolTip="Uitkeringen bedrag"/>
+                <TextBlock Text="2) achterstallen van onder a bedoelde uitkeringen, enz.:" TextWrapping="Wrap"/>
+                <TextBox Width="200" Margin="0,2,0,5" ToolTip="Achterstallen bedrag"/>
+                <TextBlock Text="3) Omzettingsrenten van kapitalen die zijn betaald of toegekend:" FontWeight="Bold" Margin="0,5,0,2" TextWrapping="Wrap"/>
+                <StackPanel Margin="20,0,0,5"> <!-- Indent content of 3) -->
+                    <TextBlock Text="1) in 2023:"/>
+                    <TextBox Width="200" Margin="0,2,0,5" ToolTip="Omzettingsrenten 2023 bedrag"/>
+                    <TextBlock Text="2) tijdens de jaren 2011 tot 2022:"/>
+                    <TextBox Width="200" Margin="0,2,0,5" ToolTip="Omzettingsrenten bedrag"/>
+                </StackPanel>
+            </StackPanel>
+
+            <TextBlock Text="Fiscale toelichting" Margin="0,10,0,5" TextWrapping="Wrap"/>
+
+            <TextBlock Text="3. Pensioensparen" FontWeight="Bold" Margin="0,10,0,2"/>
+            <StackPanel Margin="20,0,0,10"> <!-- Indent subsection 3 -->
+                <TextBlock Text="a) Pensioenen, renten, spaartegoeden, kapitalen en afkoopwaarden die gezamenlijk belastbaar zijn:" FontWeight="Bold" Margin="0,5,0,2" TextWrapping="Wrap"/>
+                <TextBox Width="200" Margin="0,2,0,5" ToolTip="Pensioensparen bedrag"/>
+                <TextBlock Text="b) Spaartegoeden, kapitalen en afkoopwaarden die afzonderlijk belastbaar zijn:" FontWeight="Bold" Margin="0,5,0,2" TextWrapping="Wrap"/>
+                <StackPanel Margin="20,0,0,5"> <!-- Indent content of b) -->
+                    <TextBlock Text="1) tegen 33 %:"/>
+                    <TextBox Width="200" Margin="0,2,0,5" ToolTip="Spaartegoeden 33% bedrag"/>
+                    <TextBlock Text="2) tegen 16,5 %:"/>
+                    <TextBox Width="200" Margin="0,2,0,5" ToolTip="Spaartegoeden 16,5% bedrag"/>
+                    <TextBlock Text="3) tegen 8 %:"/>
+                    <TextBox Width="200" Margin="0,2,0,5" ToolTip="Spaartegoeden 8% bedrag"/>
+                </StackPanel>
+            </StackPanel>
+
+            <TextBlock Text="Fiscale toelichting" Margin="0,10,0,5" TextWrapping="Wrap"/>
+
+            <TextBlock Text="4. Niet ingehouden persoonlijke sociale bijdragen" FontWeight="Bold" Margin="0,10,0,2" TextWrapping="Wrap"/>
+            <StackPanel Margin="20,0,0,10"> <!-- Indent subsection 4 -->
+                <TextBox Width="200" Margin="0,2,0,5" ToolTip="Niet ingehouden persoonlijke sociale bijdragen bedrag"/>
+            </StackPanel>
+
+            <TextBlock Text="B. BEDRIJFSVOORHEFFING" FontWeight="Bold" Margin="0,20,0,10"/>
+            <StackPanel Margin="20,0,0,10"> <!-- Indent section B -->
+                <TextBlock Text="Fiscale toelichting" Margin="0,0,0,5" TextWrapping="Wrap"/>
+                <TextBlock Text="1. Volgens fiches:" FontWeight="Bold" Margin="0,0,0,5"/>
+                <StackPanel Margin="20,0,0,5"> <!-- Indent subsection 1 -->
+                    <TextBlock Text="Bedrag (totaal of algemeen):" Margin="0,0,0,2"/>
+                    <TextBox Width="200" Margin="0,0,0,10" ToolTip="Bedrijfsvoorheffing bedrag"/>
+                    
+                    <TextBlock Text="Code 225:" Margin="0,5,0,0"/>
+                    <TextBox Width="60" Margin="5,0,0,5" ToolTip="Bedrag voor code 225"/>
+                    <TextBlock Text="Code 225 (andere):" Margin="0,5,0,0"/>
+                    <TextBox Width="60" Margin="5,0,0,5" ToolTip="Bedrag voor andere code 225"/>
+                    
+                    <Button Content="Een lijn toevoegen" Margin="0,5,0,0" HorizontalAlignment="Left"/>
+                </StackPanel>
+
+                <TextBlock Text="2. Totaal van de rubrieken 1 en 2:" FontWeight="Bold" Margin="0,10,0,2"/>
+                <TextBox Width="200" Margin="0,2,0,5" ToolTip="Totaal bedrijfsvoorheffing"/>
+                <TextBlock Text="Fiscale toelichting" Margin="0,5,0,5" TextWrapping="Wrap"/>
+            </StackPanel>
+
+            <TextBlock Text="C. PENSIOENEN VAN BUITENLANDSE OORSPRONG (EN DE BIJHORENDE KOSTEN)" FontWeight="Bold" Margin="0,20,0,10" TextWrapping="Wrap"/>
+            <TextBlock Text="Vermeld het land, de code waarnaast ze zijn ingevuld (bv. 1211) en het bedrag van de hierboven vermelde pensioenen van buitenlandse oorsprong (en de bijhorende kosten) waarvoor u aanspraak maakt op belastingvermindering voor inkomsten van buitenlandse oorsprong (pensioenen die zijn vrijgesteld met progressievoorbehoud of waarvoor de belasting tot de helft wordt verminderd) of op de afzonderlijke belasting tegen de aanslagvoet van 0 %." Margin="0,0,0,10" TextWrapping="Wrap"/>
+            <StackPanel Orientation="Horizontal" Margin="0,5,0,10">
+                <TextBlock Text="Land:" VerticalAlignment="Center"/>
+                <TextBox Width="150" Margin="5,0,10,0" ToolTip="Land" VerticalAlignment="Center"/>
+                <TextBlock Text="Code:" VerticalAlignment="Center"/>
+                <TextBox Width="100" Margin="5,0,10,0" ToolTip="Code waarnaast ze zijn ingevuld (bv. 1211)" VerticalAlignment="Center"/>
+                <TextBlock Text="Bedrag:" VerticalAlignment="Center"/>
+                <TextBox Width="150" Margin="5,0,10,0" ToolTip="Bedrag van de pensioenen" VerticalAlignment="Center"/>
+                <Button Content="Een lijn toevoegen" Margin="5,0,0,0" VerticalAlignment="Center"/>
+            </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

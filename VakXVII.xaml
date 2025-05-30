@@ -6,142 +6,153 @@
              xmlns:local="clr-namespace:TAX_WPF"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-             <TextBlock Text="Vak XVII - BATEN VAN VRIJE BEROEP" FontWeight="Bold" Margin="0,10,0,5"/>
-                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
-                        <TextBlock Text="1. Brutowinst van de eigenlijke exploitatie:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Brutowinst eigenlijke exploitatie bedrag"/>
-                        <TextBlock Text="1600" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
-                        <TextBlock Text="2. Voorheen vrijgestelde winst die belastbaar wordt (behalve meerwaarden):" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Voorheen vrijgestelde winst belastbaar bedrag"/>
-                        <TextBlock Text="1601" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
-                        <TextBlock Text="3. Financiële opbrengsten:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Financiële opbrengsten bedrag"/>
-                        <TextBlock Text="1602" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
-                        <TextBlock Text="4. Meerwaarden (na aftrek van werkelijke kosten van overdracht als u kiest voor de aftrek van uw werkelijke beroepskosten):" FontWeight="Bold"/>
-                        <TextBlock Text="a) die afzonderlijk belastbaar zijn (tegen 16,5 %):" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Meerwaarden afzonderlijk belastbaar 16,5% bedrag"/>
-                        <TextBlock Text="1603" Margin="10,0,0,0"/>
-                        <TextBlock Text="b) die gezamenlijk belastbaar zijn:" FontWeight="Bold"/>
-                        <TextBlock Text="1) financiële uitkeringen in het kader van het COVID-19-overbruggingsrecht (die niet als vervangingsinkomsten belastbaar zijn):" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Meerwaarden gezamenlijk belastbaar COVID-19 overbruggingsrecht bedrag"/>
-                        <TextBlock Text="1636" Margin="10,0,0,0"/>
-                        <TextBlock Text="2) andere:" FontWeight="Bold"/>
-                        <TextBlock Text="1605" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>   
-                        <TextBlock Text="5. Winst die overeenstemt met de voorheen afgetrokken werkelijke kosten van overdracht van activa waarop u in het belastbare tijdperk een (al dan niet belastbare) meerwaarde hebt verwezenlijkt (niet in te vullen als u de toepassing van het wettelijk forfait wenst):" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Winst voorheen afgetrokken werkelijke kosten overdracht bedrag"/>
-                        <TextBlock Text="1615" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
-                        <TextBlock Text="6. Vergoedingen:" FontWeight="Bold"/>
-                        <TextBlock Text="a) die afzonderlijk belastbaar zijn tegen 12,5 %:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Vergoedingen afzonderlijk belastbaar bedrag"/>
-                        <TextBlock Text="1607" Margin="10,0,0,0"/>
-                        <TextBlock Text="b) die afzonderlijk belastbaar zijn tegen 16,5 %:" FontWeight="Bold"/>
-                        <TextBlock Text="1) financiële uitkeringen in het kader van het COVID-19-overbruggingsrecht (die niet als vervangingsinkomsten belastbaar zijn):" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Vergoedingen afzonderlijk belastbaar COVID-19 overbruggingsrecht bedrag"/>
-                        <TextBlock Text="1637" Margin="10,0,0,0"/>
-                        <TextBlock Text="2) andere:" FontWeight="Bold"/>
-                        <TextBlock Text="1605" Margin="10,0,0,0"/>
-                        <TextBlock Text="c) die afzonderlijk belastbaar zijn tegen 33 %:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Vergoedingen afzonderlijk belastbaar 33% bedrag"/>
-                        <TextBlock Text="1618" Margin="10,0,0,0"/>
-                        <TextBlock Text="d) die gezamenlijk belastbaar zijn:" FontWeight="Bold"/>
-                        <TextBlock Text="1) financiële uitkeringen in het kader van het COVID-19-overbruggingsrecht (die niet als vervangingsinkomsten belastbaar zijn):" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Vergoedingen gezamenlijk belastbaar COVID-19 overbruggingsrecht bedrag"/>
-                        <TextBlock Text="1637" Margin="10,0,0,0"/>
-                        <TextBlock Text="2) andere:" FontWeight="Bold"/>
-                        <TextBlock Text="1610" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
-                        <TextBlock Text="7. Sociale bijdragen :" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Sociale bijdragen bedrag"/>
-                        <TextBlock Text="1632" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
-                        <TextBlock Text="8. Andere beroepskosten (niet invullen als u de toepassing van het wettelijk forfait wenst):" FontWeight="Bold"/>
-                        <TextBlock Text="a) kosten van overdracht van activa waarop u in het belastbare tijdperk een (al dan niet belastbare) meerwaarde hebt verwezenlijkt:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Kosten overdracht activa meerwaarde bedrag"/>
-                        <TextBlock Text="1619" Margin="10,0,0,0"/>
-                        <TextBlock Text="b) bezoldigingen toegekend aan uw meewerkende echtgenoot of wettelijk samenwonende partner:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Bezoldigingen meewerkende echtgenoot partner bedrag"/>
-                        <TextBlock Text="1611" Margin="10,0,0,0"/>
-                        <TextBlock Text="c) andere dan die vermeld onder a en b:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Andere beroepskosten bedrag"/>
-                        <TextBlock Text="1606" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
-                        <TextBlock Text="9. Vrijgestelde waardeverminderingen en voorzieningen:" FontWeight="Bold"/>    
-                        <TextBox Width="200" Margin="20,5" ToolTip="Vrijgestelde waardeverminderingen voorzieningen bedrag"/>
-                        <TextBlock Text="1609" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
-                        <TextBlock Text="10. Vrijstelling van opbrengsten geboekt als gevolg van de vaststelling van een minnelijk akkoord of de homologatie van een reorganisatieplan:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Vrijstelling opbrengsten minnelijk akkoord reorganisatieplan bedrag"/>
-                        <TextBlock Text="1608" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
-                        <TextBlock Text="11. Vrijstelling voor bijkomend personeel voor de uitvoer en de integrale kwaliteitszorg:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Vrijstelling bijkomend personeel uitvoer kwaliteitszorg bedrag"/>
-                        <TextBlock Text="1612" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
-                        <TextBlock Text="12. Vrijstelling voor ander bijkomend personeel:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Vrijstelling ander bijkomend personeel bedrag"/>
-                        <TextBlock Text="1613" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
-                        <TextBlock Text="13. Vrijstelling voor tewerkstelling van stagiairs:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Vrijstelling stagiairs bedrag"/>
-                        <TextBlock Text="1622" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
-                        <TextBlock Text="14. Vrijstelling voor sociaal passief ingevolge het eenheidsstatuut:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Vrijstelling sociaal passief eenheidsstatuut bedrag"/>
-                        <TextBlock Text="1633" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
-                        <TextBlock Text="15. Investeringsaftrek:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Investeringsaftrek bedrag"/>
-                        <TextBlock Text="1614" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
-                        <TextBlock Text="16. Toekenning aan uw meewerkende echtgenoot of wettelijk samenwonende partner (bedrag alleen inschrijven in de kolom van de echtgenoot of partner die de toekenning doet):" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Toekenning meewerkende echtgenoot partner bedrag"/>
-                        <TextBlock Text="1616" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
-                        <TextBlock Text="17. Totaal van de in de rubrieken 1, 2, 3, 4, b, 5 en 6, d vermelde inkomsten verkregen als zelfstandige in bijberoep of als student-zelfstandige:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Totaal inkomsten zelfstandige bijberoep student bedrag"/>
-                        <TextBlock Text="1617" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
-                        <TextBlock Text="18. Als u in vak IV, D, 1, a, 1, a, 1; D, 1, a, 1, c, 1 of D, 1, a, 2 aanvullende vergoedingen of in vak IV, E, 2, a, 1 of E, 2, b, 1 een bedrijfstoeslag hebt ingevuld, en u na uw ontslag bij uw gewezen werkgever het werk hebt hervat als zelfstandige, vermeld dan hier het totaal van de in de rubrieken 1, 2, 3, 4, b, 5 en 6, d hierboven vermelde inkomsten uit die nieuwe zelfstandige activiteit:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Totaal inkomsten nieuwe zelfstandige activiteit bedrag"/>
-                        <TextBlock Text="1621" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
-                        <TextBlock Text="19. Vermeld het land, de code waarnaast ze zijn ingevuld (bv. 1600) en het bedrag van de in de rubrieken 1 tot 16 vermelde inkomsten van buitenlandse oorsprong (en de bijhorende kosten) waarvoor u aanspraak maakt op belastingvermindering voor inkomsten van buitenlandse oorsprong (inkomsten die zijn vrijgesteld met progressievoorbehoud of waarvoor de belasting tot de helft wordt verminderd) of op de afzonderlijke belasting tegen de aanslagvoet van 0 %:" FontWeight="Bold"/>
-                        <TextBlock Text="Land:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Land buitenlandse inkomsten"/>
-                        <TextBlock Text="Code:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Code buitenlandse inkomsten"/>
-                        <TextBlock Text="Bedrag:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Bedrag buitenlandse inkomsten"/>
-                        <TextBlock Text="20. Als in de rubrieken 1 tot 16 inkomsten of kosten zijn begrepen die slaan op een in de vorm van een feitelijke vereniging uitgeoefende werkzaamheid, vermeld de juiste aard van die werkzaamheid, de code waarnaast ze zijn vermeld en het bedrag." FontWeight="Bold"/>  
-                        <TextBlock Text="Aard:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Aard feitelijke vereniging"/>
-                        <TextBlock Text="Code:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Code feitelijke vereniging"/>
-                        <TextBlock Text="Bedrag:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Bedrag feitelijke vereniging"/>
-                        <TextBlock Text="Een lijn toevoegen" FontWeight="Bold" Margin="0,10,0,5"/>
-                        <Button Content="Voeg Lijn Toe" Width="100" Margin="20,5" ToolTip="Voeg een nieuwe lijn toe voor feitelijke vereniging"/>
-                        <TextBlock Text="21. Slaan de in rubriek 20 vermelde bedragen op meer dan één feitelijke vereniging?" FontWeight="Bold"/>
-                        <TextBlock Text="Ja" Margin="20,0,0,0"/>
-                        <TextBlock Text="Neen" Margin="20,0,0,0"/>
-                        <TextBlock Text="Zo ja, houd, per vereniging, het detail ter beschikking van de belastingdienst." FontWeight="Bold" Margin="0,10,0,5"/>
-                        <TextBlock Text="22. Bevatten de in rubriek 20 vermelde bedragen inkomsten of kosten van buitenlandse oorsprong?" FontWeight="Bold"/>   
-                        <TextBlock Text="Ja" Margin="20,0,0,0"/>
-                        <TextBlock Text="Neen" Margin="20,0,0,0"/>  
-                        <TextBlock Text="Zo ja, houd, per land van herkomst, het detail ter beschikking van de belastingdienst." FontWeight="Bold" Margin="0,10,0,5"/>
-                        <TextBlock Text="23. Als u uw beroep maar gedurende een gedeelte van het jaar hebt uitgeoefend, vermeld:" FontWeight="Bold"/>
-                        <TextBlock Text="a) de begindatum (dag, maand, jaar):" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Begindatum beroep"/>
-                        <TextBlock Text="1623" Margin="10,0,0,0"/>
-                        <TextBlock Text="b) de einddatum (dag, maand, jaar):" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Einddatum beroep"/>
-                        <TextBlock Text="1624" Margin="10,0,0,0"/>
-                        <TextBlock Text="24. Vermeld het adres van de bedrijfszetel, als die niet samenvalt met uw domicilie:" FontWeight="Bold"/>
-                        <TextBox Width="400" Margin="20,5" ToolTip="Adres bedrijfszetel"/>
-                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>     
-             </UserControl>
+    <ScrollViewer>
+        <StackPanel>
+            <TextBlock Text="Vak XVII - BATEN VAN VRIJE BEROEP" FontWeight="Bold" Margin="0,10,0,5"/>
+            <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+            <TextBlock Text="1. Brutowinst van de eigenlijke exploitatie:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Brutowinst eigenlijke exploitatie bedrag"/>
+            <TextBlock Text="1600" Margin="10,0,0,0"/>
+            <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+            <TextBlock Text="2. Voorheen vrijgestelde winst die belastbaar wordt (behalve meerwaarden):" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Voorheen vrijgestelde winst belastbaar bedrag"/>
+            <TextBlock Text="1601" Margin="10,0,0,0"/>
+            <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+            <TextBlock Text="3. Financiële opbrengsten:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Financiële opbrengsten bedrag"/>
+            <TextBlock Text="1602" Margin="10,0,0,0"/>
+            <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+            <TextBlock Text="4. Meerwaarden (na aftrek van werkelijke kosten van overdracht als u kiest voor de aftrek van uw werkelijke beroepskosten):" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBlock Text="a) die afzonderlijk belastbaar zijn (tegen 16,5 %):" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Meerwaarden afzonderlijk belastbaar 16,5% bedrag"/>
+            <TextBlock Text="1603" Margin="10,0,0,0"/>
+            <TextBlock Text="b) die gezamenlijk belastbaar zijn:" FontWeight="Bold"/>
+            <TextBlock Text="1) financiële uitkeringen in het kader van het COVID-19-overbruggingsrecht (die niet als vervangingsinkomsten belastbaar zijn):" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Meerwaarden gezamenlijk belastbaar COVID-19 overbruggingsrecht bedrag"/>
+            <TextBlock Text="1636" Margin="10,0,0,0"/>
+            <TextBlock Text="2) andere:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Andere meerwaarden gezamenlijk belastbaar bedrag"/>
+            <TextBlock Text="1605" Margin="10,0,0,0"/>
+            <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+            <TextBlock Text="5. Winst die overeenstemt met de voorheen afgetrokken werkelijke kosten van overdracht van activa waarop u in het belastbare tijdperk een (al dan niet belastbare) meerwaarde hebt verwezenlijkt (niet in te vullen als u de toepassing van het wettelijk forfait wenst):" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Winst voorheen afgetrokken werkelijke kosten overdracht bedrag"/>
+            <TextBlock Text="1615" Margin="10,0,0,0"/>
+            <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+            <TextBlock Text="6. Vergoedingen:" FontWeight="Bold"/>
+            <TextBlock Text="a) die afzonderlijk belastbaar zijn tegen 12,5 %:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Vergoedingen afzonderlijk belastbaar 12,5% bedrag"/>
+            <TextBlock Text="1607" Margin="10,0,0,0"/>
+            <TextBlock Text="b) die afzonderlijk belastbaar zijn tegen 16,5 %:" FontWeight="Bold"/>
+            <TextBlock Text="1) financiële uitkeringen in het kader van het COVID-19-overbruggingsrecht (die niet als vervangingsinkomsten belastbaar zijn):" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Vergoedingen afzonderlijk belastbaar 16,5% COVID-19 overbruggingsrecht bedrag"/>
+            <TextBlock Text="1637" Margin="10,0,0,0"/>
+            <TextBlock Text="2) andere:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Andere vergoedingen afzonderlijk belastbaar tegen 16,5% bedrag"/>
+            <TextBlock Text="1605" Margin="10,0,0,0"/>
+            <TextBlock Text="c) die afzonderlijk belastbaar zijn tegen 33 %:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Vergoedingen afzonderlijk belastbaar 33% bedrag"/>
+            <TextBlock Text="1618" Margin="10,0,0,0"/>
+            <TextBlock Text="d) die gezamenlijk belastbaar zijn:" FontWeight="Bold"/>
+            <TextBlock Text="1) financiële uitkeringen in het kader van het COVID-19-overbruggingsrecht (die niet als vervangingsinkomsten belastbaar zijn):" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Vergoedingen gezamenlijk belastbaar COVID-19 overbruggingsrecht bedrag"/>
+            <TextBlock Text="1637" Margin="10,0,0,0"/> <!-- Note: Code 1637 appears twice, might be intended or a typo in original spec -->
+            <TextBlock Text="2) andere:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Andere vergoedingen gezamenlijk belastbaar bedrag"/>
+            <TextBlock Text="1610" Margin="10,0,0,0"/>
+            <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+            <TextBlock Text="7. Sociale bijdragen :" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Sociale bijdragen bedrag"/>
+            <TextBlock Text="1632" Margin="10,0,0,0"/>
+            <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+            <TextBlock Text="8. Andere beroepskosten (niet invullen als u de toepassing van het wettelijk forfait wenst):" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBlock Text="a) kosten van overdracht van activa waarop u in het belastbare tijdperk een (al dan niet belastbare) meerwaarde hebt verwezenlijkt:" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Kosten overdracht activa meerwaarde bedrag"/>
+            <TextBlock Text="1619" Margin="10,0,0,0"/>
+            <TextBlock Text="b) bezoldigingen toegekend aan uw meewerkende echtgenoot of wettelijk samenwonende partner:" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Bezoldigingen meewerkende echtgenoot partner bedrag"/>
+            <TextBlock Text="1611" Margin="10,0,0,0"/>
+            <TextBlock Text="c) andere dan die vermeld onder a en b:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Andere beroepskosten bedrag"/>
+            <TextBlock Text="1606" Margin="10,0,0,0"/>
+            <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+            <TextBlock Text="9. Vrijgestelde waardeverminderingen en voorzieningen:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Vrijgestelde waardeverminderingen voorzieningen bedrag"/>
+            <TextBlock Text="1609" Margin="10,0,0,0"/>
+            <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+            <TextBlock Text="10. Vrijstelling van opbrengsten geboekt als gevolg van de vaststelling van een minnelijk akkoord of de homologatie van een reorganisatieplan:" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Vrijstelling opbrengsten minnelijk akkoord reorganisatieplan bedrag"/>
+            <TextBlock Text="1608" Margin="10,0,0,0"/>
+            <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+            <TextBlock Text="11. Vrijstelling voor bijkomend personeel voor de uitvoer en de integrale kwaliteitszorg:" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Vrijstelling bijkomend personeel uitvoer kwaliteitszorg bedrag"/>
+            <TextBlock Text="1612" Margin="10,0,0,0"/>
+            <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+            <TextBlock Text="12. Vrijstelling voor ander bijkomend personeel:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Vrijstelling ander bijkomend personeel bedrag"/>
+            <TextBlock Text="1613" Margin="10,0,0,0"/>
+            <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+            <TextBlock Text="13. Vrijstelling voor tewerkstelling van stagiairs:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Vrijstelling stagiairs bedrag"/>
+            <TextBlock Text="1622" Margin="10,0,0,0"/>
+            <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+            <TextBlock Text="14. Vrijstelling voor sociaal passief ingevolge het eenheidsstatuut:" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Vrijstelling sociaal passief eenheidsstatuut bedrag"/>
+            <TextBlock Text="1633" Margin="10,0,0,0"/>
+            <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+            <TextBlock Text="15. Investeringsaftrek:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Investeringsaftrek bedrag"/>
+            <TextBlock Text="1614" Margin="10,0,0,0"/>
+            <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+            <TextBlock Text="16. Toekenning aan uw meewerkende echtgenoot of wettelijk samenwonende partner (bedrag alleen inschrijven in de kolom van de echtgenoot of partner die de toekenning doet):" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Toekenning meewerkende echtgenoot partner bedrag"/>
+            <TextBlock Text="1616" Margin="10,0,0,0"/>
+            <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+            <TextBlock Text="17. Totaal van de in de rubrieken 1, 2, 3, 4, b, 5 en 6, d vermelde inkomsten verkregen als zelfstandige in bijberoep of als student-zelfstandige:" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Totaal inkomsten zelfstandige bijberoep student bedrag"/>
+            <TextBlock Text="1617" Margin="10,0,0,0"/>
+            <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+            <TextBlock Text="18. Als u in vak IV, D, 1, a, 1, a, 1; D, 1, a, 1, c, 1 of D, 1, a, 2 aanvullende vergoedingen of in vak IV, E, 2, a, 1 of E, 2, b, 1 een bedrijfstoeslag hebt ingevuld, en u na uw ontslag bij uw gewezen werkgever het werk hebt hervat als zelfstandige, vermeld dan hier het totaal van de in de rubrieken 1, 2, 3, 4, b, 5 en 6, d hierboven vermelde inkomsten uit die nieuwe zelfstandige activiteit:" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Totaal inkomsten nieuwe zelfstandige activiteit bedrag"/>
+            <TextBlock Text="1621" Margin="10,0,0,0"/>
+            <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
+            <TextBlock Text="19. Vermeld het land, de code waarnaast ze zijn ingevuld (bv. 1600) en het bedrag van de in de rubrieken 1 tot 16 vermelde inkomsten van buitenlandse oorsprong (en de bijhorende kosten) waarvoor u aanspraak maakt op belastingvermindering voor inkomsten van buitenlandse oorsprong (inkomsten die zijn vrijgesteld met progressievoorbehoud of waarvoor de belasting tot de helft wordt verminderd) of op de afzonderlijke belasting tegen de aanslagvoet van 0 %:" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBlock Text="Land:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Land buitenlandse inkomsten"/>
+            <TextBlock Text="Code:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Code buitenlandse inkomsten"/>
+            <TextBlock Text="Bedrag:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Bedrag buitenlandse inkomsten"/>
+            <TextBlock Text="20. Als in de rubrieken 1 tot 16 inkomsten of kosten zijn begrepen die slaan op een in de vorm van een feitelijke vereniging uitgeoefende werkzaamheid, vermeld de juiste aard van die werkzaamheid, de code waarnaast ze zijn vermeld en het bedrag." FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBlock Text="Aard:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Aard feitelijke vereniging"/>
+            <TextBlock Text="Code:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Code feitelijke vereniging"/>
+            <TextBlock Text="Bedrag:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Bedrag feitelijke vereniging"/>
+            <TextBlock Text="Een lijn toevoegen" FontWeight="Bold" Margin="0,10,0,5"/>
+            <Button Content="Voeg Lijn Toe" Width="100" Margin="20,5" ToolTip="Voeg een nieuwe lijn toe voor feitelijke vereniging"/>
+            <TextBlock Text="21. Slaan de in rubriek 20 vermelde bedragen op meer dan één feitelijke vereniging?" FontWeight="Bold" TextWrapping="Wrap"/>
+            <StackPanel Orientation="Horizontal" Margin="20,5,0,0">
+                <RadioButton Content="Ja" GroupName="FeitelijkeVerenigingMeerDanEen" Margin="0,0,10,0" ToolTip="Selecteer Ja indien van toepassing"/>
+                <RadioButton Content="Neen" GroupName="FeitelijkeVerenigingMeerDanEen" IsChecked="True" ToolTip="Selecteer Neen indien niet van toepassing"/>
+            </StackPanel>
+            <TextBlock Text="Zo ja, houd, per vereniging, het detail ter beschikking van de belastingdienst." FontWeight="Bold" Margin="0,10,0,5" TextWrapping="Wrap"/>
+            <TextBlock Text="22. Bevatten de in rubriek 20 vermelde bedragen inkomsten of kosten van buitenlandse oorsprong?" FontWeight="Bold" TextWrapping="Wrap"/>
+            <StackPanel Orientation="Horizontal" Margin="20,5,0,0">
+                <RadioButton Content="Ja" GroupName="BuitenlandseOorsprongFeitelijkeVereniging" Margin="0,0,10,0" ToolTip="Selecteer Ja indien van toepassing"/>
+                <RadioButton Content="Neen" GroupName="BuitenlandseOorsprongFeitelijkeVereniging" IsChecked="True" ToolTip="Selecteer Neen indien niet van toepassing"/>
+            </StackPanel>
+            <TextBlock Text="Zo ja, houd, per land van herkomst, het detail ter beschikking van de belastingdienst." FontWeight="Bold" Margin="0,10,0,5" TextWrapping="Wrap"/>
+            <TextBlock Text="23. Als u uw beroep maar gedurende een gedeelte van het jaar hebt uitgeoefend, vermeld:" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBlock Text="a) de begindatum (dag, maand, jaar):" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Begindatum beroep (DD/MM/JJJJ)"/>
+            <TextBlock Text="1623" Margin="10,0,0,0"/>
+            <TextBlock Text="b) de einddatum (dag, maand, jaar):" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Einddatum beroep (DD/MM/JJJJ)"/>
+            <TextBlock Text="1624" Margin="10,0,0,0"/>
+            <TextBlock Text="24. Vermeld het adres van de bedrijfszetel, als die niet samenvalt met uw domicilie:" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBox Width="400" Margin="20,5" ToolTip="Adres bedrijfszetel"/>
+            <TextBlock Text="Fiscale toelichting" FontWeight="Bold" Margin="0,0,0,20"/>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

@@ -6,35 +6,66 @@
              xmlns:local="clr-namespace:TAX_WPF"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-             <TextBlock Text="Vak XX - BEZOLDIGINGEN VAN MEEWERKENDE ECHTGENOTEN EN WETTELIJK SAMENWONENDE PARTNERS" FontWeight="Bold" Margin="0,10,0,5"/>
-                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>   
-                        <TextBlock Text="1. Door uw echtgenoot of wettelijk samenwonende partner toegekende bezoldigingen:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Bezoldigingen echtgenoot partner bedrag"/>
-                        <TextBlock Text="1664" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
-                        <TextBlock Text="2. Sociale bijdragen:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Sociale bijdragen bedrag"/>
-                        <TextBlock Text="1665" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
-                        <TextBlock Text="3. Andere eigen beroepskosten (alleen invullen als u geen toepassing van het wettelijk forfait wenst):" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Andere eigen beroepskosten bedrag"/>
-                        <TextBlock Text="1666" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting" FontWeight="Bold"/>
-                        <TextBlock Text="4. In rubriek 1 vermelde bezoldigingen toegekend in het kader van een beroepswerkzaamheid die uw echtgenoot of wettelijk samenwonende partner uitoefent als zelfstandige in bijberoep of als student-zelfstandige:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Inkomsten zelfstandige bijberoep student bedrag"/>
-                        <TextBlock Text="1667" Margin="10,0,0,0"/>
-                        <TextBlock Text="5. Vermeld het land, de code waarnaast ze zijn ingevuld (bv. 1664) en het bedrag van de in de rubrieken 1 tot 3 vermelde bezoldigingen en kosten die slaan op door uw echtgenoot of wettelijk samenwonende partner verkregen inkomsten van buitenlandse oorsprong waarvoor u aanspraak maakt op belastingvermindering voor inkomsten van buitenlandse oorsprong (inkomsten die zijn vrijgesteld met progressievoorbehoud of waarvoor de belasting tot de helft wordt verminderd):" FontWeight="Bold"/>
-                        <TextBlock Text="Land:" FontWeight="Bold"/> 
-                        <TextBox Width="200" Margin="20,5" ToolTip="Land buitenlandse inkomsten"/>
-                        <TextBlock Text="Code:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Code buitenlandse inkomsten"/>
-                        <TextBlock Text="Bedrag:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Bedrag buitenlandse inkomsten"/>
-                        <TextBlock Text="6. Als u maar gedurende een gedeelte van het jaar bij de uitoefening van de beroepswerkzaamheid van uw echtgenoot of wettelijk samenwonende partner hebt meegewerkt, vermeld:" FontWeight="Bold"/>
-                        <TextBlock Text="a) de begindatum (dag, maand, jaar):" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Begindatum meewerking"/>
-                        <TextBlock Text="1668" Margin="10,0,0,0"/>
-                        <TextBlock Text="b) de einddatum (dag, maand, jaar):" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Einddatum meewerking"/>
-                        <TextBlock Text="1669" Margin="10,0,0,0"/>
-            </UserControl> 
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="10" Orientation="Vertical">
+            <TextBlock Text="Vak XX - BEZOLDIGINGEN VAN MEEWERKENDE ECHTGENOTEN EN WETTELIJK SAMENWONENDE PARTNERS" FontWeight="Bold" Margin="0,10,0,10" TextWrapping="Wrap"/>
+            
+            <TextBlock Text="Fiscale toelichting" FontWeight="Bold" Margin="0,5,0,5"/>   
+            <TextBlock Text="1. Door uw echtgenoot of wettelijk samenwonende partner toegekende bezoldigingen:" FontWeight="Bold" TextWrapping="Wrap" Margin="0,0,0,2"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <TextBox Grid.Column="0" Width="200" Margin="20,5,0,5" ToolTip="Bezoldigingen echtgenoot partner bedrag"/>
+                <TextBlock Grid.Column="1" Text="1664" Margin="10,0,0,0" VerticalAlignment="Center"/>
+            </Grid>
+
+            <TextBlock Text="Fiscale toelichting" FontWeight="Bold" Margin="0,10,0,5"/>
+            <TextBlock Text="2. Sociale bijdragen:" FontWeight="Bold" TextWrapping="Wrap" Margin="0,0,0,2"/>
+            <Grid>
+                <Grid.ColumnDefinitions><ColumnDefinition Width="Auto"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                <TextBox Grid.Column="0" Width="200" Margin="20,5,0,5" ToolTip="Sociale bijdragen bedrag"/>
+                <TextBlock Grid.Column="1" Text="1665" Margin="10,0,0,0" VerticalAlignment="Center"/>
+            </Grid>
+
+            <TextBlock Text="Fiscale toelichting" FontWeight="Bold" Margin="0,10,0,5"/>
+            <TextBlock Text="3. Andere eigen beroepskosten (alleen invullen als u geen toepassing van het wettelijk forfait wenst):" FontWeight="Bold" TextWrapping="Wrap" Margin="0,0,0,2"/>
+            <Grid>
+                <Grid.ColumnDefinitions><ColumnDefinition Width="Auto"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                <TextBox Grid.Column="0" Width="200" Margin="20,5,0,5" ToolTip="Andere eigen beroepskosten bedrag"/>
+                <TextBlock Grid.Column="1" Text="1666" Margin="10,0,0,0" VerticalAlignment="Center"/>
+            </Grid>
+
+            <TextBlock Text="Fiscale toelichting" FontWeight="Bold" Margin="0,10,0,5"/>
+            <TextBlock Text="4. In rubriek 1 vermelde bezoldigingen toegekend in het kader van een beroepswerkzaamheid die uw echtgenoot of wettelijk samenwonende partner uitoefent als zelfstandige in bijberoep of als student-zelfstandige:" FontWeight="Bold" TextWrapping="Wrap" Margin="0,0,0,2"/>
+            <Grid>
+                <Grid.ColumnDefinitions><ColumnDefinition Width="Auto"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                <TextBox Grid.Column="0" Width="200" Margin="20,5,0,5" ToolTip="Inkomsten zelfstandige bijberoep student bedrag"/>
+                <TextBlock Grid.Column="1" Text="1667" Margin="10,0,0,0" VerticalAlignment="Center"/>
+            </Grid>
+
+            <TextBlock Text="5. Vermeld het land, de code waarnaast ze zijn ingevuld (bv. 1664) en het bedrag van de in de rubrieken 1 tot 3 vermelde bezoldigingen en kosten die slaan op door uw echtgenoot of wettelijk samenwonende partner verkregen inkomsten van buitenlandse oorsprong waarvoor u aanspraak maakt op belastingvermindering voor inkomsten van buitenlandse oorsprong (inkomsten die zijn vrijgesteld met progressievoorbehoud of waarvoor de belasting tot de helft wordt verminderd):" FontWeight="Bold" Margin="0,10,0,5" TextWrapping="Wrap"/>
+            <TextBlock Text="Land:" FontWeight="Bold" Margin="0,5,0,0"/> 
+            <TextBox Width="200" Margin="20,5,0,5" ToolTip="Land buitenlandse inkomsten"/>
+            <TextBlock Text="Code:" FontWeight="Bold" Margin="0,5,0,0"/>
+            <TextBox Width="200" Margin="20,5,0,5" ToolTip="Code buitenlandse inkomsten"/>
+            <TextBlock Text="Bedrag:" FontWeight="Bold" Margin="0,5,0,0"/>
+            <TextBox Width="200" Margin="20,5,0,5" ToolTip="Bedrag buitenlandse inkomsten"/>
+
+            <TextBlock Text="6. Als u maar gedurende een gedeelte van het jaar bij de uitoefening van de beroepswerkzaamheid van uw echtgenoot of wettelijk samenwonende partner hebt meegewerkt, vermeld:" FontWeight="Bold" Margin="0,10,0,5" TextWrapping="Wrap"/>
+            <TextBlock Text="a) de begindatum (dag, maand, jaar):" FontWeight="Bold" Margin="0,5,0,0" TextWrapping="Wrap"/>
+            <Grid>
+                <Grid.ColumnDefinitions><ColumnDefinition Width="Auto"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                <TextBox Grid.Column="0" Width="200" Margin="20,5,0,5" ToolTip="Begindatum meewerking"/>
+                <TextBlock Grid.Column="1" Text="1668" Margin="10,0,0,0" VerticalAlignment="Center"/>
+            </Grid>
+            <TextBlock Text="b) de einddatum (dag, maand, jaar):" FontWeight="Bold" Margin="0,5,0,0" TextWrapping="Wrap"/>
+            <Grid>
+                <Grid.ColumnDefinitions><ColumnDefinition Width="Auto"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                <TextBox Grid.Column="0" Width="200" Margin="20,5,0,5" ToolTip="Einddatum meewerking"/>
+                <TextBlock Grid.Column="1" Text="1669" Margin="10,0,0,0" VerticalAlignment="Center"/>
+            </Grid>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl> 

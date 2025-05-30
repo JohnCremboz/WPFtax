@@ -6,362 +6,366 @@
              xmlns:local="clr-namespace:TAX_WPF"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-             <TextBlock Text="Vak IX - INTERESTEN EN KAPITAALAFLOSSINGEN VAN LENINGEN EN SCHULDEN, PREMIES VAN INDIVIDUELE LEVENSVERZEKERINGEN EN ERFPACHT- EN OPSTALVERGOEDINGEN OF GELIJKAARDIGE VERGOEDINGEN, DIE RECHT GEVEN OP EEN BELASTINGVOORDEEL" FontWeight="Bold" Margin="0,0,0,10"/>
-                        <TextBlock Text="Fiscale toelichting"/>
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="10" Orientation="Vertical">
+            <TextBlock Text="Vak IX - INTERESTEN EN KAPITAALAFLOSSINGEN VAN LENINGEN EN SCHULDEN, PREMIES VAN INDIVIDUELE LEVENSVERZEKERINGEN EN ERFPACHT- EN OPSTALVERGOEDINGEN OF GELIJKAARDIGE VERGOEDINGEN, DIE RECHT GEVEN OP EEN BELASTINGVOORDEEL" FontWeight="Bold" Margin="0,0,0,10"/>
+            <TextBlock Text="Fiscale toelichting"/>
 
 
-                        <TextBlock Text="1. Opgelet: vermeld de in dit vak bedoelde uitgaven en de andere gevraagde gegevens in de passende rubriek!" Margin="0,0,0,5"/>
-                        <TextBlock Text="Rubriek II, A is in principe bestemd voor de interesten van leningen die van 1.1.2009 tot 31.12.2011 zijn gesloten om energiebesparende uitgaven te financieren (en die voldoen aan de voorwaarden voor een interestbonificatie van de Staat)." Margin="0,0,0,5"/>
-                        <TextBlock Text="Rubriek I is bestemd voor de (niet in rubriek II, A vermelde) uitgaven voor de woning die op het tijdstip van de betaling uw 'eigen woning' was. Onder 'eigen woning' wordt verstaan: de woning die u als eigenaar, bezitter, erfpachter, opstalhouder of vruchtgebruiker zelf betrok of niet zelf betrok om één van de volgende redenen: beroepsredenen, redenen van sociale aard, wettelijke of contractuele belemmeringen waardoor u de woning onmogelijk zelf kon betrekken, of de stand van de bouw- of verbouwingswerkzaamheden waardoor u de woning niet zelf kon betrekken (zie ook de toelichting voor meer bijzonderheden)." Margin="0,0,0,5"/>
-                        <TextBlock Text="Rubriek II, B is bestemd voor de (niet in rubriek II, A vermelde) uitgaven die geen betrekking hebben op een woning of voor een woning die op het tijdstip van de betaling niet uw 'eigen woning' was." Margin="0,0,0,20"/>
-                        <TextBlock Text="I. GEWESTELIJK: NIET IN II, A VERMELDE UITGAVEN VOOR UW 'EIGEN WONING'" FontWeight="Bold" Margin="0,0,0,10"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="1. Interesten en kapitaalaflossingen van hypothecaire leningen gesloten van 2016 tot 2019 en premies van individuele levensverzekeringen die in aanmerking komen voor de 'geïntegreerde woonbonus'" FontWeight="Bold"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                   
-                            <TextBlock Text="a) Interesten en kapitaalaflossingen:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Interesten en kapitaalaflossingen bedrag"/>
-                            <TextBlock Text="3334" Margin="10,0,0,0"/>
-                            <TextBlock Text="b) Premies van individuele levensverzekeringen tot waarborg of wedersamenstelling van die leningen:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Premies individuele levensverzekeringen bedrag"/>
-                            <TextBlock Text="3335" Margin="10,0,0,0"/>
-                            <TextBlock Text="Nr. contract:"/>
-                            <TextBox Width="200" Margin="20,5" ToolTip="Nr. contract"/>
-                            <TextBlock Text="Naam van de verzekeringsinstelling:"/>
-                            <TextBox Width="200" Margin="20,5" ToolTip="Naam van de verzekeringsinstelling"/>
-                        
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="Hebt u in 1 interesten, kapitaalaflossingen of premies vermeld, beantwoord dan ook de volgende vragen:" Margin="0,0,0,5"/> 
-                        <TextBlock Text="- was de woning waarvoor die leningen zijn aangegaan, op 31.12.2023 nog altijd uw enige woning?" Margin="0,0,0,5"/>
-                        <TextBlock Text="3336" Margin="10,0,0,0"/>
-                        <TextBlock Text="- aantal kinderen ten laste op 1.1.2016?" Margin="0,0,0,20"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Aantal kinderen ten laste"/>
-                        <TextBlock Text="3346" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="2. Interesten en kapitaalaflossingen van hypothecaire leningen en premies van individuele levensverzekeringen gesloten vanaf 2005 die in aanmerking komen voor de gewestelijke 'woonbonus'" FontWeight="Bold"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="a) Leningen gesloten in 2015" FontWeight="Bold"/>
-                   
-                            <TextBlock Text="1) Interesten en kapitaalaflossingen:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Interesten en kapitaalaflossingen 2015 bedrag"/>
-                            <TextBlock Text="3360" Margin="10,0,0,0"/>
-                            <TextBlock Text="2) Premies van individuele levensverzekeringen tot waarborg of wedersamenstelling van die leningen:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Premies individuele levensverzekeringen 2015 bedrag"/>
-                            <TextBlock Text="3361" Margin="10,0,0,0"/>
-                            <TextBlock Text="Nr. contract:"/>
-                            <TextBox Width="200" Margin="20,5" ToolTip="Nr. contract"/> 
-                            <TextBlock Text="Naam van de verzekeringsinstelling:"/>
-                            <TextBox Width="200" Margin="20,5" ToolTip="Naam van de verzekeringsinstelling"/>
-                        
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="b) Leningen gesloten vóór 2015" FontWeight="Bold"/>
-                   
-                            <TextBlock Text="1) Interesten en kapitaalaflossingen:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Interesten en kapitaalaflossingen bedrag"/>
-                            <TextBlock Text="3370" Margin="10,0,0,0"/>
-                            <TextBlock Text="2) Premies van individuele levensverzekeringen tot waarborg of wedersamenstelling van die leningen:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Premies individuele levensverzekeringen bedrag"/>
-                            <TextBlock Text="3371" Margin="10,0,0,0"/>
-                            <TextBlock Text="Nr. contract:"/>
-                            <TextBox Width="200" Margin="20,5" ToolTip="Nr. contract"/> 
-                            <TextBlock Text="Naam van de verzekeringsinstelling:"/>
-                            <TextBox Width="200" Margin="20,5" ToolTip="Naam van de verzekeringsinstelling"/>
-                        
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="Hebt u in 2, b interesten, kapitaalaflossingen of premies vermeld die slaan op een lening gesloten in 2014?" Margin="0,0,0,5"/>
-                        <TextBlock Text="3372" Margin="10,0,0,0"/>
-                        <TextBlock Text="3380" Margin="10,0,0,0"/>
-                        <TextBlock Text="Zo ja," Margin="0,0,0,5"/>
-                        <TextBlock Text="- was de woning waarvoor de lening is aangegaan, op 31.12.2023 nog altijd uw enige woning?" Margin="0,0,0,5"/>
-                        <TextBlock Text="3374" Margin="10,0,0,0"/>
-                        <TextBlock Text="- aantal kinderen ten laste op 1.1.2015?" Margin="0,0,0,20"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Aantal kinderen ten laste"/>
-                        <TextBlock Text="3373" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="3. Andere  dan in 1 en 2 bedoelde interesten die in aanmerking komen voor een gewestelijke belastingvermindering" FontWeight="Bold"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="a) Gegevens over het vrijgestelde inkomen van uw 'eigen woning':" FontWeight="Bold"/>
-                        <TextBlock Text="NIET GEINDEXEERD" FontWeight="Bold"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="1) die u niet verhuurt:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="0,5" ToolTip="Vrijgesteld inkomen eigen woning niet verhuurd bedrag"/>
-                        <TextBlock Text="3100" Margin="10,0,0,0"/>
-                        <TextBlock Text="2) die u verhuurt aan:" FontWeight="Bold"/>
-                   
-                            <TextBlock Text="- een natuurlijke persoon die ze niet voor zijn beroep gebruikt:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Vrijgesteld inkomen eigen woning verhuurd aan natuurlijke persoon bedrag"/>
-                            <TextBlock Text="3106" Margin="10,0,0,0"/>
-                            <TextBlock Text="- een rechtspersoon die geen vennootschap is, een gewestelijke huisvestingsmaatschappij of een erkende maatschappij voor sociale huisvesting om ze ter beschikking te laten stellen van natuurlijke personen die ze uitsluitend als woning gebruiken:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Vrijgesteld inkomen eigen woning verhuurd aan rechtspersoon bedrag"/>
-                            <TextBlock Text="3106" Margin="10,0,0,0"/>
-                            <TextBlock Text="3) die u verhuurt in andere omstandigheden:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Vrijgesteld inkomen eigen woning verhuurd in andere omstandigheden bedrag"/>
-                            <TextBlock Text="3109" Margin="10,0,0,0"/>
-                        
-                        <TextBlock Text="Brutohuur:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="0,5" ToolTip="Brutohuur bedrag"/>
-                        <TextBlock Text="3110" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="b) Interesten van hypothecaire leningen (met een minimumlooptijd van 10 jaar) die na 30.4.1986 en (in principe) vóór 2005 zijn gesloten om in de Europese Economische Ruimte:" FontWeight="Bold"/>
-                   
-                            <TextBlock Text="1) uw enige woning te bouwen of in nieuwe staat (met btw) te verwerven:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Interesten hypothecaire leningen enige woning bedrag"/>
-                            <TextBlock Text="3138" Margin="10,0,0,0"/>
-                            <TextBlock Text="2) uw enige en bij het sluiten van de lening sedert ten minste 15 of 20 jaar in gebruik zijnde woning te vernieuwen:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Interesten hypothecaire leningen vernieuwen woning bedrag"/>
-                            <TextBlock Text="3139" Margin="10,0,0,0"/>
-                            <TextBlock Text="Datum van de lening (dag, maand, jaar):" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="20,5" ToolTip="Datum van de lening"/>
-                            <TextBlock Text="3140" Margin="10,0,0,0"/>
-                            <TextBlock Text="Bedrag van de lening:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="20,5" ToolTip="Bedrag van de lening"/>
-                            <TextBlock Text="3141" Margin="10,0,0,0"/>
-                            <TextBlock Text="Aantal kinderen ten laste op 1 januari van het jaar na het jaar van afsluiting van de lening:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="20,5" ToolTip="Aantal kinderen ten laste na jaar afsluiting lening"/>
-                            <TextBlock Text="3142" Margin="10,0,0,0"/>
-                            <TextBlock Text="Datum van ingebruikneming van de nieuwe woning of van de voltooiing van de vernieuwingswerken (dag, maand, jaar):" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="20,5" ToolTip="Datum ingebruikneming nieuwe woning of voltooiing vernieuwingswerken"/>
-                            <TextBlock Text="3144" Margin="10,0,0,0"/>
-                            <TextBlock Text="Totale kostprijs van de vernieuwingswerken (btw inbegrepen):" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="20,5" ToolTip="Totale kostprijs vernieuwingswerken"/>
-                            <TextBlock Text="3145" Margin="10,0,0,0"/>
-                            <TextBlock Text="Uw aandeel in de 'eigen woning':" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="20,5" ToolTip="Aandeel eigen woning"/>
-                            <TextBlock Text="3148" Margin="10,0,0,0"/>
-                            <TextBlock Text="%:" FontWeight="Bold"/>
-                            <TextBox Width="60" Margin="20,5" ToolTip="Percentage aandeel eigen woning"/>
-                            <TextBlock Text="3149" Margin="10,0,0,0"/>
-                            <TextBlock Text="%:" FontWeight="Bold"/>
-                            <TextBox Width="60" Margin="20,5" ToolTip="Aandeel in de eigen woning van personen die de lening samen met u hebben aangegaan"/>
-                            <TextBlock Text="3149" Margin="10,0,0,0"/>
-                            <TextBlock Text="Gaat het om de 'eigen woning' van beide samen belaste echtgenoten of wettelijk samenwonenden, die voor beiden de enige woning is?" FontWeight="Bold"/>
-                            
-                                <RadioButton Content="Ja" GroupName="EigenWoning" Margin="0,0,10,0"/>
-                                <RadioButton Content="Neen" GroupName="EigenWoning"/>
-                            
-                            <TextBlock Text="3136" Margin="10,0,0,0"/>
-                        
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="c) Andere dan de in b bedoelde interesten van leningen en schulden voor het verwerven of behouden van uw 'eigen woning':" FontWeight="Bold"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="1) leningen die (in principe) vóór 2005 zijn gesloten:" FontWeight="Bold"/>
-                        
-                            <TextBlock Text="a. leningen gesloten in 2015:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Leningen gesloten in 2015 bedrag"/>
-                            <TextBlock Text="3150" Margin="10,0,0,0"/>
-                            <TextBlock Text="b. leningen gesloten vóór 2015:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Leningen gesloten vóór 2015 bedrag"/>
-                            <TextBlock Text="3146" Margin="10,0,0,0"/>
-                        
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="2) andere schulden aangegaan vóór 2016:" FontWeight="Bold"/>
-                        
-                            <TextBlock Text="a. schulden aangegaan in 2015:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Schulden aangegaan in 2015 bedrag"/>
-                            <TextBlock Text="3151" Margin="10,0,0,0"/>
-                            <TextBlock Text="b. schulden aangegaan vóór 2015:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Schulden aangegaan vóór 2015 bedrag"/>
-                            <TextBlock Text="3152" Margin="10,0,0,0"/>
-                        
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="4. Kapitaalaflossingen van hypothecaire leningen aangegaan voor het verwerven of (ver)bouwen van uw 'eigen woning':" FontWeight="Bold"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="a) die in aanmerking komen voor de gewestelijke vermindering voor het bouwsparen (leningen gesloten vóór 2015):" FontWeight="Bold"/>
-                        
-                            <TextBlock Text="1) leningen gesloten vanaf 1989 en (in principe) vóór 2005:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Kapitaalaflossingen leningen 1989-2005 bedrag"/>
-                            <TextBlock Text="3355" Margin="10,0,0,0"/>
-                            <TextBlock Text="2) leningen gesloten vóór 1989:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Kapitaalaflossingen leningen vóór 1989 bedrag"/>
-                            <TextBlock Text="3356" Margin="10,0,0,0"/>
-                        
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="b) die in aanmerking komen voor de gewestelijke vermindering voor het lange termijnsparen (leningen gesloten vanaf 1993 en vóór 2016):" FontWeight="Bold"/>
-                        
-                            <TextBlock Text="3358" Margin="10,0,0,0"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Kapitaalaflossingen lange termijnsparen bedrag"/>
-                            <TextBlock Text="3358" Margin="10,0,0,0"/>
-                        
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="5. Premies van individuele levensverzekeringen:" FontWeight="Bold"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="a) die in aanmerking komen voor de gewestelijke vermindering voor het bouwsparen:" FontWeight="Bold"/>
-                        
-                            <TextBlock Text="1) contracten gesloten vanaf 1989:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Premies individuele levensverzekeringen bouwsparen 1989 bedrag"/>
-                            <TextBlock Text="3351" Margin="10,0,0,0"/>
-                            <TextBlock Text="2) contracten gesloten vóór 1989:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Premies individuele levensverzekeringen bouwsparen vóór 1989 bedrag"/>
-                            <TextBlock Text="3352" Margin="10,0,0,0"/>
-                        
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="b) die in aanmerking komen voor de gewestelijke vermindering voor het lange termijnsparen:" FontWeight="Bold"/>
-                        
-                            <TextBlock Text="1) contracten gesloten vanaf 1989:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Premies individuele levensverzekeringen lange termijnsparen 1989 bedrag"/>
-                            <TextBlock Text="3353" Margin="10,0,0,0"/>
-                            <TextBlock Text="2) contracten gesloten vóór 1989:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Premies individuele levensverzekeringen lange termijnsparen vóór 1989 bedrag"/>
-                            <TextBlock Text="3354" Margin="10,0,0,0"/>
-                        
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="c) Nr. contract:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Nr. contract individuele levensverzekering"/>
-                        <TextBlock Text="Naam van de verzekeringsinstelling:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Naam verzekeringsinstelling individuele levensverzekering"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="6. Betaalde erfpacht- en opstalvergoedingen of gelijkaardige vergoedingen:" FontWeight="Bold"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="a) contracten gesloten van 2015 tot 2019:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="0,5" ToolTip="Betaalde erfpacht- en opstalvergoedingen 2015-2019 bedrag"/>
-                        <TextBlock Text="3143" Margin="10,0,0,0"/>
-                        <TextBlock Text="b) contracten gesloten vóór 2015:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="0,5" ToolTip="Betaalde erfpacht- en opstalvergoedingen vóór 2015 bedrag"/>
-                        <TextBlock Text="3147" Margin="10,0,0,0"/>
-                        <TextBlock Text="Naam, voornaam en adres van de genieter:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Naam, voornaam en adres genieter"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="II. FEDERAAL" FontWeight="Bold" Margin="0,0,0,10"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        
-                        <TextBlock Text="A. INTERESTEN VAN LENINGEN GESLOTEN VAN 2009 TOT 2011 OM ENERGIEBESPARENDE UITGAVEN TE FINANCIEREN :" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Interesten leningen energie besparen bedrag"/>
-                        <TextBlock Text="1143" Margin="10,0,0,0"/>
-                        <TextBlock Text="B. NIET IN II, A VERMELDE UITGAVEN DIE NIET SLAAN OP UW 'EIGEN WONING'" FontWeight="Bold" Margin="0,0,0,10"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="1143" Margin="10,0,0,0"/>
-                        <TextBlock Text="1. Interesten en kapitaalaflossingen van hypothecaire leningen gesloten van 2005 tot 2013 die in aanmerking komen voor de federale 'woonbonus':" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="0,5" ToolTip="Interesten en kapitaalaflossingen federale woonbonus bedrag"/>
-                        <TextBlock Text="1370" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="2. Premies van individuele levensverzekeringen gesloten vanaf 2005 die in aanmerking komen voor de federale 'woonbonus':" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="0,5" ToolTip="Premies individuele levensverzekeringen federale woonbonus bedrag"/>
-                        <TextBlock Text="1371" Margin="10,0,0,0"/>
-                        <TextBlock Text="Nr. contract:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Nr. contract individuele levensverzekering"/>
-                        <TextBlock Text="Naam van de verzekeringsinstelling:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Naam verzekeringsinstelling individuele levensverzekering"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="3. Andere dan de in 1 bedoelde interesten, die in aanmerking komen voor een federaal belastingvoordeel:" FontWeight="Bold"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="a) van hypothecaire leningen (met een minimumlooptijd van 10 jaar) die na 30.4.1986 en (in principe) vóór 2005 zijn gesloten om in de Europese Economische Ruimte:" FontWeight="Bold"/>
-                        
-                            <TextBlock Text="- uw enige woning te bouwen of in nieuwe staat (met btw) te verwerven:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Hypothecaire leningen enige woning bedrag"/>
-                            <TextBlock Text="1138" Margin="10,0,0,0"/>
-                            <TextBlock Text="- uw enige en bij het sluiten van de lening sedert ten minste 15 of 20 jaar in gebruik zijnde woning te vernieuwen:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Hypothecaire leningen vernieuwen woning bedrag"/>
-                            <TextBlock Text="1139" Margin="10,0,0,0"/>
-                            <TextBlock Text="Uw aandeel in de woning:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="20,5" ToolTip="Aandeel in de woning"/>
-                            <TextBlock Text="1148" Margin="10,0,0,0"/>
-                            <TextBlock Text="%:" FontWeight="Bold"/>
-                            <TextBox Width="60" Margin="20,5" ToolTip="% aandeel in de woning"/>
-                            <TextBlock Text="1149" Margin="10,0,0,0"/>
-                            <TextBlock Text="%:" FontWeight="Bold"/>
-                            <TextBox Width="60" Margin="20,5" ToolTip="% aandeel in de woning van personen die de lening samen met u hebben aangegaan"/>
-                            <TextBlock Text="1149" Margin="10,0,0,0"/>
-                            <TextBlock Text="Gaat het om een woning van beide samen belaste echtgenoten of wettelijk samenwonenden, die voor beiden de enige woning is?" FontWeight="Bold"/>
-                            
-                                <RadioButton Content="Ja" GroupName="WoningEnige" Margin="0,0,10,0"/>
-                                <RadioButton Content="Neen" GroupName="WoningEnige"/>
-                        
-                            <TextBlock Text="1136" Margin="10,0,0,0"/>
-                        
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="b) van andere dan de in a bedoelde schulden voor het verwerven of behouden van onroerende goederen die niet vrijgestelde onroerende goederen zijn:" FontWeight="Bold"/>
-                        
-                            <TextBlock Text="1) die in aanmerking komen voor een federale belastingvermindering:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Andere schulden federale belastingvermindering bedrag"/>
-                            <TextBlock Text="1140" Margin="10,0,0,0"/>
-                            <TextBlock Text="2) die niet in aanmerking komen voor een federale belastingvermindering:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Andere schulden geen federale belastingvermindering bedrag"/>
-                            <TextBlock Text="1141" Margin="10,0,0,0"/>
-                        
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="Uw aandeel in de woning:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Aandeel in de woning"/>
-                        <TextBlock Text="1148" Margin="10,0,0,0"/>  
-                        <TextBlock Text="%:" FontWeight="Bold"/>
-                        <TextBox Width="60" Margin="20,5" ToolTip="% aandeel in de woning"/>
-                        <TextBlock Text="1149" Margin="10,0,0,0"/>
-                        <TextBlock Text="%:" FontWeight="Bold"/>
-                        <TextBox Width="60" Margin="20,5" ToolTip="% aandeel in de woning van personen die de lening samen met u hebben aangegaan"/>
-                        <TextBlock Text="1149" Margin="10,0,0,0"/>
-                        <TextBlock Text="Gaat het om een woning van beide samen belaste echtgenoten of wettelijk samenwonenden, die voor beiden de enige woning is?" FontWeight="Bold"/>
-                        
-                            <RadioButton Content="Ja" GroupName="WoningEnigeFederaal" Margin="0,0,10,0"/>
-                            <RadioButton Content="Neen" GroupName="WoningEnigeFederaal"/>
-                      
-                        <TextBlock Text="1136" Margin="10,0,0,0"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="c) van andere dan de in a bedoelde interesten voor het verwerven of behouden van uw 'eigen woning':" FontWeight="Bold"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="1) leningen die (in principe) vóór 2005 zijn gesloten:" FontWeight="Bold"/>    
-                        
-                            <TextBlock Text="a. leningen gesloten in 2015:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Leningen gesloten in 2015 bedrag"/>
-                            <TextBlock Text="3150" Margin="10,0,0,0"/>
-                            <TextBlock Text="b. leningen gesloten vóór 2015:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Leningen gesloten vóór 2015 bedrag"/>
-                            <TextBlock Text="3146" Margin="10,0,0,0"/>   
-                    
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="2) andere schulden aangegaan vóór 2016:" FontWeight="Bold"/>
-                        
-                            <TextBlock Text="a. schulden aangegaan in 2015:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Schulden aangegaan in 2015 bedrag"/>
-                            <TextBlock Text="3151" Margin="10,0,0,0"/>
-                            <TextBlock Text="b. schulden aangegaan vóór 2015:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Schulden aangegaan vóór 2015 bedrag"/>
-                            <TextBlock Text="3152" Margin="10,0,0,0"/>
-                        
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="4. Kapitaalaflossingen van hypothecaire leningen aangegaan voor het verwerven of (ver)bouwen van uw 'eigen woning':" FontWeight="Bold"/>
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="a) die in aanmerking komen voor de gewestelijke vermindering voor het bouwsparen (leningen gesloten vóór 2015):" FontWeight="Bold"/>
-                        
-                            <TextBlock Text="1) leningen gesloten vanaf 1989 en (in principe) vóór 2005:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Kapitaalaflossingen leningen 1989-2005 bedrag"/>
-                            <TextBlock Text="3355" Margin="10,0,0,0"/>
-                            <TextBlock Text="2) leningen gesloten vóór 1989:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Kapitaalaflossingen leningen vóór 1989 bedrag"/>
-                            <TextBlock Text="3356" Margin="10,0,0,0"/>
-                        
-                        <TextBlock Text="Fiscale toelichting"/> 
-                        <TextBlock Text="b) die in aanmerking komen voor de gewestelijke vermindering voor het lange termijnsparen (leningen gesloten vanaf 1993 en vóór 2016):" FontWeight="Bold"/>
-                        
-                            <TextBlock Text="3358" Margin="10,0,0,0"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Kapitaalaflossingen lange termijnsparen bedrag"/>
-                            <TextBlock Text="3358" Margin="10,0,0,0"/>
-                        
+            <TextBlock Text="1. Opgelet: vermeld de in dit vak bedoelde uitgaven en de andere gevraagde gegevens in de passende rubriek!" Margin="0,0,0,5"/>
+            <TextBlock Text="Rubriek II, A is in principe bestemd voor de interesten van leningen die van 1.1.2009 tot 31.12.2011 zijn gesloten om energiebesparende uitgaven te financieren (en die voldoen aan de voorwaarden voor een interestbonificatie van de Staat)." Margin="0,0,0,5"/>
+            <TextBlock Text="Rubriek I is bestemd voor de (niet in rubriek II, A vermelde) uitgaven voor de woning die op het tijdstip van de betaling uw 'eigen woning' was. Onder 'eigen woning' wordt verstaan: de woning die u als eigenaar, bezitter, erfpachter, opstalhouder of vruchtgebruiker zelf betrok of niet zelf betrok om één van de volgende redenen: beroepsredenen, redenen van sociale aard, wettelijke of contractuele belemmeringen waardoor u de woning onmogelijk zelf kon betrekken, of de stand van de bouw- of verbouwingswerkzaamheden waardoor u de woning niet zelf kon betrekken (zie ook de toelichting voor meer bijzonderheden)." Margin="0,0,0,5" TextWrapping="Wrap"/>
+            <TextBlock Text="Rubriek II, B is bestemd voor de (niet in rubriek II, A vermelde) uitgaven die geen betrekking hebben op een woning of voor een woning die op het tijdstip van de betaling niet uw 'eigen woning' was." Margin="0,0,0,20" TextWrapping="Wrap"/>
+            <TextBlock Text="I. GEWESTELIJK: NIET IN II, A VERMELDE UITGAVEN VOOR UW 'EIGEN WONING'" FontWeight="Bold" Margin="0,0,0,10"/>
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="1. Interesten en kapitaalaflossingen van hypothecaire leningen gesloten van 2016 tot 2019 en premies van individuele levensverzekeringen die in aanmerking komen voor de 'geïntegreerde woonbonus'" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBlock Text="Fiscale toelichting"/>
+       
+                <TextBlock Text="a) Interesten en kapitaalaflossingen:" FontWeight="Bold"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Interesten en kapitaalaflossingen bedrag"/>
+                <TextBlock Text="3334" Margin="10,0,0,0"/>
+                <TextBlock Text="b) Premies van individuele levensverzekeringen tot waarborg of wedersamenstelling van die leningen:" FontWeight="Bold" TextWrapping="Wrap"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Premies individuele levensverzekeringen bedrag"/>
+                <TextBlock Text="3335" Margin="10,0,0,0"/>
+                <TextBlock Text="Nr. contract:"/>
+                <TextBox Width="200" Margin="20,5" ToolTip="Nr. contract"/>
+                <TextBlock Text="Naam van de verzekeringsinstelling:"/>
+                <TextBox Width="200" Margin="20,5" ToolTip="Naam van de verzekeringsinstelling"/>
+            
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="Hebt u in 1 interesten, kapitaalaflossingen of premies vermeld, beantwoord dan ook de volgende vragen:" Margin="0,0,0,5" TextWrapping="Wrap"/> 
+            <TextBlock Text="- was de woning waarvoor die leningen zijn aangegaan, op 31.12.2023 nog altijd uw enige woning?" Margin="0,0,0,5" TextWrapping="Wrap"/>
+            <TextBlock Text="3336" Margin="10,0,0,0"/>
+            <TextBlock Text="- aantal kinderen ten laste op 1.1.2016?" Margin="0,0,0,20"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Aantal kinderen ten laste"/>
+            <TextBlock Text="3346" Margin="10,0,0,0"/>
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="2. Interesten en kapitaalaflossingen van hypothecaire leningen en premies van individuele levensverzekeringen gesloten vanaf 2005 die in aanmerking komen voor de gewestelijke 'woonbonus'" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="a) Leningen gesloten in 2015" FontWeight="Bold"/>
+       
+                <TextBlock Text="1) Interesten en kapitaalaflossingen:" FontWeight="Bold"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Interesten en kapitaalaflossingen 2015 bedrag"/>
+                <TextBlock Text="3360" Margin="10,0,0,0"/>
+                <TextBlock Text="2) Premies van individuele levensverzekeringen tot waarborg of wedersamenstelling van die leningen:" FontWeight="Bold" TextWrapping="Wrap"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Premies individuele levensverzekeringen 2015 bedrag"/>
+                <TextBlock Text="3361" Margin="10,0,0,0"/>
+                <TextBlock Text="Nr. contract:"/>
+                <TextBox Width="200" Margin="20,5" ToolTip="Nr. contract"/> 
+                <TextBlock Text="Naam van de verzekeringsinstelling:"/>
+                <TextBox Width="200" Margin="20,5" ToolTip="Naam van de verzekeringsinstelling"/>
+            
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="b) Leningen gesloten vóór 2015" FontWeight="Bold"/>
+       
+                <TextBlock Text="1) Interesten en kapitaalaflossingen:" FontWeight="Bold"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Interesten en kapitaalaflossingen bedrag"/>
+                <TextBlock Text="3370" Margin="10,0,0,0"/>
+                <TextBlock Text="2) Premies van individuele levensverzekeringen tot waarborg of wedersamenstelling van die leningen:" FontWeight="Bold" TextWrapping="Wrap"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Premies individuele levensverzekeringen bedrag"/>
+                <TextBlock Text="3371" Margin="10,0,0,0"/>
+                <TextBlock Text="Nr. contract:"/>
+                <TextBox Width="200" Margin="20,5" ToolTip="Nr. contract"/> 
+                <TextBlock Text="Naam van de verzekeringsinstelling:"/>
+                <TextBox Width="200" Margin="20,5" ToolTip="Naam van de verzekeringsinstelling"/>
+            
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="Hebt u in 2, b interesten, kapitaalaflossingen of premies vermeld die slaan op een lening gesloten in 2014?" Margin="0,0,0,5" TextWrapping="Wrap"/>
+            <TextBlock Text="3372" Margin="10,0,0,0"/>
+            <TextBlock Text="3380" Margin="10,0,0,0"/>
+            <TextBlock Text="Zo ja," Margin="0,0,0,5"/>
+            <TextBlock Text="- was de woning waarvoor de lening is aangegaan, op 31.12.2023 nog altijd uw enige woning?" Margin="0,0,0,5" TextWrapping="Wrap"/>
+            <TextBlock Text="3374" Margin="10,0,0,0"/>
+            <TextBlock Text="- aantal kinderen ten laste op 1.1.2015?" Margin="0,0,0,20"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Aantal kinderen ten laste"/>
+            <TextBlock Text="3373" Margin="10,0,0,0"/>
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="3. Andere  dan in 1 en 2 bedoelde interesten die in aanmerking komen voor een gewestelijke belastingvermindering" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="a) Gegevens over het vrijgestelde inkomen van uw 'eigen woning':" FontWeight="Bold"/>
+            <TextBlock Text="NIET GEINDEXEERD" FontWeight="Bold"/>
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="1) die u niet verhuurt:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="0,5" ToolTip="Vrijgesteld inkomen eigen woning niet verhuurd bedrag"/>
+            <TextBlock Text="3100" Margin="10,0,0,0"/>
+            <TextBlock Text="2) die u verhuurt aan:" FontWeight="Bold"/>
+       
+                <TextBlock Text="- een natuurlijke persoon die ze niet voor zijn beroep gebruikt:" FontWeight="Bold" TextWrapping="Wrap"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Vrijgesteld inkomen eigen woning verhuurd aan natuurlijke persoon bedrag"/>
+                <TextBlock Text="3106" Margin="10,0,0,0"/>
+                <TextBlock Text="- een rechtspersoon die geen vennootschap is, een gewestelijke huisvestingsmaatschappij of een erkende maatschappij voor sociale huisvesting om ze ter beschikking te laten stellen van natuurlijke personen die ze uitsluitend als woning gebruiken:" FontWeight="Bold" TextWrapping="Wrap"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Vrijgesteld inkomen eigen woning verhuurd aan rechtspersoon bedrag"/>
+                <TextBlock Text="3106" Margin="10,0,0,0"/>
+                <TextBlock Text="3) die u verhuurt in andere omstandigheden:" FontWeight="Bold"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Vrijgesteld inkomen eigen woning verhuurd in andere omstandigheden bedrag"/>
+                <TextBlock Text="3109" Margin="10,0,0,0"/>
+            
+            <TextBlock Text="Brutohuur:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="0,5" ToolTip="Brutohuur bedrag"/>
+            <TextBlock Text="3110" Margin="10,0,0,0"/>
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="b) Interesten van hypothecaire leningen (met een minimumlooptijd van 10 jaar) die na 30.4.1986 en (in principe) vóór 2005 zijn gesloten om in de Europese Economische Ruimte:" FontWeight="Bold" TextWrapping="Wrap"/>
+       
+                <TextBlock Text="1) uw enige woning te bouwen of in nieuwe staat (met btw) te verwerven:" FontWeight="Bold" TextWrapping="Wrap"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Interesten hypothecaire leningen enige woning bedrag"/>
+                <TextBlock Text="3138" Margin="10,0,0,0"/>
+                <TextBlock Text="2) uw enige en bij het sluiten van de lening sedert ten minste 15 of 20 jaar in gebruik zijnde woning te vernieuwen:" FontWeight="Bold" TextWrapping="Wrap"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Interesten hypothecaire leningen vernieuwen woning bedrag"/>
+                <TextBlock Text="3139" Margin="10,0,0,0"/>
+                <TextBlock Text="Datum van de lening (dag, maand, jaar):" FontWeight="Bold"/>
+                <TextBox Width="200" Margin="20,5" ToolTip="Datum van de lening"/>
+                <TextBlock Text="3140" Margin="10,0,0,0"/>
+                <TextBlock Text="Bedrag van de lening:" FontWeight="Bold"/>
+                <TextBox Width="200" Margin="20,5" ToolTip="Bedrag van de lening"/>
+                <TextBlock Text="3141" Margin="10,0,0,0"/>
+                <TextBlock Text="Aantal kinderen ten laste op 1 januari van het jaar na het jaar van afsluiting van de lening:" FontWeight="Bold" TextWrapping="Wrap"/>
+                <TextBox Width="200" Margin="20,5" ToolTip="Aantal kinderen ten laste na jaar afsluiting lening"/>
+                <TextBlock Text="3142" Margin="10,0,0,0"/>
+                <TextBlock Text="Datum van ingebruikneming van de nieuwe woning of van de voltooiing van de vernieuwingswerken (dag, maand, jaar):" FontWeight="Bold" TextWrapping="Wrap"/>
+                <TextBox Width="200" Margin="20,5" ToolTip="Datum ingebruikneming nieuwe woning of voltooiing vernieuwingswerken"/>
+                <TextBlock Text="3144" Margin="10,0,0,0"/>
+                <TextBlock Text="Totale kostprijs van de vernieuwingswerken (btw inbegrepen):" FontWeight="Bold" TextWrapping="Wrap"/>
+                <TextBox Width="200" Margin="20,5" ToolTip="Totale kostprijs vernieuwingswerken"/>
+                <TextBlock Text="3145" Margin="10,0,0,0"/>
+                <TextBlock Text="Uw aandeel in de 'eigen woning':" FontWeight="Bold"/>
+                <TextBox Width="200" Margin="20,5" ToolTip="Aandeel eigen woning"/>
+                <TextBlock Text="3148" Margin="10,0,0,0"/>
+                <TextBlock Text="%:" FontWeight="Bold"/>
+                <TextBox Width="60" Margin="20,5" ToolTip="Percentage aandeel eigen woning"/>
+                <TextBlock Text="3149" Margin="10,0,0,0"/>
+                <TextBlock Text="%:" FontWeight="Bold"/>
+                <TextBox Width="60" Margin="20,5" ToolTip="Aandeel in de eigen woning van personen die de lening samen met u hebben aangegaan"/>
+                <TextBlock Text="3149" Margin="10,0,0,0"/>
+                <TextBlock Text="Gaat het om de 'eigen woning' van beide samen belaste echtgenoten of wettelijk samenwonenden, die voor beiden de enige woning is?" FontWeight="Bold" TextWrapping="Wrap"/>
+                <StackPanel Orientation="Horizontal">
+                    <RadioButton Content="Ja" GroupName="EigenWoning" Margin="0,0,10,0"/>
+                    <RadioButton Content="Neen" GroupName="EigenWoning"/>
+                </StackPanel>
+                <TextBlock Text="3136" Margin="10,0,0,0"/>
+            
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="c) Andere dan de in b bedoelde interesten van leningen en schulden voor het verwerven of behouden van uw 'eigen woning':" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="1) leningen die (in principe) vóór 2005 zijn gesloten:" FontWeight="Bold"/>
+            
+                <TextBlock Text="a. leningen gesloten in 2015:" FontWeight="Bold"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Leningen gesloten in 2015 bedrag"/>
+                <TextBlock Text="3150" Margin="10,0,0,0"/>
+                <TextBlock Text="b. leningen gesloten vóór 2015:" FontWeight="Bold"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Leningen gesloten vóór 2015 bedrag"/>
+                <TextBlock Text="3146" Margin="10,0,0,0"/>
+            
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="2) andere schulden aangegaan vóór 2016:" FontWeight="Bold"/>
+            
+                <TextBlock Text="a. schulden aangegaan in 2015:" FontWeight="Bold"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Schulden aangegaan in 2015 bedrag"/>
+                <TextBlock Text="3151" Margin="10,0,0,0"/>
+                <TextBlock Text="b. schulden aangegaan vóór 2015:" FontWeight="Bold"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Schulden aangegaan vóór 2015 bedrag"/>
+                <TextBlock Text="3152" Margin="10,0,0,0"/>
+            
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="4. Kapitaalaflossingen van hypothecaire leningen aangegaan voor het verwerven of (ver)bouwen van uw 'eigen woning':" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="a) die in aanmerking komen voor de gewestelijke vermindering voor het bouwsparen (leningen gesloten vóór 2015):" FontWeight="Bold" TextWrapping="Wrap"/>
+            
+                <TextBlock Text="1) leningen gesloten vanaf 1989 en (in principe) vóór 2005:" FontWeight="Bold" TextWrapping="Wrap"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Kapitaalaflossingen leningen 1989-2005 bedrag"/>
+                <TextBlock Text="3355" Margin="10,0,0,0"/>
+                <TextBlock Text="2) leningen gesloten vóór 1989:" FontWeight="Bold"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Kapitaalaflossingen leningen vóór 1989 bedrag"/>
+                <TextBlock Text="3356" Margin="10,0,0,0"/>
+            
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="b) die in aanmerking komen voor de gewestelijke vermindering voor het lange termijnsparen (leningen gesloten vanaf 1993 en vóór 2016):" FontWeight="Bold" TextWrapping="Wrap"/>
+            
+                <TextBlock Text="3358" Margin="10,0,0,0"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Kapitaalaflossingen lange termijnsparen bedrag"/>
+                <TextBlock Text="3358" Margin="10,0,0,0"/>
+            
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="5. Premies van individuele levensverzekeringen:" FontWeight="Bold"/>
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="a) die in aanmerking komen voor de gewestelijke vermindering voor het bouwsparen:" FontWeight="Bold"/>
+            
+                <TextBlock Text="1) contracten gesloten vanaf 1989:" FontWeight="Bold"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Premies individuele levensverzekeringen bouwsparen 1989 bedrag"/>
+                <TextBlock Text="3351" Margin="10,0,0,0"/>
+                <TextBlock Text="2) contracten gesloten vóór 1989:" FontWeight="Bold"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Premies individuele levensverzekeringen bouwsparen vóór 1989 bedrag"/>
+                <TextBlock Text="3352" Margin="10,0,0,0"/>
+            
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="b) die in aanmerking komen voor de gewestelijke vermindering voor het lange termijnsparen:" FontWeight="Bold"/>
+            
+                <TextBlock Text="1) contracten gesloten vanaf 1989:" FontWeight="Bold"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Premies individuele levensverzekeringen lange termijnsparen 1989 bedrag"/>
+                <TextBlock Text="3353" Margin="10,0,0,0"/>
+                <TextBlock Text="2) contracten gesloten vóór 1989:" FontWeight="Bold"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Premies individuele levensverzekeringen lange termijnsparen vóór 1989 bedrag"/>
+                <TextBlock Text="3354" Margin="10,0,0,0"/>
+            
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="c) Nr. contract:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Nr. contract individuele levensverzekering"/>
+            <TextBlock Text="Naam van de verzekeringsinstelling:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Naam verzekeringsinstelling individuele levensverzekering"/>
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="6. Betaalde erfpacht- en opstalvergoedingen of gelijkaardige vergoedingen:" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="a) contracten gesloten van 2015 tot 2019:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="0,5" ToolTip="Betaalde erfpacht- en opstalvergoedingen 2015-2019 bedrag"/>
+            <TextBlock Text="3143" Margin="10,0,0,0"/>
+            <TextBlock Text="b) contracten gesloten vóór 2015:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="0,5" ToolTip="Betaalde erfpacht- en opstalvergoedingen vóór 2015 bedrag"/>
+            <TextBlock Text="3147" Margin="10,0,0,0"/>
+            <TextBlock Text="Naam, voornaam en adres van de genieter:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Naam, voornaam en adres genieter"/>
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="II. FEDERAAL" FontWeight="Bold" Margin="0,0,0,10"/>
+            <TextBlock Text="Fiscale toelichting"/>
+            
+            <TextBlock Text="A. INTERESTEN VAN LENINGEN GESLOTEN VAN 2009 TOT 2011 OM ENERGIEBESPARENDE UITGAVEN TE FINANCIEREN :" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Interesten leningen energie besparen bedrag"/>
+            <TextBlock Text="1143" Margin="10,0,0,0"/>
+            <TextBlock Text="B. NIET IN II, A VERMELDE UITGAVEN DIE NIET SLAAN OP UW 'EIGEN WONING'" FontWeight="Bold" Margin="0,0,0,10" TextWrapping="Wrap"/>
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="1143" Margin="10,0,0,0"/>
+            <TextBlock Text="1. Interesten en kapitaalaflossingen van hypothecaire leningen gesloten van 2005 tot 2013 die in aanmerking komen voor de federale 'woonbonus':" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBox Width="200" Margin="0,5" ToolTip="Interesten en kapitaalaflossingen federale woonbonus bedrag"/>
+            <TextBlock Text="1370" Margin="10,0,0,0"/>
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="2. Premies van individuele levensverzekeringen gesloten vanaf 2005 die in aanmerking komen voor de federale 'woonbonus':" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBox Width="200" Margin="0,5" ToolTip="Premies individuele levensverzekeringen federale woonbonus bedrag"/>
+            <TextBlock Text="1371" Margin="10,0,0,0"/>
+            <TextBlock Text="Nr. contract:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Nr. contract individuele levensverzekering"/>
+            <TextBlock Text="Naam van de verzekeringsinstelling:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Naam verzekeringsinstelling individuele levensverzekering"/>
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="3. Andere dan de in 1 bedoelde interesten, die in aanmerking komen voor een federaal belastingvoordeel:" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="a) van hypothecaire leningen (met een minimumlooptijd van 10 jaar) die na 30.4.1986 en (in principe) vóór 2005 zijn gesloten om in de Europese Economische Ruimte:" FontWeight="Bold" TextWrapping="Wrap"/>
+            
+                <TextBlock Text="- uw enige woning te bouwen of in nieuwe staat (met btw) te verwerven:" FontWeight="Bold" TextWrapping="Wrap"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Hypothecaire leningen enige woning bedrag"/>
+                <TextBlock Text="1138" Margin="10,0,0,0"/>
+                <TextBlock Text="- uw enige en bij het sluiten van de lening sedert ten minste 15 of 20 jaar in gebruik zijnde woning te vernieuwen:" FontWeight="Bold" TextWrapping="Wrap"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Hypothecaire leningen vernieuwen woning bedrag"/>
+                <TextBlock Text="1139" Margin="10,0,0,0"/>
+                <TextBlock Text="Uw aandeel in de woning:" FontWeight="Bold"/>
+                <TextBox Width="200" Margin="20,5" ToolTip="Aandeel in de woning"/>
+                <TextBlock Text="1148" Margin="10,0,0,0"/>
+                <TextBlock Text="%:" FontWeight="Bold"/>
+                <TextBox Width="60" Margin="20,5" ToolTip="% aandeel in de woning"/>
+                <TextBlock Text="1149" Margin="10,0,0,0"/>
+                <TextBlock Text="%:" FontWeight="Bold"/>
+                <TextBox Width="60" Margin="20,5" ToolTip="% aandeel in de woning van personen die de lening samen met u hebben aangegaan"/>
+                <TextBlock Text="1149" Margin="10,0,0,0"/>
+                <TextBlock Text="Gaat het om een woning van beide samen belaste echtgenoten of wettelijk samenwonenden, die voor beiden de enige woning is?" FontWeight="Bold" TextWrapping="Wrap"/>
+                <StackPanel Orientation="Horizontal">
+                    <RadioButton Content="Ja" GroupName="WoningEnige" Margin="0,0,10,0"/>
+                    <RadioButton Content="Neen" GroupName="WoningEnige"/>
+                </StackPanel>
+                <TextBlock Text="1136" Margin="10,0,0,0"/>
+            
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="b) van andere dan de in a bedoelde schulden voor het verwerven of behouden van onroerende goederen die niet vrijgestelde onroerende goederen zijn:" FontWeight="Bold" TextWrapping="Wrap"/>
+            
+                <TextBlock Text="1) die in aanmerking komen voor een federale belastingvermindering:" FontWeight="Bold"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Andere schulden federale belastingvermindering bedrag"/>
+                <TextBlock Text="1140" Margin="10,0,0,0"/>
+                <TextBlock Text="2) die niet in aanmerking komen voor een federale belastingvermindering:" FontWeight="Bold"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Andere schulden geen federale belastingvermindering bedrag"/>
+                <TextBlock Text="1141" Margin="10,0,0,0"/>
+            
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="Uw aandeel in de woning:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Aandeel in de woning"/>
+            <TextBlock Text="1148" Margin="10,0,0,0"/>  
+            <TextBlock Text="%:" FontWeight="Bold"/>
+            <TextBox Width="60" Margin="20,5" ToolTip="% aandeel in de woning"/>
+            <TextBlock Text="1149" Margin="10,0,0,0"/>
+            <TextBlock Text="%:" FontWeight="Bold"/>
+            <TextBox Width="60" Margin="20,5" ToolTip="% aandeel in de woning van personen die de lening samen met u hebben aangegaan"/>
+            <TextBlock Text="1149" Margin="10,0,0,0"/>
+            <TextBlock Text="Gaat het om een woning van beide samen belaste echtgenoten of wettelijk samenwonenden, die voor beiden de enige woning is?" FontWeight="Bold" TextWrapping="Wrap"/>
+            <StackPanel Orientation="Horizontal">
+                <RadioButton Content="Ja" GroupName="WoningEnigeFederaal" Margin="0,0,10,0"/>
+                <RadioButton Content="Neen" GroupName="WoningEnigeFederaal"/>
+            </StackPanel>
+            <TextBlock Text="1136" Margin="10,0,0,0"/>
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="c) van andere dan de in a bedoelde interesten voor het verwerven of behouden van uw 'eigen woning':" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="1) leningen die (in principe) vóór 2005 zijn gesloten:" FontWeight="Bold"/>    
+            
+                <TextBlock Text="a. leningen gesloten in 2015:" FontWeight="Bold"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Leningen gesloten in 2015 bedrag"/>
+                <TextBlock Text="3150" Margin="10,0,0,0"/>
+                <TextBlock Text="b. leningen gesloten vóór 2015:" FontWeight="Bold"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Leningen gesloten vóór 2015 bedrag"/>
+                <TextBlock Text="3146" Margin="10,0,0,0"/>   
+        
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="2) andere schulden aangegaan vóór 2016:" FontWeight="Bold"/>
+            
+                <TextBlock Text="a. schulden aangegaan in 2015:" FontWeight="Bold"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Schulden aangegaan in 2015 bedrag"/>
+                <TextBlock Text="3151" Margin="10,0,0,0"/>
+                <TextBlock Text="b. schulden aangegaan vóór 2015:" FontWeight="Bold"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Schulden aangegaan vóór 2015 bedrag"/>
+                <TextBlock Text="3152" Margin="10,0,0,0"/>
+            
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="4. Kapitaalaflossingen van hypothecaire leningen aangegaan voor het verwerven of (ver)bouwen van uw 'eigen woning':" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="a) die in aanmerking komen voor de gewestelijke vermindering voor het bouwsparen (leningen gesloten vóór 2015):" FontWeight="Bold" TextWrapping="Wrap"/>
+            
+                <TextBlock Text="1) leningen gesloten vanaf 1989 en (in principe) vóór 2005:" FontWeight="Bold" TextWrapping="Wrap"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Kapitaalaflossingen leningen 1989-2005 bedrag"/>
+                <TextBlock Text="3355" Margin="10,0,0,0"/>
+                <TextBlock Text="2) leningen gesloten vóór 1989:" FontWeight="Bold"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Kapitaalaflossingen leningen vóór 1989 bedrag"/>
+                <TextBlock Text="3356" Margin="10,0,0,0"/>
+            
+            <TextBlock Text="Fiscale toelichting"/> 
+            <TextBlock Text="b) die in aanmerking komen voor de gewestelijke vermindering voor het lange termijnsparen (leningen gesloten vanaf 1993 en vóór 2016):" FontWeight="Bold" TextWrapping="Wrap"/>
+            
+                <TextBlock Text="3358" Margin="10,0,0,0"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Kapitaalaflossingen lange termijnsparen bedrag"/>
+                <TextBlock Text="3358" Margin="10,0,0,0"/>
+            
 
-                        <TextBlock Text="Fiscale toelichting"/>
-                        <TextBlock Text="5. Premies van individuele levensverzekeringen:" FontWeight="Bold"/>
-                        <TextBlock Text="Fiscale toelichting"/> 
-                        <TextBlock Text="a) die in aanmerking komen voor de gewestelijke vermindering voor het bouwsparen:" FontWeight="Bold"/>
-1359	                <TextBlock Text="b) die in aanmerking komen voor de gewestelijke vermindering voor het lange termijnsparen:" FontWeight="Bold"/>
-                        
-                            <TextBlock Text="1) contracten gesloten vanaf 1989:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Premies individuele levensverzekeringen bouwsparen 1989 bedrag"/>
-                            <TextBlock Text="3351" Margin="10,0,0,0"/>
-                            <TextBlock Text="2) contracten gesloten vóór 1989:" FontWeight="Bold"/>
-                            <TextBox Width="200" Margin="0,5" ToolTip="Premies individuele levensverzekeringen bouwsparen vóór 1989 bedrag"/>
-                            <TextBlock Text="3352" Margin="10,0,0,0"/>
-                     
-                        <TextBlock Text="Fiscale toelichting"/> 
-                        <TextBlock Text="c) Nr. contract:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Nr. contract individuele levensverzekering"/>
-                        <TextBlock Text="Naam van de verzekeringsinstelling:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Naam verzekeringsinstelling individuele levensverzekering"/>
-                        <TextBlock Text="Fiscale toelichting"/> 
-                        <TextBlock Text="6. Betaalde erfpacht- en opstalvergoedingen of gelijkaardige vergoedingen voor onroerende goederen die niet vrijgestelde onroerende inkomsten hebben opgebracht:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="0,5" ToolTip="Betaalde erfpacht- en opstalvergoedingen bedrag"/>
-                        <TextBlock Text="3143" Margin="10,0,0,0"/>
-                        <TextBlock Text="Naam, voornaam en adres van de genieter:" FontWeight="Bold"/>
-                        <TextBox Width="200" Margin="20,5" ToolTip="Naam, voornaam en adres genieter"/>
-                        <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="Fiscale toelichting"/>
+            <TextBlock Text="5. Premies van individuele levensverzekeringen:" FontWeight="Bold"/>
+            <TextBlock Text="Fiscale toelichting"/> 
+            <TextBlock Text="a) die in aanmerking komen voor de gewestelijke vermindering voor het bouwsparen:" FontWeight="Bold"/>
+            <TextBlock Text="b) die in aanmerking komen voor de gewestelijke vermindering voor het lange termijnsparen:" FontWeight="Bold"/>
+            
+                <TextBlock Text="1) contracten gesloten vanaf 1989:" FontWeight="Bold"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Premies individuele levensverzekeringen bouwsparen 1989 bedrag"/>
+                <TextBlock Text="3351" Margin="10,0,0,0"/>
+                <TextBlock Text="2) contracten gesloten vóór 1989:" FontWeight="Bold"/>
+                <TextBox Width="200" Margin="0,5" ToolTip="Premies individuele levensverzekeringen bouwsparen vóór 1989 bedrag"/>
+                <TextBlock Text="3352" Margin="10,0,0,0"/>
+         
+            <TextBlock Text="Fiscale toelichting"/> 
+            <TextBlock Text="c) Nr. contract:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Nr. contract individuele levensverzekering"/>
+            <TextBlock Text="Naam van de verzekeringsinstelling:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Naam verzekeringsinstelling individuele levensverzekering"/>
+            <TextBlock Text="Fiscale toelichting"/> 
+            <TextBlock Text="6. Betaalde erfpacht- en opstalvergoedingen of gelijkaardige vergoedingen voor onroerende goederen die niet vrijgestelde onroerende inkomsten hebben opgebracht:" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBox Width="200" Margin="0,5" ToolTip="Betaalde erfpacht- en opstalvergoedingen bedrag"/>
+            <TextBlock Text="3143" Margin="10,0,0,0"/>
+            <TextBlock Text="Naam, voornaam en adres van de genieter:" FontWeight="Bold"/>
+            <TextBox Width="200" Margin="20,5" ToolTip="Naam, voornaam en adres genieter"/>
+            <TextBlock Text="Fiscale toelichting"/>
+        </StackPanel>
+    </ScrollViewer>
              </UserControl>
