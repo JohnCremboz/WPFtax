@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:TAX_WPF"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <ScrollViewer VerticalScrollBarVisibility="Auto">                            
+    <ScrollViewer VerticalScrollBarVisibility="Auto" MaxHeight="600">                            
         <StackPanel Margin="30">
 
             <!-- Titel -->
@@ -25,18 +25,19 @@
 
             <!-- 1001: ongehuwd en niet wettelijk samenwonend -->
             <StackPanel Orientation="Horizontal" Margin="20,0,0,0">
-                 <CheckBox Name="cb1001" Margin="0,0,10,0"/>
+                <TextBlock FontWeight="Bold">1001.</TextBlock> 
+                <CheckBox Name="cb1001" Margin="0,0,10,0"/>
                 <TextBlock>
-                    <Run Text="1001. ongehuwd en niet wettelijk samenwonend"/>
+                    <Run Text="ongehuwd en niet wettelijk samenwonend"/>
                 </TextBlock>
             </StackPanel>
-            <StackPanel Orientation="Horizontal" Margin="40,0,0,0">
-                <CheckBox Name="cb1002" Margin="0,0,10,0"/>
+            <StackPanel Orientation="Horizontal" Margin="100,0,0,0">
+                <CheckBox Name="cb1002" Margin="0,0,0,0"/>
                 <TextBlock>
                     <Run Text="uit de echt gescheiden of daarmee gelijkgesteld (door de beëindiging van de wettelijke samenwoning)" Foreground="Red"/>
                 </TextBlock>
             </StackPanel>
-            <StackPanel Orientation="Horizontal" Margin="40,0,0,0">
+            <StackPanel Orientation="Horizontal" Margin="100,0,20,0">
                 <CheckBox Name="cb1003" Margin="0,0,10,0"/>
                 <TextBlock>
                     <Run Text="van tafel en bed gescheiden"/>
@@ -45,41 +46,42 @@
 
             <!-- 1002: gehuwd of wettelijk samenwonend -->
             <StackPanel Orientation="Horizontal" Margin="20,10,0,0">
+                <TextBlock FontWeight="Bold">1002.</TextBlock>
                 <CheckBox Name="cb1004" Margin="0,0,10,0"/>
                 <TextBlock>
                     <Run Text="1002. gehuwd of wettelijk samenwonend ..."/>
                 </TextBlock>
             </StackPanel>
-            <TextBlock FontSize="12" Margin="50,0,0,0" TextWrapping="Wrap">
+            <TextBlock FontSize="12" Margin="100,0,0,20" TextWrapping="Wrap">
                 (Als u op 1.1.2024 feitelijk gescheiden was, maar nog niet uit de echt gescheiden was (of daarmee gelijkgesteld door de beëindiging van de wettelijke samenwoning), moet u zowel code 1002 (gehuwd of wettelijk samenwonend) als code 1018 (feitelijk gescheiden) aankruisen [en in voorkomend geval ook de andere toepasselijke codes van deze rubriek].)
             </TextBlock>
-            <StackPanel Orientation="Horizontal" Margin="40,0,0,0">
+            <StackPanel Orientation="Horizontal" Margin="100,0,0,0">
                 <CheckBox Name="cb1005" Margin="0,0,10,0"/>
                 <TextBlock>
                     <Run Text="u bent in 2023 gehuwd of woonde sinds 2022 of vroeger, nog niet wettelijk samen met uw echtgenoot, of"/>
                 </TextBlock>
             </StackPanel>
-            <StackPanel Orientation="Horizontal" Margin="40,0,0,0">
+            <StackPanel Orientation="Horizontal" Margin="100,0,0,0">
                 <CheckBox Name="cb1006" Margin="0,0,10,0"/>
                 <TextBlock>
                     <Run Text="u hebt in 2023 een verklaring van wettelijke samenwoning afgelegd"/>
                 </TextBlock>
             </StackPanel>
-            <StackPanel Orientation="Horizontal" Margin="40,0,0,0">
+            <StackPanel Orientation="Horizontal" Margin="60,0,0,0">
                 <CheckBox Name="cb1007" Margin="0,0,10,0"/>
                 <TextBlock>
                     <Run Text="De nettobestaansmiddelen van uw echtgenoot of wettelijk samenwonende partner bedroegen in 2023 niet meer dan 3.820 euro " />
                     <Run Text="(1)" Foreground="Red"/>
                 </TextBlock>
             </StackPanel>
-            <StackPanel Orientation="Horizontal" Margin="40,0,0,0">
+            <StackPanel Orientation="Horizontal" Margin="100,0,0,0">
                 <CheckBox Name="cb1018" Margin="0,0,10,0"/>
                 <TextBlock>
                     <Run Text="...maar op 1.1.2024 leefden u en uw echtgenoot of wettelijk samenwonende partner " />
                     <Run Text="feitelijk gescheiden" Foreground="Red"/>
                 </TextBlock>
             </StackPanel>
-            <StackPanel Orientation="Horizontal" Margin="40,0,0,0">
+            <StackPanel Orientation="Horizontal" Margin="100,0,0,0">
                 <CheckBox Name="cb1019" Margin="0,0,10,0"/>
                 <TextBlock>
                     <Run Text="Uw feitelijke scheiding vond plaats in 2023"/>
@@ -88,12 +90,13 @@
 
             <!-- 1010: weduwnaar, weduwe of daarmee gelijkgesteld -->
             <StackPanel Orientation="Horizontal" Margin="20,10,0,0">
+                <TextBlock FontWeight="Bold">1010.</TextBlock>
                 <CheckBox Name="cb1010" Margin="0,0,10,0"/>
                 <TextBlock>
                     <Run Text="1010. weduwnaar, weduwe of daarmee gelijkgesteld (door het overlijden van uw wettelijk samenwonende partner)"/>
                 </TextBlock>
             </StackPanel>
-            <StackPanel Orientation="Horizontal" Margin="40,0,0,0">
+            <StackPanel Orientation="Horizontal" Margin="100,0,0,0">
                 <CheckBox Name="cb1011" Margin="0,0,10,0"/>
                 <TextBlock>
                     <Run Text="Uw echtgenoot of wettelijk samenwonende partner is overleden in 2023. Voor u en hem of haar:"/>

@@ -6,11 +6,11 @@
     
     <Window.Resources>
         <!-- Hoofdkleurenpalet -->
-        <SolidColorBrush x:Key="PrimaryColor" Color="#2E5090"/>
-        <SolidColorBrush x:Key="SecondaryColor" Color="Gray"/>
+        <SolidColorBrush x:Key="PrimaryColor" Color="#228B22"/>  <!-- Forest Green -->
+        <SolidColorBrush x:Key="SecondaryColor" Color="#F5F5F5"/>  <!-- Smoke White -->
         <SolidColorBrush x:Key="AccentColor" Color="#E67E22"/>
         <SolidColorBrush x:Key="TextColor" Color="Black"/>
-        <SolidColorBrush x:Key="LightBorderColor" Color="White"/>
+        <SolidColorBrush x:Key="LightBorderColor" Color="#F5F5F5"/>  <!-- Smoke White -->
         
         <!-- TabControl stijl -->
         <Style TargetType="TabControl">
@@ -47,21 +47,21 @@
                             <Trigger Property="IsSelected" Value="True">
                                 <Setter TargetName="Border" Property="Background" Value="{StaticResource PrimaryColor}"/>
                                 <Setter TargetName="Border" Property="BorderBrush" Value="{StaticResource PrimaryColor}"/>
-                                <Setter Property="Foreground" Value="White"/>
+                                <Setter Property="Foreground" Value="Black"/>
                             </Trigger>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter TargetName="Border" Property="Background" Value="#3E60A0"/>
-                                <Setter Property="Foreground" Value="White"/>
+                                <Setter TargetName="Border" Property="Background" Value="#2E8B57"/>  <!-- Donkere variant van Forest Green -->
+                                <Setter Property="Foreground" Value="Black"/>
                             </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
         </Style>
-    
+
 <Style x:Key="NavigationButtonStyle" TargetType="Button">
-    <Setter Property="Background" Value="#2E5090"/>
-    <Setter Property="Foreground" Value="White"/>
+    <Setter Property="Background" Value="#228B22"/>  <!-- Forest Green -->
+    <Setter Property="Foreground" Value="Black"/>
     <Setter Property="Padding" Value="15,8"/>
     <Setter Property="Margin" Value="5"/>
     <Setter Property="BorderThickness" Value="0"/>
@@ -77,10 +77,10 @@
                 </Border>
                 <ControlTemplate.Triggers>
                     <Trigger Property="IsMouseOver" Value="True">
-                        <Setter Property="Background" Value="#3E60A0"/>
+                        <Setter Property="Background" Value="#2E8B57"/>  <!-- Donkere variant van Forest Green -->
                     </Trigger>
                     <Trigger Property="IsPressed" Value="True">
-                        <Setter Property="Background" Value="#1E4080"/>
+                        <Setter Property="Background" Value="#006400"/>  <!-- Nog donkerdere variant -->
                     </Trigger>
                 </ControlTemplate.Triggers>
             </ControlTemplate>
@@ -96,9 +96,40 @@
         </Grid.RowDefinitions>
         
         <!-- Header met logo of titel -->
-        <Border Grid.Row="0" Background="{StaticResource PrimaryColor}" Height="80" CornerRadius="5" Margin="0,0,0,20">
-            <TextBlock Text="SOS TAX" FontSize="32" FontWeight="Bold" Foreground="White" 
-                       VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <Border Grid.Row="0" Background="{StaticResource PrimaryColor}" Height="90" CornerRadius="8" Margin="0,0,0,20">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                
+                <!-- Logo of Icoon (links) -->
+                <Border Grid.Column="0" Width="70" Height="70" Margin="15,0,0,0" 
+                        Background="{StaticResource SecondaryColor}" CornerRadius="35">
+                    <TextBlock Text="€" FontSize="40" FontWeight="Bold" 
+                               Foreground="{StaticResource PrimaryColor}" 
+                               VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+                
+                <!-- Titel met ondertitel (midden) -->
+                <StackPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="SOS TAX" FontSize="36" FontWeight="Bold" 
+                               Foreground="{StaticResource SecondaryColor}"/>
+                    <TextBlock Text="Uw belastingaangifte eenvoudig geregeld" FontSize="16" 
+                               Foreground="{StaticResource SecondaryColor}" 
+                               HorizontalAlignment="Center" Margin="0,3,0,0"/>
+                </StackPanel>
+                
+                <!-- Huidige datum of extra informatie (rechts) -->
+                <Border Grid.Column="2" Margin="0,0,15,0" 
+                        Background="{StaticResource AccentColor}" 
+                        CornerRadius="6" Padding="12,8">
+                    <TextBlock x:Name="DateDisplay" Text="31-05-2025" 
+                               Foreground="{StaticResource SecondaryColor}" 
+                               FontWeight="SemiBold" VerticalAlignment="Center"/>
+                </Border>
+            </Grid>
         </Border>
 
         <TabControl Margin="0,100,0,0">
