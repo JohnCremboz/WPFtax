@@ -51,7 +51,7 @@
                             </Trigger>
                             <Trigger Property="IsMouseOver" Value="True">
                                 <Setter TargetName="Border" Property="Background" Value="#2E8B57"/>  <!-- Donkere variant van Forest Green -->
-                                <Setter Property="Foreground" Value="Black"/>
+                                <Setter Property="Foreground" Value="White"/>
                             </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
