@@ -6,121 +6,126 @@
              xmlns:local="clr-namespace:TAX_WPF"
              mc:Ignorable="d"
              d:DesignHeight="450" d:DesignWidth="800">
-    <StackPanel Orientation="Vertical">
-        <!-- Header -->
-        <TextBlock Text="Vak III - INKOMSTEN VAN ONROERENDE GOEDEREN"
-                   FontSize="22" FontWeight="Bold" Foreground="#0072C6" Margin="0,0,0,20"/>
-        <TextBlock Foreground="Red" FontSize="14" Margin="0,0,0,10"
-                   TextWrapping="Wrap">
-            Opgelet: vrijgestelde inkomsten van onroerende goederen, zoals het inkomen van uw ’eigen woning’ (zie toelichting), moet u niet in vak III vermelden!
-        </TextBlock>
+    <ScrollViewer HorizontalScrollBarVisibility="Auto" 
+                  VerticalScrollBarVisibility="Auto"
+                  HorizontalAlignment="Stretch"
+                  VerticalAlignment="Stretch">
+        <StackPanel Orientation="Vertical">
+            <!-- Header -->
+            <TextBlock Text="Vak III - INKOMSTEN VAN ONROERENDE GOEDEREN"
+                       FontSize="22" FontWeight="Bold" Foreground="#0072C6" Margin="0,0,0,20"/>
+            <TextBlock Foreground="Red" FontSize="14" Margin="0,0,0,10"
+                       TextWrapping="Wrap">
+                Opgelet: vrijgestelde inkomsten van onroerende goederen, zoals het inkomen van uw 'eigen woning' (zie toelichting), moet u niet in vak III vermelden!
+            </TextBlock>
 
-        <TextBlock Text="NIET GEINDEXEERD" FontWeight="Bold" FontSize="18" Margin="0,10,0,10"/>
-        <TextBlock Text="A. INKOMSTEN VAN BELGISCHE EN BUITENLANDSE OORSPRONG" FontWeight="Bold" FontSize="16" Margin="0,5,0,5"/>
+            <TextBlock Text="NIET GEINDEXEERD" FontWeight="Bold" FontSize="18" Margin="0,10,0,10"/>
+            <TextBlock Text="A. INKOMSTEN VAN BELGISCHE EN BUITENLANDSE OORSPRONG" FontWeight="Bold" FontSize="16" Margin="0,5,0,5"/>
 
-        <!-- Section 1 -->
-        <StackPanel Orientation="Horizontal" Margin="40,0,0,0">
-            <TextBlock Text="1. Onroerende goederen die u voor uw beroep gebruikt:" FontWeight="Bold" VerticalAlignment="Center"/>
-            <TextBox Width="60" Margin="10,0,0,0"/>
-            <TextBlock Text="1105" Margin="10,0,0,0" VerticalAlignment="Center"/>
-            <TextBox Width="60" Margin="10,0,0,0"/>
-            <TextBlock Text="2105" Margin="10,0,0,0" VerticalAlignment="Center"/>
-        </StackPanel>
-
-        <!-- Section 2 -->
-        <StackPanel Orientation="Vertical" Margin="40,10,0,0">
-            <TextBlock Text="2. Gebouwen die u:" FontWeight="Bold"/>
-            <TextBlock Text="- niet verhuurt" Margin="20,0,0,0"/>
-            <TextBlock Text="- verhuurt aan natuurlijke personen die ze niet voor hun beroep gebruiken" Margin="20,0,0,0"/>
-            <TextBlock Text="- verhuurt aan rechtspersonen die geen vennootschap zijn, aan gewestelijke huisvestingsmaatschappijen of aan erkende maatschappijen voor sociale huisvesting, om ze ter beschikking te laten stellen van natuurlijke personen die ze uitsluitend als woning gebruiken:" Margin="20,0,0,0"/>
-            <StackPanel Orientation="Horizontal" Margin="20,0,0,0">
-                <TextBlock Text="KI" VerticalAlignment="Center"/>
-                <TextBlock Text="1106" Margin="10,0,0,0" VerticalAlignment="Center"/>
+            <!-- Section 1 -->
+            <StackPanel Orientation="Horizontal" Margin="40,0,0,0">
+                <TextBlock Text="1. Onroerende goederen die u voor uw beroep gebruikt:" FontWeight="Bold" VerticalAlignment="Center"/>
                 <TextBox Width="60" Margin="10,0,0,0"/>
+                <TextBlock Text="1105" Margin="10,0,0,0" VerticalAlignment="Center"/>
                 <TextBox Width="60" Margin="10,0,0,0"/>
-                <TextBlock Text="2106" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                <TextBlock Text="2105" Margin="10,0,0,0" VerticalAlignment="Center"/>
             </StackPanel>
-        </StackPanel>
 
-        <!-- Section 3 -->
-        <StackPanel Orientation="Horizontal" Margin="40,10,0,0">
-            <TextBlock Text="3. Gronden, materieel en outillering die u niet verhuurt of die u verhuurt aan natuurlijke personen die ze niet voor hun beroep gebruiken:" FontWeight="Bold" VerticalAlignment="Center"/>
-            <TextBlock Text="KI" Margin="10,0,0,0" VerticalAlignment="Center"/>
-            <TextBlock Text="1107" Margin="10,0,0,0" VerticalAlignment="Center"/>
-            <TextBox Width="60" Margin="10,0,0,0"/>
-            <TextBox Width="60" Margin="10,0,0,0"/>
-            <TextBlock Text="2107" Margin="10,0,0,0" VerticalAlignment="Center"/>
-        </StackPanel>
+            <!-- Section 2 -->
+            <StackPanel Orientation="Vertical" Margin="40,10,0,0">
+                <TextBlock Text="2. Gebouwen die u:" FontWeight="Bold"/>
+                <TextBlock Text="- niet verhuurt" Margin="20,0,0,0"/>
+                <TextBlock Text="- verhuurt aan natuurlijke personen die ze niet voor hun beroep gebruiken" Margin="20,0,0,0"/>
+                <TextBlock Text="- verhuurt aan rechtspersonen die geen vennootschap zijn, aan gewestelijke huisvestingsmaatschappijen of aan erkende maatschappijen voor sociale huisvesting, om ze ter beschikking te laten stellen van natuurlijke personen die ze uitsluitend als woning gebruiken:" Margin="20,0,0,0"/>
+                <StackPanel Orientation="Horizontal" Margin="20,0,0,0">
+                    <TextBlock Text="KI" VerticalAlignment="Center"/>
+                    <TextBlock Text="1106" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                    <TextBox Width="60" Margin="10,0,0,0"/>
+                    <TextBox Width="60" Margin="10,0,0,0"/>
+                    <TextBlock Text="2106" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                </StackPanel>
+            </StackPanel>
 
-        <!-- Section 4 -->
-        <StackPanel Orientation="Horizontal" Margin="40,10,0,0">
-            <TextBlock Text="4. Onroerende goederen die u volgens de pachtwetgeving (of een vergelijkbaar buitenlands recht dat de pachtprijzen beperkt) verhuurt voor land- of tuinbouwdoeleinden:" FontWeight="Bold" VerticalAlignment="Center"/>
-            <TextBlock Text="KI" Margin="10,0,0,0" VerticalAlignment="Center"/>
-            <TextBlock Text="1108" Margin="10,0,0,0" VerticalAlignment="Center"/>
-            <TextBox Width="60" Margin="10,0,0,0"/>
-            <TextBox Width="60" Margin="10,0,0,0"/>
-            <TextBlock Text="2108" Margin="10,0,0,0" VerticalAlignment="Center"/>
-        </StackPanel>
-
-        <!-- Section 5 -->
-        <StackPanel Orientation="Vertical" Margin="40,10,0,0">
-            <TextBlock Text="5. Onroerende goederen die u verhuurt in andere omstandigheden dan in de nrs. 2 tot 4 hierboven:" FontWeight="Bold"/>
-            <StackPanel Orientation="Horizontal" Margin="20,0,0,0">
-                <TextBlock Text="a) gebouwen: Brutohuur" VerticalAlignment="Center"/>
+            <!-- Section 3 -->
+            <StackPanel Orientation="Horizontal" Margin="40,10,0,0">
+                <TextBlock Text="3. Gronden, materieel en outillering die u niet verhuurt of die u verhuurt aan natuurlijke personen die ze niet voor hun beroep gebruiken:" FontWeight="Bold" VerticalAlignment="Center"/>
                 <TextBlock Text="KI" Margin="10,0,0,0" VerticalAlignment="Center"/>
-                <TextBlock Text="1109" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                <TextBlock Text="1107" Margin="10,0,0,0" VerticalAlignment="Center"/>
                 <TextBox Width="60" Margin="10,0,0,0"/>
                 <TextBox Width="60" Margin="10,0,0,0"/>
-                <TextBlock Text="2109" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                <TextBlock Text="2107" Margin="10,0,0,0" VerticalAlignment="Center"/>
             </StackPanel>
-            <StackPanel Orientation="Horizontal" Margin="20,0,0,0">
-                <TextBlock Text="b) gronden: Brutohuur" VerticalAlignment="Center"/>
+
+            <!-- Section 4 -->
+            <StackPanel Orientation="Horizontal" Margin="40,10,0,0">
+                <TextBlock Text="4. Onroerende goederen die u volgens de pachtwetgeving (of een vergelijkbaar buitenlands recht dat de pachtprijzen beperkt) verhuurt voor land- of tuinbouwdoeleinden:" FontWeight="Bold" VerticalAlignment="Center"/>
                 <TextBlock Text="KI" Margin="10,0,0,0" VerticalAlignment="Center"/>
-                <TextBlock Text="1112" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                <TextBlock Text="1108" Margin="10,0,0,0" VerticalAlignment="Center"/>
                 <TextBox Width="60" Margin="10,0,0,0"/>
                 <TextBox Width="60" Margin="10,0,0,0"/>
-                <TextBlock Text="2112" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                <TextBlock Text="2108" Margin="10,0,0,0" VerticalAlignment="Center"/>
             </StackPanel>
-            <StackPanel Orientation="Horizontal" Margin="20,0,0,0">
-                <TextBlock Text="c) materieel en outillering" VerticalAlignment="Center"/>
-                <TextBlock Text="KI" Margin="10,0,0,0" VerticalAlignment="Center"/>
-                <TextBlock Text="1115" Margin="10,0,0,0" VerticalAlignment="Center"/>
-                <TextBox Width="60" Margin="10,0,0,0"/>
-                <TextBox Width="60" Margin="10,0,0,0"/>
-                <TextBlock Text="2115" Margin="10,0,0,0" VerticalAlignment="Center"/>
+
+            <!-- Section 5 -->
+            <StackPanel Orientation="Vertical" Margin="40,10,0,0">
+                <TextBlock Text="5. Onroerende goederen die u verhuurt in andere omstandigheden dan in de nrs. 2 tot 4 hierboven:" FontWeight="Bold"/>
+                <StackPanel Orientation="Horizontal" Margin="20,0,0,0">
+                    <TextBlock Text="a) gebouwen: Brutohuur" VerticalAlignment="Center"/>
+                    <TextBlock Text="KI" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                    <TextBlock Text="1109" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                    <TextBox Width="60" Margin="10,0,0,0"/>
+                    <TextBox Width="60" Margin="10,0,0,0"/>
+                    <TextBlock Text="2109" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="20,0,0,0">
+                    <TextBlock Text="b) gronden: Brutohuur" VerticalAlignment="Center"/>
+                    <TextBlock Text="KI" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                    <TextBlock Text="1112" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                    <TextBox Width="60" Margin="10,0,0,0"/>
+                    <TextBox Width="60" Margin="10,0,0,0"/>
+                    <TextBlock Text="2112" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="20,0,0,0">
+                    <TextBlock Text="c) materieel en outillering" VerticalAlignment="Center"/>
+                    <TextBlock Text="KI" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                    <TextBlock Text="1115" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                    <TextBox Width="60" Margin="10,0,0,0"/>
+                    <TextBox Width="60" Margin="10,0,0,0"/>
+                    <TextBlock Text="2115" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                </StackPanel>
+            </StackPanel>
+
+            <!-- Section 6 -->
+            <StackPanel Orientation="Horizontal" Margin="40,10,0,0">
+                <TextBlock Text="6. Bedragen verkregen bij de vestiging of overdracht van een recht van erfpacht of opstal, of van een gelijkaardig onroerend recht:" FontWeight="Bold" VerticalAlignment="Center"/>
+                <TextBlock Text="1114" Margin="10,0,0,0" VerticalAlignment="Center"/>
+            </StackPanel>
+
+            <!-- Section B -->
+            <TextBlock Text="B. INKOMSTEN VAN BUITENLANDSE OORSPRONG" FontWeight="Bold" FontSize="16" Margin="0,20,0,10"/>
+            <TextBlock Text="Vermeld het land, de code waarnaast ze zijn ingevuld (bv. 1106) en het bedrag van uw in rubriek A hiervoor vermelde inkomsten van buitenlandse oorsprong waarvoor u aanspraak maakt op:" TextWrapping="Wrap" Margin="0,0,0,10"/>
+
+            <!-- Section B1 -->
+            <StackPanel Orientation="Horizontal" Margin="40,0,0,10">
+                <TextBlock Text="1. vrijstelling met progressievoorbehoud." FontWeight="Bold" VerticalAlignment="Center"/>
+                <TextBlock Text="Land:" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                <TextBox Width="120" Margin="5,0,0,0"/>
+                <TextBlock Text="Code:" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                <TextBox Width="60" Margin="5,0,0,0"/>
+                <TextBlock Text="Bedrag:" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                <TextBox Width="120" Margin="5,0,0,0"/>
+            </StackPanel>
+
+            <!-- Section B2 -->
+            <StackPanel Orientation="Horizontal" Margin="40,0,0,20">
+                <TextBlock Text="2. vermindering van de belasting tot de helft." FontWeight="Bold" VerticalAlignment="Center"/>
+                <TextBlock Text="Land:" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                <TextBox Width="120" Margin="5,0,0,0"/>
+                <TextBlock Text="Code:" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                <TextBox Width="60" Margin="5,0,0,0"/>
+                <TextBlock Text="Bedrag:" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                <TextBox Width="120" Margin="5,0,0,0"/>
             </StackPanel>
         </StackPanel>
-
-        <!-- Section 6 -->
-        <StackPanel Orientation="Horizontal" Margin="40,10,0,0">
-            <TextBlock Text="6. Bedragen verkregen bij de vestiging of overdracht van een recht van erfpacht of opstal, of van een gelijkaardig onroerend recht:" FontWeight="Bold" VerticalAlignment="Center"/>
-            <TextBlock Text="1114" Margin="10,0,0,0" VerticalAlignment="Center"/>
-        </StackPanel>
-
-        <!-- Section B -->
-        <TextBlock Text="B. INKOMSTEN VAN BUITENLANDSE OORSPRONG" FontWeight="Bold" FontSize="16" Margin="0,20,0,10"/>
-        <TextBlock Text="Vermeld het land, de code waarnaast ze zijn ingevuld (bv. 1106) en het bedrag van uw in rubriek A hiervoor vermelde inkomsten van buitenlandse oorsprong waarvoor u aanspraak maakt op:" TextWrapping="Wrap" Margin="0,0,0,10"/>
-
-        <!-- Section B1 -->
-        <StackPanel Orientation="Horizontal" Margin="40,0,0,10">
-            <TextBlock Text="1. vrijstelling met progressievoorbehoud." FontWeight="Bold" VerticalAlignment="Center"/>
-            <TextBlock Text="Land:" Margin="10,0,0,0" VerticalAlignment="Center"/>
-            <TextBox Width="120" Margin="5,0,0,0"/>
-            <TextBlock Text="Code:" Margin="10,0,0,0" VerticalAlignment="Center"/>
-            <TextBox Width="60" Margin="5,0,0,0"/>
-            <TextBlock Text="Bedrag:" Margin="10,0,0,0" VerticalAlignment="Center"/>
-            <TextBox Width="120" Margin="5,0,0,0"/>
-        </StackPanel>
-
-        <!-- Section B2 -->
-        <StackPanel Orientation="Horizontal" Margin="40,0,0,20">
-            <TextBlock Text="2. vermindering van de belasting tot de helft." FontWeight="Bold" VerticalAlignment="Center"/>
-            <TextBlock Text="Land:" Margin="10,0,0,0" VerticalAlignment="Center"/>
-            <TextBox Width="120" Margin="5,0,0,0"/>
-            <TextBlock Text="Code:" Margin="10,0,0,0" VerticalAlignment="Center"/>
-            <TextBox Width="60" Margin="5,0,0,0"/>
-            <TextBlock Text="Bedrag:" Margin="10,0,0,0" VerticalAlignment="Center"/>
-            <TextBox Width="120" Margin="5,0,0,0"/>
-        </StackPanel>
-    </StackPanel>
+    </ScrollViewer>
 </UserControl>

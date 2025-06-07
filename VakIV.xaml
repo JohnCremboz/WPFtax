@@ -6,7 +6,10 @@
              xmlns:local="clr-namespace:TAX_WPF"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <ScrollViewer VerticalScrollBarVisibility="Auto">
+    <ScrollViewer HorizontalScrollBarVisibility="Auto" 
+                  VerticalScrollBarVisibility="Auto"
+                  HorizontalAlignment="Stretch"
+                  VerticalAlignment="Stretch">
         <StackPanel Margin="30">
                             <TextBlock Text="VAK IV – WEDDEN, LONEN, WERKLOOSHEIDSUITKERINGEN, WETTELIJKE UITKERINGEN BIJ ZIEKTE OF INVALIDITEIT, VERVANGINGSINKOMSTEN EN WERKLOOSHEIDSUITKERINGEN MET BEDRIJFSTOESLAG"
                                        FontSize="22" FontWeight="Bold" Foreground="#0072C6" Margin="0,0,0,20"/>

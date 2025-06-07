@@ -6,7 +6,10 @@
              xmlns:local="clr-namespace:TAX_WPF"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <ScrollViewer VerticalScrollBarVisibility="Auto">
+    <ScrollViewer HorizontalScrollBarVisibility="Auto" 
+                  VerticalScrollBarVisibility="Auto"
+                  HorizontalAlignment="Stretch"
+                  VerticalAlignment="Stretch">
         <StackPanel Margin="10" Orientation="Vertical">
             <TextBlock Text="Vak IX - INTERESTEN EN KAPITAALAFLOSSINGEN VAN LENINGEN EN SCHULDEN, PREMIES VAN INDIVIDUELE LEVENSVERZEKERINGEN EN ERFPACHT- EN OPSTALVERGOEDINGEN OF GELIJKAARDIGE VERGOEDINGEN, DIE RECHT GEVEN OP EEN BELASTINGVOORDEEL" FontWeight="Bold" Margin="0,0,0,10"/>
             <TextBlock Text="Fiscale toelichting"/>

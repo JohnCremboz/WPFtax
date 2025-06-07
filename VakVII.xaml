@@ -6,6 +6,11 @@
              xmlns:local="clr-namespace:TAX_WPF"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
+
+<ScrollViewer HorizontalScrollBarVisibility="Auto" 
+              VerticalScrollBarVisibility="Auto"
+              HorizontalAlignment="Stretch"
+              VerticalAlignment="Stretch">
     <StackPanel>
         <TextBlock Text="Vak VII - INKOMSTEN VAN KAPITALEN EN ROERENDE GOEDEREN" FontWeight="Bold" Margin="0,0,0,10"/>
         <TextBlock Text="Fiscale toelichting"/>
@@ -33,7 +38,7 @@
         <TextBlock Text="Fiscale toelichting"/>
         <TextBlock Text="2. Verplicht aan te geven inkomsten" FontWeight="Bold"/>
    
-            <TextBlock Text="a) Inkomsten uit gereglementeerde spaardeposito’s bij kredietinstellingen in de Europese Economische Ruimte, waarop geen roerende voorheffing is ingehouden (inkomen na aftrek van de per belastingplichtige vrijgestelde schijf van 980 euro):" FontWeight="Bold"/>
+            <TextBlock Text="a) Inkomsten uit gereglementeerde spaardeposito's bij kredietinstellingen in de Europese Economische Ruimte, waarop geen roerende voorheffing is ingehouden (inkomen na aftrek van de per belastingplichtige vrijgestelde schijf van 980 euro):" FontWeight="Bold"/>
             <TextBox Width="60" Margin="0,5" ToolTip="Gereglementeerde spaardeposito's bedrag"/>
             <TextBlock Text="1151" Margin="10,0,0,0"/>
             <TextBlock Text="b) Andere inkomsten zonder roerende voorheffing:" FontWeight="Bold"/>
@@ -110,4 +115,5 @@
         <TextBlock Text="(1) Als u in vak II, rubriek A, 6 moet invullen (omdat u tijdens het inkomstenjaar minder dan 12 maanden aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermenigvuldigen met het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar de hogere of lagere euro naargelang de centiemen 50 bereiken of niet." Margin="0,0,0,5" TextWrapping="Wrap"/>
         <TextBlock Text="(2) Als u in vak II, rubriek A, 6 moet invullen (omdat u tijdens het inkomstenjaar minder dan 12 maanden aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermenigvuldigen met het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet." Margin="0,0,0,20" TextWrapping="Wrap"/>
     </StackPanel>
+</ScrollViewer>
 </UserControl>

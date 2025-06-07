@@ -6,6 +6,11 @@
              xmlns:local="clr-namespace:TAX_WPF"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
+
+<ScrollViewer HorizontalScrollBarVisibility="Auto" 
+              VerticalScrollBarVisibility="Auto"
+              HorizontalAlignment="Stretch"
+              VerticalAlignment="Stretch">
     <StackPanel>
         <TextBlock Text="Vak VIII - AFTREKBARE VORIGE VERLIEZEN EN BESTEDINGEN" FontWeight="Bold" Margin="0,0,0,10"/>
         <TextBlock Text="Fiscale toelichting" Margin="0,0,0,5"/>
@@ -56,4 +61,5 @@
         <Button Content="Een lijn toevoegen" Margin="20,5,0,5"/>
 
     </StackPanel>
+</ScrollViewer>
 </UserControl>
