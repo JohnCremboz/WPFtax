@@ -33,7 +33,7 @@
             <TextBox Width="100"/>
         </StackPanel>
                 
-        <Button Content="NAAR HET VOLGEND VAK" Width="200" Height="40" HorizontalAlignment="Right" Background="#0097A7" Foreground="White" FontWeight="Bold"/>
+        <Button Content="NAAR HET VOLGEND VAK" Width="200" Height="40" HorizontalAlignment="Right" Background="#0097A7" Foreground="White" FontWeight="Bold" Click="NextButton_Click"/>
     </StackPanel>
 </ScrollViewer>
 </UserControl>
