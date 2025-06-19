@@ -14,86 +14,86 @@
 
             <!-- Titel -->
             <TextBlock Text="VAK II – PERSOONLIJKE GEGEVENS EN GEZINSLASTEN"
-                       FontSize="22" FontWeight="Bold" Foreground="#0072C6" Margin="0,0,0,20"/>
+                       FontSize="22" FontWeight="Bold" Foreground="Black" Margin="0,0,0,20"/>
 
             <!-- Sectie A -->
-            <TextBlock>
-                <Run Text="A. PERSOONLIJKE GEGEVENS" Foreground="Red" FontWeight="Bold"/>
-                <Run Text=" (Kruis de passende vakjes aan (rubrieken 1 tot 5) en vul – zo nodig – het gevraagde aantal in (rubriek 6))"/>
+            <TextBlock Foreground="Black">
+                <Run Text="A. PERSOONLIJKE GEGEVENS" Foreground="Black" FontWeight="Bold"/>
+                <Run Text=" (Kruis de passende vakjes aan (rubrieken 1 tot 5) en vul – zo nodig – het gevraagde aantal in (rubriek 6))" Foreground="Black"/>
             </TextBlock>
             <Separator Margin="0,10,0,10"/>
 
             <!-- 1. U was op 1.1.2024 -->
-            <TextBlock Text="1. U was op 1.1.2024:" FontWeight="Bold" Margin="0,10,0,5"/>
+            <TextBlock Text="1. U was op 1.1.2024:" FontWeight="Bold" Margin="0,10,0,5" Foreground="Black"/>
 
             <!-- 1001: ongehuwd en niet wettelijk samenwonend -->
             <StackPanel Orientation="Horizontal" Margin="20,0,0,0">
-                <TextBlock FontWeight="Bold">1001.</TextBlock> 
+                <TextBlock FontWeight="Bold" Foreground="Black">1001.</TextBlock> 
                 <CheckBox Name="cb1001" Margin="0,0,10,0"/>
-                <TextBlock>
-                    <Run Text="ongehuwd en niet wettelijk samenwonend"/>
+                <TextBlock Foreground="Black">
+                    <Run Text="ongehuwd en niet wettelijk samenwonend" Foreground="Black"/>
                 </TextBlock>
             </StackPanel>
             <StackPanel Orientation="Horizontal" Margin="100,0,0,0">
                 <CheckBox Name="cb1002" Margin="0,0,0,0"/>
-                <TextBlock>
-                    <Run Text="uit de echt gescheiden of daarmee gelijkgesteld (door de beëindiging van de wettelijke samenwoning)" Foreground="Red"/>
+                <TextBlock Foreground="Black">
+                    <Run Text="uit de echt gescheiden of daarmee gelijkgesteld (door de beëindiging van de wettelijke samenwoning)" Foreground="Black"/>
                 </TextBlock>
             </StackPanel>
             <StackPanel Orientation="Horizontal" Margin="100,0,20,0">
                 <CheckBox Name="cb1003" Margin="0,0,10,0"/>
-                <TextBlock>
-                    <Run Text="van tafel en bed gescheiden"/>
+                <TextBlock Foreground="Black">
+                    <Run Text="van tafel en bed gescheiden" Foreground="Black"/>
                 </TextBlock>
             </StackPanel>
 
             <!-- 1002: gehuwd of wettelijk samenwonend -->
             <StackPanel Orientation="Horizontal" Margin="20,10,0,0">
-                <TextBlock FontWeight="Bold">1002.</TextBlock>
+                <TextBlock FontWeight="Bold" Foreground="Black">1002.</TextBlock>
                 <CheckBox Name="cb1004" Margin="0,0,10,0"/>
-                <TextBlock>
-                    <Run Text="1002. gehuwd of wettelijk samenwonend ..."/>
+                <TextBlock Foreground="Black">
+                    <Run Text="1002. gehuwd of wettelijk samenwonend ..." Foreground="Black"/>
                 </TextBlock>
             </StackPanel>
-            <TextBlock FontSize="12" Margin="100,0,0,20" TextWrapping="Wrap">
+            <TextBlock FontSize="12" Margin="100,0,0,20" TextWrapping="Wrap" Foreground="Black">
                 (Als u op 1.1.2024 feitelijk gescheiden was, maar nog niet uit de echt gescheiden was (of daarmee gelijkgesteld door de beëindiging van de wettelijke samenwoning), moet u zowel code 1002 (gehuwd of wettelijk samenwonend) als code 1018 (feitelijk gescheiden) aankruisen [en in voorkomend geval ook de andere toepasselijke codes van deze rubriek].)
             </TextBlock>
             <StackPanel Orientation="Horizontal" Margin="100,0,0,0">
                 <CheckBox Name="cb1005" Margin="0,0,10,0"/>
-                <TextBlock>
-                    <Run Text="u bent in 2023 gehuwd of woonde sinds 2022 of vroeger, nog niet wettelijk samen met uw echtgenoot, of"/>
+                <TextBlock Foreground="Black">
+                    <Run Text="u bent in 2023 gehuwd of woonde sinds 2022 of vroeger, nog niet wettelijk samen met uw echtgenoot, of" Foreground="Black"/>
                 </TextBlock>
             </StackPanel>
             <StackPanel Orientation="Horizontal" Margin="100,0,0,0">
                 <CheckBox Name="cb1006" Margin="0,0,10,0"/>
-                <TextBlock>
-                    <Run Text="u hebt in 2023 een verklaring van wettelijke samenwoning afgelegd"/>
+                <TextBlock Foreground="Black">
+                    <Run Text="u hebt in 2023 een verklaring van wettelijke samenwoning afgelegd" Foreground="Black"/>
                 </TextBlock>
             </StackPanel>
             <StackPanel Orientation="Horizontal" Margin="60,0,0,0">
                 <CheckBox Name="cb1007" Margin="0,0,10,0"/>
-                <TextBlock>
-                    <Run Text="De nettobestaansmiddelen van uw echtgenoot of wettelijk samenwonende partner bedroegen in 2023 niet meer dan 3.820 euro " />
-                    <Run Text="(1)" Foreground="Red"/>
+                <TextBlock Foreground="Black">
+                    <Run Text="De nettobestaansmiddelen van uw echtgenoot of wettelijk samenwonende partner bedroegen in 2023 niet meer dan 3.820 euro " Foreground="Black"/>
+                    <Run Text="(1)" Foreground="Black"/>
                 </TextBlock>
             </StackPanel>
             <StackPanel Orientation="Horizontal" Margin="100,0,0,0">
                 <CheckBox Name="cb1018" Margin="0,0,10,0"/>
-                <TextBlock>
-                    <Run Text="...maar op 1.1.2024 leefden u en uw echtgenoot of wettelijk samenwonende partner " />
-                    <Run Text="feitelijk gescheiden" Foreground="Red"/>
+                <TextBlock Foreground="Black">
+                    <Run Text="...maar op 1.1.2024 leefden u en uw echtgenoot of wettelijk samenwonende partner " Foreground="Black"/>
+                    <Run Text="feitelijk gescheiden" Foreground="Black"/>
                 </TextBlock>
             </StackPanel>
             <StackPanel Orientation="Horizontal" Margin="100,0,0,0">
                 <CheckBox Name="cb1019" Margin="0,0,10,0"/>
-                <TextBlock>
-                    <Run Text="Uw feitelijke scheiding vond plaats in 2023"/>
+                <TextBlock Foreground="Black">
+                    <Run Text="Uw feitelijke scheiding vond plaats in 2023" Foreground="Black"/>
                 </TextBlock>
             </StackPanel>
 
             <!-- 1010: weduwnaar, weduwe of daarmee gelijkgesteld -->
             <StackPanel Orientation="Horizontal" Margin="20,10,0,0">
-                <TextBlock FontWeight="Bold">1010.</TextBlock>
+                <TextBlock FontWeight="Bold" Foreground="Black">1010.</TextBlock>
                 <CheckBox Name="cb1010" Margin="0,0,10,0"/>
                 <TextBlock>
                     <Run Text="1010. weduwnaar, weduwe of daarmee gelijkgesteld (door het overlijden van uw wettelijk samenwonende partner)"/>
@@ -119,39 +119,39 @@
             </StackPanel>
 
             <!-- 2. Deze aangifte gaat over: overleden belastingplichtige -->
-            <TextBlock Text="2. Deze aangifte gaat over:" FontWeight="Bold" Margin="0,20,0,5"/>
+            <TextBlock Text="2. Deze aangifte gaat over:" FontWeight="Bold" Margin="0,20,0,5" Foreground="Black"/>
             <StackPanel Orientation="Horizontal" Margin="20,0,0,0">
                 <CheckBox Name="cb1022" Margin="0,0,10,0"/>
-                <TextBlock>
-                    <Run Text="een belastingplichtige die in " />
-                    <Run Text="2023 overleden" Foreground="Red"/>
-                    <Run Text=" is"/>
+                <TextBlock Foreground="Black">
+                    <Run Text="een belastingplichtige die in " Foreground="Black"/>
+                    <Run Text="2023 overleden" Foreground="Black"/>
+                    <Run Text=" is" Foreground="Black"/>
                 </TextBlock>
             </StackPanel>
-            <TextBlock Text="Bij zijn of haar overlijden was hij of zij:" Margin="40,0,0,0"/>
+            <TextBlock Text="Bij zijn of haar overlijden was hij of zij:" Margin="40,0,0,0" Foreground="Black"/>
             <StackPanel Orientation="Horizontal" Margin="60,0,0,0">
                 <CheckBox Name="cb1023" Margin="0,0,10,0"/>
-                <TextBlock>
-                    <Run Text="gehuwd of wettelijk samenwonend"/>
+                <TextBlock Foreground="Black">
+                    <Run Text="gehuwd of wettelijk samenwonend" Foreground="Black"/>
                 </TextBlock>
             </StackPanel>
             <StackPanel Orientation="Horizontal" Margin="60,0,0,0">
                 <CheckBox Name="cb1024" Margin="0,0,10,0"/>
-                <TextBlock>
-                    <Run Text="niet meer gehuwd of wettelijk samenwonend, maar eerder in 2023 was hij of zij weduwnaar, weduwe of daarmee gelijkgesteld (door het overlijden van zijn of haar wettelijk samenwonende partner geworden)"/>
+                <TextBlock Foreground="Black">
+                    <Run Text="niet meer gehuwd of wettelijk samenwonend, maar eerder in 2023 was hij of zij weduwnaar, weduwe of daarmee gelijkgesteld (door het overlijden van zijn of haar wettelijk samenwonende partner geworden)" Foreground="Black"/>
                 </TextBlock>
             </StackPanel>
-            <TextBlock Text="Voor de belastingplichtige en zijn of haar erfgenaam in 2023 overleden echtgenoot of wettelijk samenwonende partner:" Margin="60,0,0,0"/>
+            <TextBlock Text="Voor de belastingplichtige en zijn of haar erfgenaam in 2023 overleden echtgenoot of wettelijk samenwonende partner:" Margin="60,0,0,0" Foreground="Black"/>
             <StackPanel Orientation="Horizontal" Margin="80,0,0,0">
                 <CheckBox Name="cb1025" Margin="0,0,10,0"/>
-                <TextBlock>
-                    <Run Text="kiest u voor één gemeenschappelijke aanslag"/>
+                <TextBlock Foreground="Black">
+                    <Run Text="kiest u voor één gemeenschappelijke aanslag" Foreground="Black"/>
                 </TextBlock>
             </StackPanel>
             <StackPanel Orientation="Horizontal" Margin="80,0,0,0">
                 <CheckBox Name="cb1026" Margin="0,0,10,0"/>
-                <TextBlock>
-                    <Run Text="kiest u voor twee afzonderlijke aanslagen"/>
+                <TextBlock Foreground="Black">
+                    <Run Text="kiest u voor twee afzonderlijke aanslagen" Foreground="Black"/>
                 </TextBlock>
             </StackPanel>
 
@@ -186,8 +186,8 @@
             </StackPanel>
 
             <!-- Vraag 5 -->
-            <TextBlock TextWrapping="Wrap" Margin="0,0,0,5">
-                <Run Text="5. Als u alleen wordt belast en in B, 1 tot 3, B hierna één of meer kinderen ten laste vermeldt, beantwoord dan ook de volgende vraag: maakte op 1.1.2024 een andere persoon dan uw kinderen, pleegkinderen, kleinkinderen, achterkleinkinderen, ouders, pleegouders, grootouders, overgrootouders, broers en zussen, deel uit van uw gezin?"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,5" Foreground="Black">
+                <Run Text="5. Als u alleen wordt belast en in B, 1 tot 3, B hierna één of meer kinderen ten laste vermeldt, beantwoord dan ook de volgende vraag: maakte op 1.1.2024 een andere persoon dan uw kinderen, pleegkinderen, kleinkinderen, achterkleinkinderen, ouders, pleegouders, grootouders, overgrootouders, broers en zussen, deel uit van uw gezin?" Foreground="Black"/>
             </TextBlock>
             <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
                 <TextBox Width="60" Text="1101"/>
@@ -195,40 +195,40 @@
             </StackPanel>
 
             <!-- Vraag 6 -->
-            <TextBlock TextWrapping="Wrap" Margin="0,0,0,5">
-                <Run Text="6. Als u tijdens het inkomstenjaar minder dan 12 maanden aan de personenbelasting onderworpen rijksinwoner was, vermeld dan hier hoeveel maanden (van 1 tot 11) u aan de belasting onderworpen was "/>
-                <Run Text="(als u de 15de van de maand onderworpen was, mag u die maand meetellen, anders niet)." FontStyle="Italic"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,5" Foreground="Black">
+                <Run Text="6. Als u tijdens het inkomstenjaar minder dan 12 maanden aan de personenbelasting onderworpen rijksinwoner was, vermeld dan hier hoeveel maanden (van 1 tot 11) u aan de belasting onderworpen was " Foreground="Black"/>
+                <Run Text="(als u de 15de van de maand onderworpen was, mag u die maand meetellen, anders niet)." FontStyle="Italic" Foreground="Black"/>
                 <LineBreak/>
-                <Run Text="Uitzondering: de maanden dat een overleden persoon de 15de van de maand niet meer aan de personenbelasting onderworpen was door zijn of haar overlijden, mogen wel worden meegeteld." Foreground="Red"/>
+                <Run Text="Uitzondering: de maanden dat een overleden persoon de 15de van de maand niet meer aan de personenbelasting onderworpen was door zijn of haar overlijden, mogen wel worden meegeteld." Foreground="Black"/>
             </TextBlock>
             <TextBox Width="120" Margin="0,0,0,20" Text="1199"/>
 
             <!-- Sectie B. GEZINSLASTEN -->
-            <TextBlock Margin="0,10,0,5">
-                <Run Text="B. GEZINSLASTEN" Foreground="Red" FontWeight="Bold"/>
-                <Run Text=" (Vul het gevraagde aantal in tenzij het gelijk is aan 0)" FontWeight="Bold"/>
+            <TextBlock Margin="0,10,0,5" Foreground="Black">
+                <Run Text="B. GEZINSLASTEN" Foreground="Black" FontWeight="Bold"/>
+                <Run Text=" (Vul het gevraagde aantal in tenzij het gelijk is aan 0)" FontWeight="Bold" Foreground="Black"/>
             </TextBlock>
 
             <!-- 1. Kinderen volledig ten laste -->
             <StackPanel Margin="10,0,0,0">
-                <TextBlock Text="1. a) Aantal kinderen die fiscaal volledig te uwen laste zijn:" FontWeight="Bold"/>
+                <TextBlock Text="1. a) Aantal kinderen die fiscaal volledig te uwen laste zijn:" FontWeight="Bold" Foreground="Black"/>
                 <UniformGrid Columns="2" Margin="20,5,0,0">
                   <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Aantal van de in 1, a vermelde kinderen met een " />
-                        <TextBlock Text="zware handicap" Foreground="Red"/>
-                        <TextBlock Text=":"/>
+                        <TextBlock Text="Aantal van de in 1, a vermelde kinderen met een " Foreground="Black"/>
+                        <TextBlock Text="zware handicap" Foreground="Black"/>
+                        <TextBlock Text=":" Foreground="Black"/>
                         <TextBox Width="60" Margin="10,0,0,0"/>
                         <TextBlock Text="1030" Margin="10,0,0,0"/>
                     </StackPanel>
                   <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Aantal van de in 1, a vermelde kinderen die op 1.1.2024 nog geen 3 jaar waren en voor wie u in vak X, II, B geen belastingvermindering voor kinderdagopvang vraagt:"/>
+                        <TextBlock Text="Aantal van de in 1, a vermelde kinderen die op 1.1.2024 nog geen 3 jaar waren en voor wie u in vak X, II, B geen belastingvermindering voor kinderdagopvang vraagt:" Foreground="Black"/>
                         <TextBox Width="60" Margin="10,0,0,0"/>
                         <TextBlock Text="1031" Margin="10,0,0,0"/>
                     </StackPanel>
                   <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Aantal van de in 1, c vermelde kinderen met een " />
-                        <TextBlock Text="zware handicap" Foreground="Red"/>
-                        <TextBlock Text=":"/>
+                        <TextBlock Text="Aantal van de in 1, c vermelde kinderen met een " Foreground="Black"/>
+                        <TextBlock Text="zware handicap" Foreground="Black"/>
+                        <TextBlock Text=":" Foreground="Black"/>
                         <TextBox Width="60" Margin="10,0,0,0"/>
                         <TextBlock Text="1034" Margin="10,0,0,0"/>
                     </StackPanel>
@@ -237,7 +237,7 @@
 
             <!-- 2. Kinderen met gedeeld voordeel -->
            <StackPanel Margin="10,10,0,0">
-                <TextBlock Text="2. a) Aantal kinderen die fiscaal te uwen laste zijn, maar voor wie de helft van het belastingvoordeel moet worden toegekend aan de andere ouder door de gelijkmatig verdeelde huisvesting van de kinderen:" FontWeight="Bold"/>
+                <TextBlock Text="2. a) Aantal kinderen die fiscaal te uwen laste zijn, maar voor wie de helft van het belastingvoordeel moet worden toegekend aan de andere ouder door de gelijkmatig verdeelde huisvesting van de kinderen:" FontWeight="Bold" Foreground="Black"/>
                 <UniformGrid Columns="2" Margin="20,5,0,0">
                   <StackPanel Orientation="Horizontal">
                         <TextBlock Text="a)"/>
@@ -261,9 +261,9 @@
                     </StackPanel>
                 </UniformGrid>
                 <StackPanel Orientation="Horizontal" Margin="20,5,0,0">
-                    <TextBlock Text="Aantal van de in 2, vermelde kinderen met een " />
-                    <TextBlock Text="zware handicap" Foreground="Red"/>
-                    <TextBlock Text=":"/>
+                    <TextBlock Text="Aantal van de in 2, vermelde kinderen met een " Foreground="Black"/>
+                    <TextBlock Text="zware handicap" Foreground="Black"/>
+                    <TextBlock Text=":" Foreground="Black"/>
                     <TextBox Width="60" Margin="10,0,0,0"/>
                     <TextBlock Text="1056" Margin="10,0,0,0"/>
                 </StackPanel>
@@ -271,7 +271,7 @@
 
             <!-- 3. Kinderen ten laste van andere ouder -->
            <StackPanel Margin="10,10,0,0">
-                <TextBlock Text="3. a) Aantal kinderen die fiscaal ten laste zijn van een andere ouder, voor wie de helft van het belastingvoordeel aan u moet worden toegekend door de gelijkmatig verdeelde huisvesting van die kinderen:" FontWeight="Bold"/>
+                <TextBlock Text="3. a) Aantal kinderen die fiscaal ten laste zijn van een andere ouder, voor wie de helft van het belastingvoordeel aan u moet worden toegekend door de gelijkmatig verdeelde huisvesting van die kinderen:" FontWeight="Bold" Foreground="Black"/>
                 <UniformGrid Columns="2" Margin="20,5,0,0">
                   <StackPanel Orientation="Horizontal">
                         <TextBlock Text="a)"/>
@@ -295,9 +295,9 @@
                     </StackPanel>
                 </UniformGrid>
                 <StackPanel Orientation="Horizontal" Margin="20,5,0,0">
-                    <TextBlock Text="Aantal van de in 3, vermelde kinderen met een " />
-                    <TextBlock Text="zware handicap" Foreground="Red"/>
-                    <TextBlock Text=":"/>
+                    <TextBlock Text="Aantal van de in 3, vermelde kinderen met een " Foreground="Black"/>
+                    <TextBlock Text="zware handicap" Foreground="Black"/>
+                    <TextBlock Text=":" Foreground="Black"/>
                     <TextBox Width="60" Margin="10,0,0,0"/>
                     <TextBlock Text="1059" Margin="10,0,0,0"/>
                 </StackPanel>
@@ -305,17 +305,17 @@
 
             <!-- 4. Ouders, grootouders, broers en zussen -->
            <StackPanel Margin="10,10,0,0">
-                <TextBlock Text="4. a) Aantal ouders, grootouders, overgrootouders, broers en zussen van 65 jaar of ouder die fiscaal te uwen laste zijn:" FontWeight="Bold"/>
+                <TextBlock Text="4. a) Aantal ouders, grootouders, overgrootouders, broers en zussen van 65 jaar of ouder die fiscaal te uwen laste zijn:" FontWeight="Bold" Foreground="Black"/>
                 <StackPanel Orientation="Horizontal" Margin="20,5,0,0">
                     <TextBox Width="60"/>
                     <TextBlock Text="1027" Margin="10,0,0,0"/>
                 </StackPanel>
-                <TextBlock Text="b) en wie een verminderde zelfredzaamheid van ten minste 9 punten is vastgesteld:" Margin="20,5,0,0"/>
+                <TextBlock Text="b) en wie een verminderde zelfredzaamheid van ten minste 9 punten is vastgesteld:" Margin="20,5,0,0" Foreground="Black"/>
                 <StackPanel Orientation="Horizontal" Margin="40,0,0,0">
                     <TextBox Width="60"/>
                     <TextBlock Text="1028" Margin="10,0,0,0"/>
                 </StackPanel>
-                <TextBlock Text="c) Aantal van de in 4, a vermelde personen die in de aanslagjaar 2021 al fiscaal te uwen laste waren in de hoedanigheid van ouder, (over)grootouder, broer of zus van 65 jaar of ouder en die een zware handicap hebben (ingevoegde feiten overkomen en vastgesteld vóór de leeftijd van 65 jaar):" Margin="20,5,0,0"/>
+                <TextBlock Text="c) Aantal van de in 4, a vermelde personen die in de aanslagjaar 2021 al fiscaal te uwen laste waren in de hoedanigheid van ouder, (over)grootouder, broer of zus van 65 jaar of ouder en die een zware handicap hebben (ingevoegde feiten overkomen en vastgesteld vóór de leeftijd van 65 jaar):" Margin="20,5,0,0" Foreground="Black"/>
                 <StackPanel Orientation="Horizontal" Margin="40,0,0,0">
                     <TextBox Width="60"/>
                     <TextBlock Text="1044" Margin="10,0,0,0"/>
@@ -324,12 +324,12 @@
 
             <!-- 5. Andere personen fiscaal ten laste -->
            <StackPanel Margin="10,10,0,0">
-                <TextBlock Text="5. a) Aantal andere personen die fiscaal te uwen laste zijn (noch uzelf, noch uw echtgenoot, noch uw samenwonende partner meetellen):" FontWeight="Bold"/>
+                <TextBlock Text="5. a) Aantal andere personen die fiscaal te uwen laste zijn (noch uzelf, noch uw echtgenoot, noch uw samenwonende partner meetellen):" FontWeight="Bold" Foreground="Black"/>
                 <StackPanel Orientation="Horizontal" Margin="20,5,0,0">
                     <TextBox Width="60"/>
                     <TextBlock Text="1032" Margin="10,0,0,0"/>
                 </StackPanel>
-                <TextBlock Text="Aantal van de in 5, a vermelde personen met een zware handicap:" Margin="20,5,0,0"/>
+                <TextBlock Text="Aantal van de in 5, a vermelde personen met een zware handicap:" Margin="20,5,0,0" Foreground="Black"/>
                 <StackPanel Orientation="Horizontal" Margin="40,0,0,0">
                     <TextBox Width="60"/>
                     <TextBlock Text="1033" Margin="10,0,0,0"/>
